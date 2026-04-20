@@ -961,13 +961,9 @@ if (in_array($s_i->tipo_impuesto, $tipos_no_grab)) {
                 TimbrarPosSaleJob::dispatch($datos['idsale'], $datos['idconfigfact']);
                 //$consecutivo = DB::update('update consecutivos set numero_documento = '.$new.' where tipo_documento = '.$datos['tipo_documento'].' and idcaja = '.$datos['idcaja']);
 
-                if (empty($datos['cc_correo'][0])) {
-
-                    return redirect()->action('DonwloadController@correoPos', ['idsale' => $datos['idsale']])->withStatus(__('Factura Agregada Correctamente.'));
-                } else {
-
-                    return redirect()->action('DonwloadController@correoCXml', ['idsale' => $datos['idsale'], 'copias' => $datos['cc_correo']])->withStatus(__('Factura Agregada Correctamente.'));
-                }
+                // Respuesta inmediata: timbrado y correo continúan por cola sin bloquear la pantalla.
+                return redirect()->route('facturar.imprimir', ['id' => $datos['idsale']])
+                    ->withStatus(__('Factura agregada. Envío a Hacienda en proceso.'));
 
             } else {
 

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50606042600020750011900100001010000000001111556258</Clave>
+  <ProveedorSistemas>206410122</ProveedorSistemas>
+  <CodigoActividadEmisor>4923.9</CodigoActividadEmisor>
+  <CodigoActividadReceptor>4923.9</CodigoActividadReceptor>
+  <NumeroConsecutivo>00100001010000000001</NumeroConsecutivo>
+  <FechaEmision>2026-04-06T10:00:30-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>OSCAR MARIO AVILA ROJAS</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>207500119</Numero>
+    </Identificacion>
+    <NombreComercial>TRANSPORTE OC</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>08</Distrito>
+      <Barrio>futuro</Barrio>
+      <OtrasSenas>600 mst suoeste de la entrada de Javillos</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>83676293</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>facturaciontransportesoyc@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>AGREGADOS RIO AGUAS ZARCAS SOCIEDAD ANONIMA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101748101</Numero>
+    </Identificacion>
+    <NombreComercial>AGREGADOS RIO AGUAS ZARCAS SOCIEDAD ANONIMA</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>04</Distrito>
+      <OtrasSenas>Aguas Zarcas, La Loma 2,5k de la entrada</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>88060000</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>agregadosrioaguaszarcas@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>6511900009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>001</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <Detalle>SERVICIO DE TRANSPORTE DE CARGA</Detalle>
+      <PrecioUnitario>376000.00000</PrecioUnitario>
+      <MontoTotal>376000.00000</MontoTotal>
+      <SubTotal>376000.00000</SubTotal>
+      <BaseImponible>376000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>48880.00000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>48880.00000</ImpuestoNeto>
+      <MontoTotalLinea>424880.00000</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>376000.00000</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+    <TotalMercanciasGravadas>0.00000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+    <TotalGravado>376000.00000</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalNoSujeto>0.00000</TotalNoSujeto>
+    <TotalVenta>376000.00000</TotalVenta>
+    <TotalDescuentos>0.00000</TotalDescuentos>
+    <TotalVentaNeta>376000.00000</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>48880.00000</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>48880.00000</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0.00000</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+    <TotalOtrosCargos>0.00000</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>04</TipoMedioPago>
+      <TotalMedioPago>424880</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>424880.00000</TotalComprobante>
+  </ResumenFactura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-b84fb6f5-ee0e-8f6a-695e-48590b1e6ed3"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod><ds:Reference Id="Reference-ffc2c963-d3dd-b25e-bb86-c842885be88e" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>gJd8B/6xVYNAzgIQcec83KjVhBmCSKFUWd+R1LmRRKg=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-b84fb6f5-ee0e-8f6a-695e-48590b1e6ed3"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>PkYPW8f9DsCAsZWSN4t+uaEwbcEXPt4Cl6SmwBOZ6oY=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-b84fb6f5-ee0e-8f6a-695e-48590b1e6ed3"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>LpFpvaxhu9rI809OMT7PG3ktJBHIxSIpF9fdhIMUJzk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-b84fb6f5-ee0e-8f6a-695e-48590b1e6ed3">pOk7nTdjk/wuFUhw0wfFe9cmiO7C4xE8p5iYZngjidP0RJGff/GRIe+AgjyiC/WZNEtuC4MCSdEes+TYpshmKiDpOWOHd9ryFqzcdAg58odPaZbd6rVU/FG1jFhJVIxhhvvjJZIyk0lgWcbi/leG7hnhKS6cUo6GVFZLsBMMzZEY5PPp+v1/7FaKgRQViD49jtZUQBGbkq0Lw5a8N2Dfo5B5wo2v6WPyVm4Xu55NAcvFpRNDCfhsaWnPPcssYai98EjkfyRSAhOaGJuzGG+108Rmxd4038HD8rxh/JcyqpTgBvcbE54+2s2Fum2rCnpJDIlDpFmzX6vRQmcMaM1d+g==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-b84fb6f5-ee0e-8f6a-695e-48590b1e6ed3"><ds:X509Data><ds:X509Certificate>MIIFQTCCAymgAwIBAgIGAZy5u22+MA0GCSqGSIb3DQEBCwUAMFgxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxGjAYBgNVBAMMEUNBIFBFUlNPTkEgRklTSUNBMB4XDTI2MDMwNDE2NDMxNFoXDTMwMDMwMzE2NDMxNFowgZ0xGTAXBgNVBAUTEENQRi0wMi0wNzUwLTAxMTkxFDASBgNVBAQMC0FWSUxBIFJPSkFTMRQwEgYDVQQqDAtPU0NBUiBNQVJJTzELMAkGA1UEBhMCQ1IxFzAVBgNVBAoMDlBFUlNPTkEgRklTSUNBMQwwCgYDVQQLDANDUEYxIDAeBgNVBAMMF09TQ0FSIE1BUklPIEFWSUxBIFJPSkFTMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArg8Da8LlskQkn0gmVuF8pDtBzO6REVHMHq2oeBEJ2meqFew5AjjY7O8hMYGilF6BMZMAZD3shBn2+Xwp17J9nZiZ+evjNUQvytshr4InXOobVCzENb2gl9LwJOv87CS/MyUowjPDqC28jjaoNIyG/R6xkf6IjgtoOKGrZ/Xu0nw+fAyXGNzQ8i+1UUtyzv2EoEP1KYh8myzPR8x0Mk2Iav7MZ50+qxu36h4MOp1cUdF6ut7VH36wAq/bRG9Hq5NcB8iYaYZADkPXCyV5D1Y9/iMaDjdKGC2uGTFAO4khYkLHEIe+agvXFs0Sl4/PzQwos6yjaFHy6NN/196rHKqBawIDAQABo4HKMIHHMB8GA1UdIwQYMBaAFBP2akEN7aIkRdHIlKhBg3xiJWtZMB0GA1UdDgQWBBRoNAnkoWZuvAivS8Kk57A9vvLNGTALBgNVHQ8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwYwYIKwYBBQUHAQEEVzBVMFMGCCsGAQUFBzAChkdodHRwczovL3BraS5jb21wcm9iYW50ZXNlbGVjdHJvbmljb3MuZ28uY3IvcHJvZC9pbnRlcm1lZGlhdGUtcGYtcGVtLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAKL6dSE/rfEwXzi2mAAI9AQd9jecRFy/8EIPrqISh7Q8rxl7Op5WWD09PH2mHxa1CkEClE5zs1mPJDoHbOCrvmjyBB9Wq89G2Mrpy4rG5e0MV4gnjbibrBEgAJ7wOybN+eR0RllrwRW+WUHY3j00GN1LKuX/og/zDT4IeBXKfgggwbckl2D8ZVlbE2Ibl8tIQAM4ymwvs/w1RxiadjwrCRABUNi1iLDzGmzONnAUN6kHDjxFWVeVN59vsaVqt2P/WvaTgZL2lF8hpu4QDdnAdwztJiUBX9xojSf1pZ/xeqwZpbyQFW2ZPH1yTt0CSXD9HC/HnLcAt4EIKthJby1eGd4O+jRe7luyAINJ/GEJrnMgJg+4gGsMq0IQsKg5/JBWCpA3804Q2+x/X2KdCzr79S5p3MpHa6aE+qRgrHx5zybrsCWwgI9tbePDYMH10i3UIa4kd3v2m0U6xa5yuhwzJ1bZnm+EAACRjwaPq8Cp5oNHwdr24l1fOzGNPyv4/+/mRgJZGZKdBKVrYPiSvML76DNXHc742mHIAEc0V0t9vem53r+aKVomXvfSCKT8Bt5tgSRwXiv6JheKHLGWlcS8mu1+e1nWTFyjU4hPpZLACED8xCjq9IBX7HzV3brnA4ky1+jz8wFiA6aoQ7xk4nRXtZsXeGDso+VYV0Fh6ShUcXzQ=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>rg8Da8LlskQkn0gmVuF8pDtBzO6REVHMHq2oeBEJ2meqFew5AjjY7O8hMYGilF6BMZMAZD3shBn2+Xwp17J9nZiZ+evjNUQvytshr4InXOobVCzENb2gl9LwJOv87CS/MyUowjPDqC28jjaoNIyG/R6xkf6IjgtoOKGrZ/Xu0nw+fAyXGNzQ8i+1UUtyzv2EoEP1KYh8myzPR8x0Mk2Iav7MZ50+qxu36h4MOp1cUdF6ut7VH36wAq/bRG9Hq5NcB8iYaYZADkPXCyV5D1Y9/iMaDjdKGC2uGTFAO4khYkLHEIe+agvXFs0Sl4/PzQwos6yjaFHy6NN/196rHKqBaw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-1443b5ee-fba2-9138-5501-d3022e9553b8"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-f1486e3d-fdfb-9c66-dc81-1bd0b2ecc942" Target="#Signature-b84fb6f5-ee0e-8f6a-695e-48590b1e6ed3"><xades:SignedProperties Id="SignedProperties-Signature-b84fb6f5-ee0e-8f6a-695e-48590b1e6ed3"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-06T10:00:31Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>56UBU1vrZIubEtVSVF2ljPUDH9VaOvnADoOdf1cgSlo=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA FISICA,OU=DGT,O=MINISTERIO DE HACIENDA,C=CR</ds:X509IssuerName><ds:X509SerialNumber>1772642594238</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4/Resolucion%20Comprobantes%20Electronicos%20%20DGT-R-48-2016.pdf</xades:Identifier><xades:Description></xades:Description></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>V8lVVNGDCPen6VELRD1Ja8HARFk=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-ffc2c963-d3dd-b25e-bb86-c842885be88e"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

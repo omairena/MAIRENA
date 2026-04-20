@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TiqueteElectronico xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/tiqueteElectronico">
+  <Clave>50603032600310161019800100024040008181863200000000</Clave>
+  <ProveedorSistemas>3101392473</ProveedorSistemas>
+  <CodigoActividadEmisor>6110.0</CodigoActividadEmisor>
+  <NumeroConsecutivo>00100024040008181863</NumeroConsecutivo>
+  <FechaEmision>2026-03-03T03:46:54-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>LIBERTY TELECOMUNICACIONES DE COSTA RICA LY S.A.</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101610198</Numero>
+    </Identificacion>
+    <Registrofiscal8707 />
+    <NombreComercial>Liberty</NombreComercial>
+    <Ubicacion>
+      <Provincia>1</Provincia>
+      <Canton>02</Canton>
+      <Distrito>03</Distrito>
+      <Barrio>Trejos Montealegre</Barrio>
+      <OtrasSenas>Centro Corp. El Cedral, SJ, CR 10203</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>41009000</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>factura.electronicacr@libertycr.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>Brijida Nereida Cruz Blandon</Nombre>
+    <Identificacion>
+      <Tipo>05</Tipo>
+      <Numero>155808364912</Numero>
+    </Identificacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>64778491</NumTelefono>
+    </Telefono>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <PlazoCredito>0</PlazoCredito>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>8419000000000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>587</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Os</UnidadMedida>
+      <Detalle>RENTA Plan Postpago Ultra @1 Ctrl St</Detalle>
+      <PrecioUnitario>10088.5</PrecioUnitario>
+      <MontoTotal>10088.5</MontoTotal>
+      <Descuento>
+        <MontoDescuento>1008.85</MontoDescuento>
+        <CodigoDescuento>07</CodigoDescuento>
+        <NaturalezaDescuento>DESCUENTO RENTA MENSUAL</NaturalezaDescuento>
+      </Descuento>
+      <SubTotal>9079.65</SubTotal>
+      <BaseImponible>9079.65</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13</Tarifa>
+        <Monto>1180.35</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1180.35</ImpuestoNeto>
+      <MontoTotalLinea>10260.00</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <OtrosCargos>
+    <TipoDocumentoOC>01</TipoDocumentoOC>
+    <Detalle>SERVICIO 911  0,75%</Detalle>
+    <PorcentajeOC>0.75</PorcentajeOC>
+    <MontoCargo>68.09</MontoCargo>
+  </OtrosCargos>
+  <OtrosCargos>
+    <TipoDocumentoOC>01</TipoDocumentoOC>
+    <Detalle>IMPUESTO CRUZ ROJA 1%</Detalle>
+    <PorcentajeOC>1</PorcentajeOC>
+    <MontoCargo>90.8</MontoCargo>
+  </OtrosCargos>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>10088.50</TotalServGravados>
+    <TotalGravado>10088.50</TotalGravado>
+    <TotalVenta>10088.50</TotalVenta>
+    <TotalDescuentos>1008.85</TotalDescuentos>
+    <TotalVentaNeta>9079.65</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>1180.35</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>1180.35</TotalImpuesto>
+    <TotalOtrosCargos>158.89</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <TotalMedioPago>10418.89</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>10418.89</TotalComprobante>
+  </ResumenFactura>
+  <Otros>
+    <OtroTexto codigo="Codigo_Cliente">20228655</OtroTexto>
+    <OtroTexto codigo="Fecha_Vencimiento">20-03-2026</OtroTexto>
+    <OtroTexto codigo="Direccion">LIMON, MATINA, CUBA CREEK (RIO CUBA), SIN BARRIO</OtroTexto>
+    <OtroTexto codigo="Descripcion_Comuna">Del centro educativo de la localidad 150 MTS al este a mano derecha casa de cemento color gris</OtroTexto>
+    <OtroTexto codigo="Periodo_Facturado">01 Feb 2026 al 28 Feb 2026</OtroTexto>
+    <OtroTexto codigo="Enlace_Detalle_Abonados">https://detallefactura.libertycr.com/det_abo/9e9e0bc5e3e97b4c7cae7e3332168ab5</OtroTexto>
+    <OtroTexto codigo="Saldo_Mes_Anterior">0</OtroTexto>
+    <OtroTexto codigo="Pago_Realizado">0</OtroTexto>
+    <OtroTexto codigo="Ajustes">0</OtroTexto>
+    <OtroTexto codigo="Cuota_Terminal">0</OtroTexto>
+    <OtroTexto codigo="Total_Facturado">0</OtroTexto>
+    <OtroTexto codigo="Total_a_Pagar">0</OtroTexto>
+    <OtroTexto codigo="Plan">Plan Postpago Ultra @1 Ctrl St</OtroTexto>
+    <OtroTexto codigo="RecargoMora">Si cancela posterior a la fecha de vencimiento, en su próxima factura se cobrará un recargo por mora de 3%</OtroTexto>
+    <OtroTexto codigo="Email_Receptor">cruznereida69@gmail.com</OtroTexto>
+  </Otros>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-f9cc22e3-7d2e-4786-add2-6a83fc462ada"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-bdfd3edd-707b-45a8-bc5c-802dfbb9743a" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>HtjByCBMwADjB9wsj0fFs3SrIVqKSRnpUHa6y3PpT2E=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-f9cc22e3-7d2e-4786-add2-6a83fc462ada"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Udq7ZMXTdwuj5OAwzGNxLLfxNJboZ5AQVY6NiFBwZjs=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-f9cc22e3-7d2e-4786-add2-6a83fc462ada"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>R1caob4FF48GUxmagdK2nJh8W1Hi4Tgt1izS9lBP10o=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-f9cc22e3-7d2e-4786-add2-6a83fc462ada">h9FMv4cVVmGJRPRtyFSsNogJ9uVeA2oRAXIQxGyIXBaDikVPof0eaGajjRvreTFQh+dj/7JEBUVU+Uru81Bw295XGM/Gg/RaqtxWyOhFQOHwPkNwI407eACUIOG2Lk+/xYMR1qvouyHTaLXw8Jf7wfegxmN8mcf8VJ3a7Vruog1Vq0n/gHo7ESloJqU9NItvBi2Hb+eps2WTl3wmOMZEMQRotmNuUzjpjyTCHzYSfGccIGrDuU9s9Cubt2EoisjwK0IHomQ1dCVdUrj4o1dJTZ2rVYagYEuWRYpkhbj67zDNyug5mE4wUmNLtpOSUWd4UCQ4GxmKIJ7c+CkG1lKytA==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-f9cc22e3-7d2e-4786-add2-6a83fc462ada"><ds:X509Data><ds:X509Certificate>MIIFPjCCAyagAwIBAgIGAZjPx7aoMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjUwODIyMDMxNzA4WhcNMjkwODIxMDMxNzA4WjCBmDEZMBcGA1UEBRMQQ1BKLTMtMTAxLTYxMDE5ODELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjFFMEMGA1UEAww8TElCRVJUWSBURUxFQ09NVU5JQ0FDSU9ORVMgREUgQ09TVEEgUklDQSBMWSBTT0NJRURBRCBBTk9OSU1BMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAveEYg03txqaY8YOI4ZRIUb7esrjSJTEfHI4rnIw3+BXOPMTlM6m46v4crwKdHdGBaTs924H+qvEDdpIBckzaPO8u6Y2HFp+0S3f9pxoBME55ypZA7hUe20zRt6gcy10J5IVGiQdjsHKko5bsRJPxB3SukJMF/gMNmdtCP+VzQMih/ZuMACYN5fqU7VrjCyv7WSBCYgd4yrsXuk9xIhB/IZPKyoRxmwe9C3bxb3zDnkpAdLu2kIURV2aX0CIL94vQuY+Kv7v++beRmhHtiy2hU5z0Y4/cpqgyGofeFiitcRKe6Mf9sySnY5b3OiGWgdzrJBSEoV46zspz0H0x1oOfvwIDAQABo4HKMIHHMB8GA1UdIwQYMBaAFDttV/XWfOmeEAIgQeO9GszPs06VMB0GA1UdDgQWBBS1rGgccJzJ9/A/T2ivtQWE2U12kTALBgNVHQ8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwYwYIKwYBBQUHAQEEVzBVMFMGCCsGAQUFBzAChkdodHRwczovL3BraS5jb21wcm9iYW50ZXNlbGVjdHJvbmljb3MuZ28uY3IvcHJvZC9pbnRlcm1lZGlhdGUtcGotcGVtLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAL2N+xjaCX8e94Ltl/ZMoVfm6b1+9BFNe6sR1qewo/dqAwtb7/0LWZC+dWDeikxZe8IvJ/oW4+mF3KTayoFuxgxhfjxMk2J7YRQd5Q0Iv4aXVA2q/wbU113kTELyreiizkpOVdL2Gx+58q6uHXzcLqyZuFzdIKh9VEhRbrE4AtZ63MwGAnpG7mldihr8aFBOJTFyixfPgR7Blc4kTIj+BWfY3iszwek0uZpScA4pHSx44GRWKssYmYXqFg0enEdn+2MW+MS2wSgJZGmPCa2Puo5hVLcakZAk2Cswh83bTQoNbeEY0N8P+OtWsxnQoSQfdW7agtNVYpEPpF4MpikaILBXo7DcAOwEO6tpSRcYMu9I8HL6ekyZuIOu0ctydyrJOrHqkMb83hxwrqx1O9JgQGeFENA2TkB3QfSz7jai4IwmhUFbnKo4QGwCX9kkSvZemS9W14dO7adyM9XaOgIuGF8YFOL4w+nhAHQcG/TsWpyG24ld8uiC+1eDfVwT+cGD7PT91lUsaoWV7TaO6k0CwXqj2b5whp7IJ2UeaUBdb59OXYo2h5NPzUlwFji+rPxKI9S00eCrkCD2Sko8vJ/THqBb926AOc34zYl0ATmZScJr3wXYiYnWaeauxOq+Phfpsn6CZxsSg8h+ZnTUv84A3kLIIGlCgnKF8jRNUQHpMpvI=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>veEYg03txqaY8YOI4ZRIUb7esrjSJTEfHI4rnIw3+BXOPMTlM6m46v4crwKdHdGBaTs924H+qvEDdpIBckzaPO8u6Y2HFp+0S3f9pxoBME55ypZA7hUe20zRt6gcy10J5IVGiQdjsHKko5bsRJPxB3SukJMF/gMNmdtCP+VzQMih/ZuMACYN5fqU7VrjCyv7WSBCYgd4yrsXuk9xIhB/IZPKyoRxmwe9C3bxb3zDnkpAdLu2kIURV2aX0CIL94vQuY+Kv7v++beRmhHtiy2hU5z0Y4/cpqgyGofeFiitcRKe6Mf9sySnY5b3OiGWgdzrJBSEoV46zspz0H0x1oOfvw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-21b1a638-d0e2-4aca-8821-c3dc4d96ddb1"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-3accd3c1-a95b-41bc-bc19-7882a5838e95" Target="#Signature-f9cc22e3-7d2e-4786-add2-6a83fc462ada"><xades:SignedProperties Id="SignedProperties-Signature-f9cc22e3-7d2e-4786-add2-6a83fc462ada"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-03T03:46:55-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>/7Dmeq4GKgw/CGVZHQ9dF4yjKIddHYJBeRjSZ6F/7Ls=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1755832628904</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.2/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>NmI5Njk1ZThkNzI0MmIzMGJmZDAyNDc4YjUwNzkzODM2NTBiOWUxNTBkMmI2YjgzYzZjM2I5NTZlNDQ4OWQzMQ==</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-bdfd3edd-707b-45a8-bc5c-802dfbb9743a"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TiqueteElectronico>

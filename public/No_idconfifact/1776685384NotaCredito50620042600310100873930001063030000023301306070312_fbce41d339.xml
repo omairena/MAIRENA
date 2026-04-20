@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NotaCreditoElectronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/notaCreditoElectronica" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Clave>50620042600310100873930001063030000023301306070312</Clave>
+  <ProveedorSistemas>3101008739</ProveedorSistemas>
+  <CodigoActividadEmisor>4630.9</CodigoActividadEmisor>
+  <CodigoActividadReceptor>4711.2</CodigoActividadReceptor>
+  <NumeroConsecutivo>30001063030000023301</NumeroConsecutivo>
+  <FechaEmision>2026-04-20T05:31:06-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>ALIMENTOS JACKS DE CENTROAMERICA, S.A.</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101008739</Numero>
+    </Identificacion>
+    <NombreComercial>ALIMENTOS JACKS DE CENTROAMERICA, S.A.</NombreComercial>
+    <Ubicacion>
+      <Provincia>1</Provincia>
+      <Canton>01</Canton>
+      <Distrito>09</Distrito>
+      <Barrio>PAVAS centro</Barrio>
+      <OtrasSenas>San Jose Costa Rica</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>22420807</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>factura.electronica@jacks.co.cr</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>ROYAL SOFT COMPANY SA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101097341</Numero>
+    </Identificacion>
+    <NombreComercial>SUPERMERCADO EL GALLO</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>11</Distrito>
+      <Barrio>Principal</Barrio>
+      <OtrasSenas>50 METROS ESTE SOBRE EL PUENTE DEL RIO KOOPER, BAR</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>87261086</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>FACTURASELGALLOKOOPER@GMAIL.COM</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>2314000990700</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>034332</Codigo>
+      </CodigoComercial>
+      <Cantidad>9.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>UND</UnidadMedidaComercial>
+      <Detalle>Cereal Churros 20g 144 uds</Detalle>
+      <PrecioUnitario>106.19000</PrecioUnitario>
+      <MontoTotal>955.71000</MontoTotal>
+      <Descuento>
+        <MontoDescuento>95.57000</MontoDescuento>
+        <CodigoDescuento>07</CodigoDescuento>
+      </Descuento>
+      <SubTotal>860.14000</SubTotal>
+      <BaseImponible>860.14000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>111.81820</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>111.82000</ImpuestoNeto>
+      <MontoTotalLinea>971.96000</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0.00000</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalMercanciasGravadas>955.71000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalGravado>955.71000</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalVenta>955.71000</TotalVenta>
+    <TotalDescuentos>95.57000</TotalDescuentos>
+    <TotalVentaNeta>860.14000</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>111.81820</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>111.82000</TotalImpuesto>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <TotalMedioPago>972.00000</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>971.96000</TotalComprobante>
+  </ResumenFactura>
+  <InformacionReferencia>
+    <TipoDocIR>01</TipoDocIR>
+    <Numero>50629122500310100873930001063010000048681306070312</Numero>
+    <FechaEmisionIR>2025-12-29T05:08:36-06:00</FechaEmisionIR>
+    <Codigo>09</Codigo>
+    <Razon>Anula Documento Electrónico</Razon>
+  </InformacionReferencia>
+  <Otros>
+    <OtroTexto codigo="OC">0</OtroTexto>
+  </Otros>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-a4d51d14-4992-41cf-977e-76580b6473d6"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-5b91ad59-057c-4523-ad0d-3dd8c1cd5dc2" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>S3Pl5wkGDXHURQdvcLwKcBmCGyfZlaejU6Cqt6naFuM=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-a4d51d14-4992-41cf-977e-76580b6473d6"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Qzs2ThCxI/fTGeKZcuEfP0DEw10yiGrkeELQ5/qXNRU=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-a4d51d14-4992-41cf-977e-76580b6473d6"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>WPbsR5H3t4gdkTZS425n6D8mAQ07cXXEMR3nLxfI0KY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-a4d51d14-4992-41cf-977e-76580b6473d6">K3VR4kKirtI6cXntnI6U8JwOu9G+F1b3CyM8OEFWHzRNWeTETaMRCm2Kf/HAX+q2D9W56wS0lWJG44oyMvFYvX5QkbUJYY+0nSlf+rhv+ZOK5ew4LIG0dvDTzL2Q0GALX0Q1lEU9WMpTlm3kPKlSBuDKay+VZ/kdVDIuob7ot0bpcjqg+9WtS1l7dKW3ESiO5u5pei+A2rXOJPIwBY91vxd02SNrhSwgfHr0DnH43fPmr754NE17DUpYQ9TrJaFZhpSjei7B5MKFZxS8saSTMa0bxp/Uf4YfEIlWNjKfvlQ2xIkRqEIyyA0pdWqLQdAFxl75rkUeuMZSDT4/rlNH6Q==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-a4d51d14-4992-41cf-977e-76580b6473d6"><ds:X509Data><ds:X509Certificate>MIIFMzCCAxugAwIBAgIGAYe0LInlMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjMwNDI0MTY1MDMwWhcNMjcwNDIzMTY1MDMwWjCBjTEZMBcGA1UEBRMQQ1BKLTMtMTAxLTAwODczOTELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE6MDgGA1UEAwwxQUxJTUVOVE9TIEpBQ0tTIERFIENFTlRST0FNRVJJQ0EgU09DSUVEQUQgQU5PTklNQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIj+x7pktrM2eS7zSckbh+HoqXtdWwyh99JlrYchxBMns0OmIQxwtddDg9EBDjaqNLeKnCcijyAwQOx6614wJ96dpzYvle3bsV7UrB9npJLLa5zk2LyDOh/YCoGO0TxrK+NpCXHtbPcns0hHpgtQCtgPcq/yuIf57Ki/vqpWha8N9IIFRwX66W2xsb0X7OBzfszK961lYpgeOkC58B0Y2g7faNxQXIK8hz4lzQbhwdvppzvNjKqZeBkh4eiN+QCWqWPpG/BfpMyr7m+ZKex+K+g1do/r50Vx0W/8KLyo1ozplF+2lKh5kBg99CWChbE5AHu4YzDCtKcwtq8Zs0Z+HlECAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUIvW2bul2IE8PcICeqinpdOAv5KowCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAH3GlZIoIGpqt+74SUZJgiL2yvSkr5furNG7z/oQ/w67iuvNqil7vn0yEmfvYgqKpm/nTq09L41TO3izEQqQlKOUPHCkbgxG1mH+8uif3xrBn95dN6CYYmIQlVJNKldeO7QR6dzBy43IOh5V5J4t+xd4xQuJ5Pfk4Qwnrc0N1COpuOGuVXOCyIInnezbSMzIcGE9aBckXcc3TVRH9dYWqQEO82nXEOtdHPBe4FEMzpbEG3xxjKysCj0bk8JQw8ckX2QOmfFbKPJcLHTKoIQCXTqa48oXOmXeAYAUFz8YfxGq8AatkpQ7DRLKsr1wlkPa4HmAktrQrLPIEjwXp1uAY/LtFser7BI1I58LK3tmTJSBlBuD2MxEXA7da9N0eTKZn5X01XFv/C2TjATeXSC0M/ZRDZyE4TiutAxicgd/YOEb3e3Y8DT9d20zrxf334Dp8aio+u1At1704K0tCHHeO9qqfnn8qUsouBbD1mWHkQVcbajgbCrdkX6ecBeowemrAVwkwVV89XipdyAUWb3gKwfTO01iKg6FZhYmlDaLIMebrAHEKtPrYaJY/Ka4141hTuJl0On3HXd4DYuP3FR9d2Ec3R1c1dhfgswnUVnZ/BCAz80tOwychg9dlYachmADHcNq6bygGBtzhzNUgwFJNSmlaZV3Y8jsBAj3i6r0hmDA</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>iP7HumS2szZ5LvNJyRuH4eipe11bDKH30mWthyHEEyezQ6YhDHC110OD0QEONqo0t4qcJyKPIDBA7HrrXjAn3p2nNi+V7duxXtSsH2ekkstrnOTYvIM6H9gKgY7RPGsr42kJce1s9yezSEemC1AK2A9yr/K4h/nsqL++qlaFrw30ggVHBfrpbbGxvRfs4HN+zMr3rWVimB46QLnwHRjaDt9o3FBcgryHPiXNBuHB2+mnO82Mqpl4GSHh6I35AJapY+kb8F+kzKvub5kp7H4r6DV2j+vnRXHRb/wovKjWjOmUX7aUqHmQGD30JYKFsTkAe7hjMMK0pzC2rxmzRn4eUQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-951d04f4-51b9-46b0-bc32-6c856d162535"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-e23746b2-11fb-40d9-bf10-e31a850c2422" Target="#Signature-a4d51d14-4992-41cf-977e-76580b6473d6"><xades:SignedProperties Id="SignedProperties-Signature-a4d51d14-4992-41cf-977e-76580b6473d6"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-20T05:34:17-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>BIBuS5QKBKRncBw4ccBTpPbePQaj+XeNn+ij6kerqkY=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1682355030501</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-5b91ad59-057c-4523-ad0d-3dd8c1cd5dc2"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></NotaCreditoElectronica>

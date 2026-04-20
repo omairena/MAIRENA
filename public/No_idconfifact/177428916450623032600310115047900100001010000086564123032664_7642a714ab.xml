@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica  https://tribunet.hacienda.go.cr/docs/esquemas/2017/v4.4/FacturaElectronica_v4.4.xsd">
+  <Clave>50623032600310115047900100001010000086564123032664</Clave>
+  <ProveedorSistemas>3102261960</ProveedorSistemas>
+  <CodigoActividadEmisor>4510.0</CodigoActividadEmisor>
+  <NumeroConsecutivo>00100001010000086564</NumeroConsecutivo>
+  <FechaEmision>2026-03-23T12:04:12</FechaEmision>
+  <Emisor>
+    <Nombre>J y  F Automotriz S.A.</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101150479</Numero>
+    </Identificacion>
+    <NombreComercial>JFAUTO</NombreComercial>
+    <Ubicacion>
+      <Provincia>1</Provincia>
+      <Canton>01</Canton>
+      <Distrito>03</Distrito>
+      <Barrio>Ángeles</Barrio>
+      <OtrasSenas>Calle 10 Av 12 y 14</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>22581697</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>feauto@jyfautomotriz.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>ESTEFANIE MARIA CASTRO AGUILAR</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>115500606</Numero>
+    </Identificacion>
+    <NombreComercial>ESTEFANIE MARIA CASTRO AGUILAR</NombreComercial>
+    <Ubicacion>
+      <Provincia>7</Provincia>
+      <Canton>02</Canton>
+      <Distrito>03</Distrito>
+      <Barrio>Cruce de Jordán</Barrio>
+      <OtrasSenas>CARIARI, SAN ISIDRO, 150 MTS ESTE DE FINCA EL COCAL, CARIARI</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>70524279</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>ventaderepuestos2024@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>02</CondicionVenta>
+  <PlazoCredito>1</PlazoCredito>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>4994100009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>63-473</Codigo>
+      </CodigoComercial>
+      <CodigoComercial>
+        <Tipo>03</Tipo>
+        <Codigo>00000000000000</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>MUFLA KATANA SMX200</Detalle>
+      <PrecioUnitario>16990.00</PrecioUnitario>
+      <MontoTotal>16990.00</MontoTotal>
+      <SubTotal>16990.00</SubTotal>
+      <BaseImponible>16990.00</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>2208.70</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>.00</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>2208.70</ImpuestoNeto>
+      <MontoTotalLinea>19198.70</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0.00</TotalServGravados>
+    <TotalMercanciasGravadas>16990.00</TotalMercanciasGravadas>
+    <TotalGravado>16990.00</TotalGravado>
+    <TotalVenta>16990.00</TotalVenta>
+    <TotalVentaNeta>16990.00</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>2208.70</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>2208.70</TotalImpuesto>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+    </MedioPago>
+    <TotalComprobante>19198.70</TotalComprobante>
+  </ResumenFactura>
+  <Otros>
+    <OtroTexto>CAMPO EN BLANCO</OtroTexto>
+  </Otros>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-83c11cb3-cdb0-4966-954b-9b665349a98f"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-e27d1672-8663-4604-8990-95d18a48388d" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>9mpd+diV/OY4tDC2uQXe9+AmXJ6Mh0lgN+CP7OFMfgE=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-83c11cb3-cdb0-4966-954b-9b665349a98f"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>iWxOp9AUr26tFnk4gZKF0HYnYXt5wnstvzOmsm+Va2Q=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-83c11cb3-cdb0-4966-954b-9b665349a98f"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>7l/RQ1u22JH8rUJB0dAyeHDlICPn3HKfQwwUpB/H450=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-83c11cb3-cdb0-4966-954b-9b665349a98f">SZ83UHOboJeyBZs/q78HhUwj9dY0YX42oC0F3Fyusuf5mvGsPpCRfqurQ5tEMjHtcEcOESfUnMfJjv/AMRFt7RkLnm7IVv8mis/hn51pBwmVW97OJ/HuoA82ljpO4SZ8JbY3QYhKW3zK6WjMwCIC3LY1tBhMUhCu7yh8FF763LgDPR89BDvhgHe2+bUqcCjTXbPkb0EKjYXVDJ54OmQPkYR/PhkJfJ7m0YEPmUQG4CT+gefdbTeY7CO9pJriPrdadJpOuc9u/6JIz+6KlXMtiqXS0U8mrQRSqfHUqenA2J2VhQFoOxW9+hktefSbqi5KFj+AAw4KHZn5ScofCnEZqg==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-83c11cb3-cdb0-4966-954b-9b665349a98f"><ds:X509Data><ds:X509Certificate>MIIFIjCCAwqgAwIBAgIGAYNCTxhRMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjIwOTE1MTgwMDIzWhcNMjYwOTE0MTgwMDIzWjB9MRkwFwYDVQQFExBDUEotMy0xMDEtMTUwNDc5MQswCQYDVQQGEwJDUjEZMBcGA1UECgwQUEVSU09OQSBKVVJJRElDQTEMMAoGA1UECwwDQ1BKMSowKAYDVQQDDCFKIFkgRiBBVVRPTU9UUklaIFNPQ0lFREFEIEFOT05JTUEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCFf4bRr1+aJemGOS/oDe20kaE4EO3373GNCkoavvfsgbv0NoRUrKlHgHL35iIQ0zHhR6a37xx/i8DrUY144iFqArWrFQmj6sK9ds9U9dywPJ/0lP14LYTPk4y2GsTjM6xn1JhX8Y7B6f/UG67jvjIaRi9c36SK+QYjRNBCCfpaXYI6edSbvqbg71NIwwG44EqiJBA/ArAfwK66CHHppayKBMk7tRvvUDaGTDIDWedt9PvERc9SPfjfCZ0lzH7JHKoqKY2nWBvFhrnNJIrmy7+VF7Ib9vst5mYPRBTZXjvc8IfjOrVgU/gl9mOI5+G1SAUPjTKSQP0dItxaHqZYOpVlAgMBAAGjgcowgccwHwYDVR0jBBgwFoAUO21X9dZ86Z4QAiBB470azM+zTpUwHQYDVR0OBBYEFB25tveoVNx1tC1J/bHIAJ8Wbw8FMAsGA1UdDwQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDBjBggrBgEFBQcBAQRXMFUwUwYIKwYBBQUHMAKGR2h0dHBzOi8vcGtpLmNvbXByb2JhbnRlc2VsZWN0cm9uaWNvcy5nby5jci9wcm9kL2ludGVybWVkaWF0ZS1wai1wZW0uY3J0MA0GCSqGSIb3DQEBCwUAA4ICAQBG9SOBjY1lWeeiYCmwNekVHgFDieDTQrGU9/4C+2s9QVyeOXG1s6Mpref6bcbUayssD1ToylnT3MhnKaJHNdeDS3DMGinfR/t/8Cnq71VEMu4gEM1nesR0uKeRhWFfOS42H3amVJHI2wgXHQDZBuO1/7PXZaK8S3ytMBmeLUs6xcgeh+vrxIt75MWa6x2s4ak0purLwI6orSWozuxTPQpn06bmIHk/IC8cGqwPz0VYdo01CwSw7gPsZEPwxu2hjuh+9Lqqf83wPT1/HroVO1eJEmvHQUbNddwz6EJJSvG38h36QpO3RGmx5XswuR97LhfyilDaRYphXRojKid+YJxu8rJHyipVSD02H4YqD+gYV8VSrC7KEQhrBcEwa8hlGtpuxCQKJo0YGQb0e8q6zBh9NGByl2qdp+jF6n3Zs09DSpNPexPsSztWGhwxNxF1pm4xu0EdAlwEPR4o0eNvwsWnKZUQRbyynKdFuflIy7KcQgg6i50lZJj74/At9Zgyl6EAt8OKzvGomGniARfIekeyavbyURzkafsQ8fJQGDIUyGhvE4Nf5IzLL99AhoctYRLEynrqE1Y0k+3ObJ3myL00rcxGWWphiW4QE693Dv2arvNEqoPi6VlXjOD7s5xoKtB/Tlfn++qcfzaVdBeS3+Bug4M1OGNZ8gvDYe7qO+gFsQ==</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>hX+G0a9fmiXphjkv6A3ttJGhOBDt9+9xjQpKGr737IG79DaEVKypR4By9+YiENMx4Uemt+8cf4vA61GNeOIhagK1qxUJo+rCvXbPVPXcsDyf9JT9eC2Ez5OMthrE4zOsZ9SYV/GOwen/1Buu474yGkYvXN+kivkGI0TQQgn6Wl2COnnUm76m4O9TSMMBuOBKoiQQPwKwH8Cuughx6aWsigTJO7Ub71A2hkwyA1nnbfT7xEXPUj343wmdJcx+yRyqKimNp1gbxYa5zSSK5su/lReyG/b7LeZmD0QU2V473PCH4zq1YFP4JfZjiOfhtUgFD40ykkD9HSLcWh6mWDqVZQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-1b79da83-b7a8-41b1-a74f-eb42c8a4613a"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-49c12336-6247-4f4b-bd19-cf7c779b8335" Target="#Signature-83c11cb3-cdb0-4966-954b-9b665349a98f"><xades:SignedProperties Id="SignedProperties-Signature-83c11cb3-cdb0-4966-954b-9b665349a98f"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-23T12:05:17</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>sXwXMwlVO2dGf1+m56SE7fHXOWN8TzEO+cBJmb+Pa8w=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA,OU=DGT,O=MINISTERIO DE HACIENDA,C=CR</ds:X509IssuerName><ds:X509SerialNumber>1663264823377</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://cdn.comprobanteselectronicos.go.cr/xml-schemas/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>LoXZC86JwDL7zWC35qj7Q4AzrRQ=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

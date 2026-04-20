@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica_V.4.4.xsd">
+   <Clave>50626032600310100758900100001010003320593112345678</Clave>
+   <ProveedorSistemas>3101595167</ProveedorSistemas>
+   <CodigoActividadEmisor>4630.9</CodigoActividadEmisor>
+   <NumeroConsecutivo>00100001010003320593</NumeroConsecutivo>
+   <FechaEmision>2026-03-26T16:40:39</FechaEmision>
+   <Emisor>
+      <Nombre>DIPO S.A.</Nombre>
+      <Identificacion>
+         <Tipo>02</Tipo>
+         <Numero>3101007589</Numero>
+      </Identificacion>
+      <Registrofiscal8707>7520</Registrofiscal8707>
+      <NombreComercial>DIPO S.A.</NombreComercial>
+      <Ubicacion>
+         <Provincia>1</Provincia>
+         <Canton>01</Canton>
+         <Distrito>01</Distrito>
+         <Barrio>350 metros al este del Hotel Marriot</Barrio>
+         <OtrasSenas>La Ribera de Belén</OtrasSenas>
+      </Ubicacion>
+      <Telefono>
+         <CodigoPais>506</CodigoPais>
+         <NumTelefono>25226000</NumTelefono>
+      </Telefono>
+      <CorreoElectronico>factura.electronica@dipo.com</CorreoElectronico>
+   </Emisor>
+   <Receptor>
+      <Nombre>ROYAL SOFT COMPANY SA </Nombre>
+      <Identificacion>
+         <Tipo>02</Tipo>
+         <Numero>3101097341</Numero>
+      </Identificacion>
+      <NombreComercial>SUPERMERCADO EL GALLO KOOPER</NombreComercial>
+      <Ubicacion>
+         <Provincia>1</Provincia>
+         <Canton>02</Canton>
+         <Distrito>03</Distrito>
+         <Barrio>SUPERMERCADO EL GALLO KOOPER</Barrio>
+         <OtrasSenas>50 M E DEL PUENTE DEL RIO KOOPER</OtrasSenas>
+      </Ubicacion>
+      <Telefono>
+         <CodigoPais>506</CodigoPais>
+         <NumTelefono>87261086</NumTelefono>
+      </Telefono>
+      <CorreoElectronico>FACTURASELGALLOKOOPER@GMAIL.COM</CorreoElectronico>
+   </Receptor>
+   <CondicionVenta>01</CondicionVenta>
+   <DetalleServicio>
+      <LineaDetalle>
+         <NumeroLinea>1</NumeroLinea>
+         <CodigoCABYS>2399502009900</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>10033844000087</Codigo>
+         </CodigoComercial>
+         <Cantidad>2.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>BADIA SAZON COMP. FCO 98GR  /12</Detalle>
+         <PrecioUnitario>1221.00000</PrecioUnitario>
+         <MontoTotal>2442.00</MontoTotal>
+         <SubTotal>2442.00</SubTotal>
+         <BaseImponible>2442.00</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13</Tarifa>
+            <Monto>317.46 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>317.46 </ImpuestoNeto>
+         <MontoTotalLinea>2759.46 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>2</NumeroLinea>
+         <CodigoCABYS>3899302019900</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>3014260807092</Codigo>
+         </CodigoComercial>
+         <Cantidad>1.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>O.B CEPILLO 123 MED 6U / 6</Detalle>
+         <PrecioUnitario>3033.97000</PrecioUnitario>
+         <MontoTotal>3033.97</MontoTotal>
+         <SubTotal>3033.97</SubTotal>
+         <BaseImponible>3033.97</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>02</CodigoTarifaIVA>
+            <Tarifa>1</Tarifa>
+            <Monto>30.34 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>30.34 </ImpuestoNeto>
+         <MontoTotalLinea>3064.31 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>3</NumeroLinea>
+         <CodigoCABYS>2139400000300</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>10038000846752</Codigo>
+         </CodigoComercial>
+         <Cantidad>3.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>PRINGLES QUESO 40GR /12</Detalle>
+         <PrecioUnitario>580.00000</PrecioUnitario>
+         <MontoTotal>1740.00</MontoTotal>
+         <SubTotal>1740.00</SubTotal>
+         <BaseImponible>1740.00</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13</Tarifa>
+            <Monto>226.20 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>226.20 </ImpuestoNeto>
+         <MontoTotalLinea>1966.20 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>4</NumeroLinea>
+         <CodigoCABYS>4641001010100</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>17441005013518</Codigo>
+         </CodigoComercial>
+         <Cantidad>1.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>PANASONIC POWER ALK AA TIRA 6U / 48</Detalle>
+         <PrecioUnitario>2550.05000</PrecioUnitario>
+         <MontoTotal>2550.05</MontoTotal>
+         <SubTotal>2550.05</SubTotal>
+         <BaseImponible>2550.05</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13</Tarifa>
+            <Monto>331.51 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>331.51 </ImpuestoNeto>
+         <MontoTotalLinea>2881.56 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>5</NumeroLinea>
+         <CodigoCABYS>3532303000100</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>17500435007143</Codigo>
+         </CodigoComercial>
+         <Cantidad>1.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>H&amp;S APPLE FRESH. SH 180ML /12</Detalle>
+         <PrecioUnitario>2448.96000</PrecioUnitario>
+         <MontoTotal>2448.96</MontoTotal>
+         <SubTotal>2448.96</SubTotal>
+         <BaseImponible>2448.96</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13</Tarifa>
+            <Monto>318.36 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>318.36 </ImpuestoNeto>
+         <MontoTotalLinea>2767.32 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>6</NumeroLinea>
+         <CodigoCABYS>2139400000300</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>38000184895</Codigo>
+         </CodigoComercial>
+         <Cantidad>1.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>PRINGLES CREM.CEB. 124GR /14</Detalle>
+         <PrecioUnitario>1280.00000</PrecioUnitario>
+         <MontoTotal>1280.00</MontoTotal>
+         <SubTotal>1280.00</SubTotal>
+         <BaseImponible>1280.00</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13</Tarifa>
+            <Monto>166.40 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>166.40 </ImpuestoNeto>
+         <MontoTotalLinea>1446.40 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>7</NumeroLinea>
+         <CodigoCABYS>0170102000400</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>17441037918041</Codigo>
+         </CodigoComercial>
+         <Cantidad>6.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>DON PEDRO FR.GR. NEGRO 800GR / 15</Detalle>
+         <PrecioUnitario>1183.70000</PrecioUnitario>
+         <MontoTotal>7102.20</MontoTotal>
+         <Descuento>
+            <MontoDescuento>1953.11</MontoDescuento>
+            <CodigoDescuento>07</CodigoDescuento>
+            <NaturalezaDescuento>Descuento Comercial</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>5149.09</SubTotal>
+         <BaseImponible>5149.09</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>02</CodigoTarifaIVA>
+            <Tarifa>1</Tarifa>
+            <Monto>51.49 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>51.49 </ImpuestoNeto>
+         <MontoTotalLinea>5200.58 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>8</NumeroLinea>
+         <CodigoCABYS>0170102000500</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>17441037918034</Codigo>
+         </CodigoComercial>
+         <Cantidad>6.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>DON PEDRO FR.GR. ROJO 800GR / 15</Detalle>
+         <PrecioUnitario>1456.86000</PrecioUnitario>
+         <MontoTotal>8741.16</MontoTotal>
+         <Descuento>
+            <MontoDescuento>1457.15</MontoDescuento>
+            <CodigoDescuento>07</CodigoDescuento>
+            <NaturalezaDescuento>Descuento Comercial</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>7284.01</SubTotal>
+         <BaseImponible>7284.01</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>02</CodigoTarifaIVA>
+            <Tarifa>1</Tarifa>
+            <Monto>72.84 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>72.84 </ImpuestoNeto>
+         <MontoTotalLinea>7356.85 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>9</NumeroLinea>
+         <CodigoCABYS>3532303000600</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>17500435026380</Codigo>
+         </CodigoComercial>
+         <Cantidad>1.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>PANTENE RIZ DEF CC SACH 9ML DI 24U /24</Detalle>
+         <PrecioUnitario>2054.92000</PrecioUnitario>
+         <MontoTotal>2054.92</MontoTotal>
+         <SubTotal>2054.92</SubTotal>
+         <BaseImponible>2054.92</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13</Tarifa>
+            <Monto>267.14 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>267.14 </ImpuestoNeto>
+         <MontoTotalLinea>2322.06 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>10</NumeroLinea>
+         <CodigoCABYS>0170102000400</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>17441037921706</Codigo>
+         </CodigoComercial>
+         <Cantidad>3.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>PINTICOS FR.GR.NEGRO 700GR/ 15</Detalle>
+         <PrecioUnitario>883.70000</PrecioUnitario>
+         <MontoTotal>2651.10</MontoTotal>
+         <Descuento>
+            <MontoDescuento>265.11</MontoDescuento>
+            <CodigoDescuento>07</CodigoDescuento>
+            <NaturalezaDescuento>Descuento Comercial</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>2385.99</SubTotal>
+         <BaseImponible>2385.99</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>02</CodigoTarifaIVA>
+            <Tarifa>1</Tarifa>
+            <Monto>23.86 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>23.86 </ImpuestoNeto>
+         <MontoTotalLinea>2409.85 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>11</NumeroLinea>
+         <CodigoCABYS>0170102000500</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>17441037921683</Codigo>
+         </CodigoComercial>
+         <Cantidad>3.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>PINTICOS FR.GR.ROJO 700GR /15</Detalle>
+         <PrecioUnitario>1156.86000</PrecioUnitario>
+         <MontoTotal>3470.58</MontoTotal>
+         <Descuento>
+            <MontoDescuento>266.89</MontoDescuento>
+            <CodigoDescuento>07</CodigoDescuento>
+            <NaturalezaDescuento>Descuento Comercial</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>3203.69</SubTotal>
+         <BaseImponible>3203.69</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>02</CodigoTarifaIVA>
+            <Tarifa>1</Tarifa>
+            <Monto>32.04 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>32.04 </ImpuestoNeto>
+         <MontoTotalLinea>3235.73 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>12</NumeroLinea>
+         <CodigoCABYS>3532201020000</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>10030772087258</Codigo>
+         </CodigoComercial>
+         <Cantidad>1.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>DOWNY PERLAS FRESH 141G/4</Detalle>
+         <PrecioUnitario>2142.22000</PrecioUnitario>
+         <MontoTotal>2142.22</MontoTotal>
+         <SubTotal>2142.22</SubTotal>
+         <BaseImponible>2142.22</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13</Tarifa>
+            <Monto>278.49 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>278.49 </ImpuestoNeto>
+         <MontoTotalLinea>2420.71 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>13</NumeroLinea>
+         <CodigoCABYS>3532201020000</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>10030772090944</Codigo>
+         </CodigoComercial>
+         <Cantidad>1.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>DOWNY PERLAS APRIL FRESH 141G/4</Detalle>
+         <PrecioUnitario>2142.22000</PrecioUnitario>
+         <MontoTotal>2142.22</MontoTotal>
+         <SubTotal>2142.22</SubTotal>
+         <BaseImponible>2142.22</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13</Tarifa>
+            <Monto>278.49 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>278.49 </ImpuestoNeto>
+         <MontoTotalLinea>2420.71 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>14</NumeroLinea>
+         <CodigoCABYS>3532201020000</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>10030772087340</Codigo>
+         </CodigoComercial>
+         <Cantidad>1.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>DOWNY PERLAS LUSH 141G/4</Detalle>
+         <PrecioUnitario>2142.22000</PrecioUnitario>
+         <MontoTotal>2142.22</MontoTotal>
+         <SubTotal>2142.22</SubTotal>
+         <BaseImponible>2142.22</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13</Tarifa>
+            <Monto>278.49 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>278.49 </ImpuestoNeto>
+         <MontoTotalLinea>2420.71 </MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>15</NumeroLinea>
+         <CodigoCABYS>3532303000100</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>17500435231241</Codigo>
+         </CodigoComercial>
+         <Cantidad>2.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+         <Detalle>H&amp;S SH ANTI-COMEZON 180ML/12</Detalle>
+         <PrecioUnitario>2364.52000</PrecioUnitario>
+         <MontoTotal>4729.04</MontoTotal>
+         <SubTotal>4729.04</SubTotal>
+         <BaseImponible>4729.04</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13</Tarifa>
+            <Monto>614.77 </Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>614.77 </ImpuestoNeto>
+         <MontoTotalLinea>5343.81 </MontoTotalLinea>
+      </LineaDetalle>
+   </DetalleServicio>
+   <ResumenFactura>
+      <CodigoTipoMoneda>
+         <CodigoMoneda>CRC</CodigoMoneda>
+         <TipoCambio>1.00000</TipoCambio>
+      </CodigoTipoMoneda>
+      <TotalServGravados>0.00 </TotalServGravados>
+      <TotalServExentos>0.00</TotalServExentos>
+      <TotalServExonerado>0.00</TotalServExonerado>
+      <TotalServNoSujeto>0.00</TotalServNoSujeto>
+      <TotalMercanciasGravadas>48670.64 </TotalMercanciasGravadas>
+      <TotalMercanciasExentas>0.00</TotalMercanciasExentas>
+      <TotalMercExonerada>0.00000 </TotalMercExonerada>
+      <TotalMercNoSujeta>0.00</TotalMercNoSujeta>
+      <TotalGravado>48670.64</TotalGravado>
+      <TotalExento>0.00 </TotalExento>
+      <TotalExonerado>0.00</TotalExonerado>
+      <TotalNoSujeto>0.00</TotalNoSujeto>
+      <TotalVenta>48670.64</TotalVenta>
+      <TotalDescuentos>3942.26 </TotalDescuentos>
+      <TotalVentaNeta>44728.38 </TotalVentaNeta>
+      <TotalDesgloseImpuesto>
+         <Codigo>01</Codigo>
+         <CodigoTarifaIVA>08</CodigoTarifaIVA>
+         <TotalMontoImpuesto>3077.31</TotalMontoImpuesto>
+      </TotalDesgloseImpuesto>
+      <TotalDesgloseImpuesto>
+         <Codigo>01</Codigo>
+         <CodigoTarifaIVA>02</CodigoTarifaIVA>
+         <TotalMontoImpuesto>210.57</TotalMontoImpuesto>
+      </TotalDesgloseImpuesto>
+      <TotalImpuesto>3287.88</TotalImpuesto>
+      <TotalImpAsumEmisorFabrica>0.00</TotalImpAsumEmisorFabrica>
+      <TotalIVADevuelto>0.00</TotalIVADevuelto>
+      <TotalOtrosCargos>0.00</TotalOtrosCargos>
+      <MedioPago>
+         <TipoMedioPago>02</TipoMedioPago>
+         <MedioPagoOtros>Crédito</MedioPagoOtros>
+         <TotalMedioPago>48016.26</TotalMedioPago>
+      </MedioPago>
+      <TotalComprobante>48016.26</TotalComprobante>
+   </ResumenFactura>
+   <Otros>
+      <OtroTexto codigo="NumeroOrden">PPR040A0084643</OtroTexto>
+      <OtroTexto codigo="FechaOrden">0000-00-00</OtroTexto>
+   </Otros><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-e8949d96-c6fc-4ab2-b5f4-9cd812ae328d"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-097a5165-631a-43f0-9e45-98d5413901d0" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>MChLLRpqCAUCZWwSUEN1C5u/AjKTtkXhJXKMPe9QJPw=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-e8949d96-c6fc-4ab2-b5f4-9cd812ae328d"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>bZ2011Lgg03cUixXMbuL3ea5YXcK3o048i9Yj4Gy9GQ=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-e8949d96-c6fc-4ab2-b5f4-9cd812ae328d"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>bOv6smbiVkiElF+HSl4GyEo683U=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-e8949d96-c6fc-4ab2-b5f4-9cd812ae328d">WDw40qjALtXSFSaUx1ILbDt9xtomFprFprgQsSpT3RM1U90uroYsBicZG0ulzSu1KBAtYb2ThKBw4MOcN6ygVKjEtKZOPTpOmTRxRRu74p+FTK0OhLhlYRHtITE35AtyuO2TKRgY3OjK5gn4hlC3Gt84Ssv+mHil2siUsVFwT7IZubv9GdXkuLOM/tD0x1aV4TSUWNyBYFOG1YSz67e6wV511AzcghOoPZr8UiSEZeuhdYrRIgtmR6Pfr88aALGf9NbEmlibeTJSYrhtsfa/UElOpiixPHgNRD/+uJgf0lxizw1p+/WaFN/+jesTTRgtWHMYMN5g0Va+9DYh07jFzw==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-e8949d96-c6fc-4ab2-b5f4-9cd812ae328d"><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>mRPGqStzAfkCg+2sI3Is2RYUTeXMAjilJtS0OA4l3kfLOGD0we7DTPyypcmbVWm54B4phEMIO2dXimLi7ANnYr3IWXbzbLPLvnMBUJ8Gc578jl6CTZNXXEhTAfvnJ9kkattngnFrroetDicvjTLTeb+g5RRsRndCRQhCaeeJvn5GudyTLI5SASj8CH+a4dhzKC0I+R2sHsCLyozK57eba4083+pA1QIlJ6OpoWesaHPUHFZIIjHedrDXR0om2IVSTkbdQi/zHyX16Q5fA+xfv+fWRqjLUk744/EwrLEbLSuOvxI3gVybdR4ZzOr6fOeDmu3pOhhrzPuax/pw50abiQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509Certificate>MIIFFjCCAv6gAwIBAgIGAYIDbmJFMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjIwNzE1MTk1NTQyWhcNMjYwNzE0MTk1NTQyWjBxMRkwFwYDVQQFExBDUEotMy0xMDEtMDA3NTg5MQswCQYDVQQGEwJDUjEZMBcGA1UECgwQUEVSU09OQSBKVVJJRElDQTEMMAoGA1UECwwDQ1BKMR4wHAYDVQQDDBVESVBPIFNPQ0lFREFEIEFOT05JTUEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCZE8apK3MB+QKD7awjcizZFhRN5cwCOKUm1LQ4DiXeR8s4YPTB7sNM/LKlyZtVabngHimEQwg7Z1eKYuLsA2divchZdvNss8u+cwFQnwZznvyOXoJNk1dcSFMB++cn2SRq22eCcWuuh60OJy+NMtN5v6DlFGxGd0JFCEJp54m+fka53JMsjlIBKPwIf5rh2HMoLQj5HawewIvKjMrnt5trjTzf6kDVAiUno6mhZ6xoc9QcVkgiMd52sNdHSibYhVJORt1CL/MfJfXpDl8D7F+/59ZGqMtSTvjj8TCssRstK46/EjeBXJt1HhnM6vp854Oa7ek6GGvM+5rH+nDnRpuJAgMBAAGjgcowgccwHwYDVR0jBBgwFoAUO21X9dZ86Z4QAiBB470azM+zTpUwHQYDVR0OBBYEFCKdeebV/92aWS8Fsuu6STuFmGVhMAsGA1UdDwQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDBjBggrBgEFBQcBAQRXMFUwUwYIKwYBBQUHMAKGR2h0dHBzOi8vcGtpLmNvbXByb2JhbnRlc2VsZWN0cm9uaWNvcy5nby5jci9wcm9kL2ludGVybWVkaWF0ZS1wai1wZW0uY3J0MA0GCSqGSIb3DQEBCwUAA4ICAQAvF2Dt6CMI1qj4HcpQaCXEiudQPHsFxF4TcO8myoiq5mqNsYB6md/wwhzyjFfzi6h2P5D/PUoCY+XJeXhatKdAKTL1FN7/5exDxNMYoNXoL4FqgwOO78p1uOJQ7fXtO1ceji6otTyKF9STe75yhg11ZuSe1FhIC40uHkLcItDZ4WIz8jG7/0tNpW6g/F2KUWEh6M1e0T5pLiiU3h/PZsSCadZ+voE6M22aE1t3SRUtO45Txf3/agXp4XlVnf1nEkLH89XcHOw+vLA88CmNoLsjfDTVhQ1n8OT9HwVppNrMxUJPTk29WtneQGqPctvaw/shRQ51WFTRYv2AAaJ7N5U29u2lFOKkxHt7tEpFpYeiQQfL+81MKVCco1dJKjC6GlpfsAmQjkSTMjpctmXJ6j+3suE2cWtn6oyj068Wede7JY/wFv2zZI/HaKiIrmXoMJXTz/I4HLgXdkkAKk7ofYuUGbmnYxKIP4L7idl6i8U0wvrKcUWWPzm87WciAVYhw/g57pQ58pj1bIOopsGdzzXad0hPA1NKpQK7kxmSsiQKt+2afhjB/mYDUxuJ+akIr8//KqIqFtoa+v8ysOOokVbT5Fip0KkACt6CcrreqP+SLITG2nEe9mMwTSXqmCu1YsCAovkd+RITk8LewWYoQ0DZ2TN2GI04AbzXOd4/ipeVAQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-e8949d96-c6fc-4ab2-b5f4-9cd812ae328d"><xades:SignedProperties Id="SignedProperties-Signature-e8949d96-c6fc-4ab2-b5f4-9cd812ae328d"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-26T16:40:40.010Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>jsZaGMnWK+DqK8w4pyU451BCofU=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1657914942021</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://cdn.comprobanteselectronicos.go.cr/xml-schemas/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>emisor</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+   
+</FacturaElectronica>

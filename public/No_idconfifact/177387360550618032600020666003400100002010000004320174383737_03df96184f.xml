@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50618032600020666003400100002010000004320174383737</Clave>
+  <ProveedorSistemas>3101783163</ProveedorSistemas>
+  <CodigoActividadEmisor>4730.0</CodigoActividadEmisor>
+  <CodigoActividadReceptor>4520.0</CodigoActividadReceptor>
+  <NumeroConsecutivo>00100002010000004320</NumeroConsecutivo>
+  <FechaEmision>2026-03-18T16:38:44-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>YERILYN MARÍA SALAZAR LARA</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>206660034</Numero>
+    </Identificacion>
+    <NombreComercial>AUTOSERVICIO CUTRIS</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>11</Distrito>
+      <OtrasSenas>Boca de Arenal frente al Ingenio Cutris</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>24695847</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>facturacioncutris@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>CARLOS VICTOR FUNES JIMENEZ</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>207400826</Numero>
+    </Identificacion>
+    <CorreoElectronico>cfunes2026@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>4391501009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>9130</Codigo>
+      </CodigoComercial>
+      <CodigoComercial>
+        <Tipo>02</Tipo>
+        <Codigo>ZO-141K</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>FILTRO ZO-141K WIZ (LFP6007) B75) </Detalle>
+      <PrecioUnitario>7389.38053</PrecioUnitario>
+      <MontoTotal>7389.38053</MontoTotal>
+      <Descuento>
+        <MontoDescuento>443.36283</MontoDescuento>
+        <CodigoDescuento>07</CodigoDescuento>
+      </Descuento>
+      <SubTotal>6946.01770</SubTotal>
+      <BaseImponible>6946.01769</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13</Tarifa>
+        <Monto>902.9823</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>902.9823</ImpuestoNeto>
+      <MontoTotalLinea>7848.99999</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalMercanciasGravadas>7389.38053</TotalMercanciasGravadas>
+    <TotalGravado>7389.38053</TotalGravado>
+    <TotalVenta>7389.38053</TotalVenta>
+    <TotalDescuentos>443.36283</TotalDescuentos>
+    <TotalVentaNeta>6946.01770</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>902.9823</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>902.9823</TotalImpuesto>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <TotalMedioPago>7849.00000</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>7849.00000</TotalComprobante>
+  </ResumenFactura>
+  <Otros />
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-fc7f6845-29a4-4eef-83a7-e54a5265064a"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-ee1155dc-44ec-4ca2-809f-850aeb46e49b" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>P72uSDHur+KS85SXPenc6RHl/Fne7A9LOiYTAgIa6/4=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-fc7f6845-29a4-4eef-83a7-e54a5265064a"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>wv34WduCnExq0Zme98jsCOaDig3gzME8qQn07NNgxNI=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-fc7f6845-29a4-4eef-83a7-e54a5265064a"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>VGij40s5hclR1TNRD3O/n1Sgzpzx58DyPfQw5lfEiH4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-fc7f6845-29a4-4eef-83a7-e54a5265064a">pBP5iDlUygM+mO5FefT8Ik55kg6NJel952WLvz7XAnPH04RG7JgnaeZ1rZdbR3ddLEsVZasJP9C1bH+5/A6G/wHaO5tawipCQNvadx7BU4hDZpO+NQipp8DsYDv99zyDpXYnfZnYUqjPUG2N6EyfJYEv9g9V7HtDXmPFsE2ZCq90PgXiJjdZ38j8nGHbrI5ss6dE2UeubSkHN+nNRQXbVvY/eBi0RBlVaneHW51Y7zCNYbsasQDzTDwUOKgAafPqIKRECeeK3jDq90HON+4p+ywl/R9+AslKELoyA06mTZHLkVQNzsBAXol/zylsKxOc5Tg1QbWCpYjjkmYO4O+1jg==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-fc7f6845-29a4-4eef-83a7-e54a5265064a"><ds:X509Data><ds:X509Certificate>MIIFRzCCAy+gAwIBAgIGAYHA5eX4MA0GCSqGSIb3DQEBCwUAMFgxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxGjAYBgNVBAMMEUNBIFBFUlNPTkEgRklTSUNBMB4XDTIyMDcwMjIxNTE0MVoXDTI2MDcwMTIxNTE0MVowgaMxGTAXBgNVBAUTEENQRi0wMi0wNjY2LTAwMzQxFTATBgNVBAQMDFNBTEFaQVIgTEFSQTEWMBQGA1UEKgwNWUVSSUxZTiBNQVJJQTELMAkGA1UEBhMCQ1IxFzAVBgNVBAoMDlBFUlNPTkEgRklTSUNBMQwwCgYDVQQLDANDUEYxIzAhBgNVBAMMGllFUklMWU4gTUFSSUEgU0FMQVpBUiBMQVJBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxsjZuhlVVJ9qnUICu+a/i9YyLNUAH6yjuz8Wxvalj4RkPsNalSBPGEyh+VrQMsdfFSp5EZDevLzLxT1aUwHwqI7qR+wL6Pgdi7fpOczU40EacAe1IF+z9HuRj3zyZ3zhkPYaFmASnE+GY3brdesdJDOhDAPuXqQU16WxYIs7NFNf2dv7pQeI9VEfkhOkNBSpabQD4X7x35EtFEfXHJIS0orcMF39fUblPa+aDOlHnVwZXr/EiDeCJSFrHpQzbcaZIpU6YuqslSDhNVZ/I9GgvF+QBBExPsAAK+GnUvXloa8A+7fH3L9QIM/qbIzWTdVjQ9ElYwmZN2YhMHmsrtysWwIDAQABo4HKMIHHMB8GA1UdIwQYMBaAFBP2akEN7aIkRdHIlKhBg3xiJWtZMB0GA1UdDgQWBBSBvHmcgdxjBTjB1fA4tq42SEg1/TALBgNVHQ8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwYwYIKwYBBQUHAQEEVzBVMFMGCCsGAQUFBzAChkdodHRwczovL3BraS5jb21wcm9iYW50ZXNlbGVjdHJvbmljb3MuZ28uY3IvcHJvZC9pbnRlcm1lZGlhdGUtcGYtcGVtLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAeZrcYH4ZBFpcErXNHydeJ14if5+/8CqtNndSoBt/pr9zAYvzPLtg9OYcskAL7QA+Ax43U8f6IIwsU034K0POBlYWbVCmcS9HUPpEQxdhNEBPydZ+MTmHE3sDAaKSmg5GCga63PvNngeL8drfhUnXj9+YvySE8yKiYQcFKSl15hhLkse36gel8w9xaSaE4jadzxpi/4cS9RxG0T6qniS2zb994aaMlP2sXBrwMmkQDHtyXML6xAf3o850mdUFLyhvSM5IaLtXG5q09NAYw7C1SiZhazLrSOITGJ102S/uy0re82fxDdgXBQKNLn4uWs8QFIk6Ra58RCpYlSHPJefU+PlCLrZpyRBSbDRxDxFib8U3n7qQuRUjlqBdaIcMeh73mM/7nUPN1iJ9bT+RDCjsPgIXfI93bJcPaNNb/T0pvGym5OUiBbtr1wd9wu49/fYz6zGyqrlR+O9LMhsqesi76QO4e0opY6liUc2hO7RnYjIP2dca6DQ6b/swa+LLT7FiSzJM7kp+YpIo2MotpQndfNk1YUTpkckovWc5vaZEs4n+nyzsiJk0MBXcsKS5Of+bEXAS2FJ4abCQ4cVKYsJ7O7/yaQyZY9NNHD68lgaapDsmpchj8dq5GlxSIAnoGZZHy0TvxUxpMCKdxlntsZGWf9SOJ14x3DKgvzTCctBd+I0=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>xsjZuhlVVJ9qnUICu+a/i9YyLNUAH6yjuz8Wxvalj4RkPsNalSBPGEyh+VrQMsdfFSp5EZDevLzLxT1aUwHwqI7qR+wL6Pgdi7fpOczU40EacAe1IF+z9HuRj3zyZ3zhkPYaFmASnE+GY3brdesdJDOhDAPuXqQU16WxYIs7NFNf2dv7pQeI9VEfkhOkNBSpabQD4X7x35EtFEfXHJIS0orcMF39fUblPa+aDOlHnVwZXr/EiDeCJSFrHpQzbcaZIpU6YuqslSDhNVZ/I9GgvF+QBBExPsAAK+GnUvXloa8A+7fH3L9QIM/qbIzWTdVjQ9ElYwmZN2YhMHmsrtysWw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-4848bb8d-646c-467c-bf13-01a12f89aa58"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-d3dbe7cc-db62-4d2e-a937-463242111f2a" Target="#Signature-fc7f6845-29a4-4eef-83a7-e54a5265064a"><xades:SignedProperties Id="SignedProperties-Signature-fc7f6845-29a4-4eef-83a7-e54a5265064a"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-18T16:38:47-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>aw0luZUnl5aB+W1VcbtjChDciBEmYDahV2N6NLUXS00=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA FISICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1656798701048</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-ee1155dc-44ec-4ca2-809f-850aeb46e49b"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

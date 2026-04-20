@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50614042600020563058400100001010000038660118699959</Clave>
+  <ProveedorSistemas>3101783163</ProveedorSistemas>
+  <CodigoActividadEmisor>4520.0</CodigoActividadEmisor>
+  <CodigoActividadReceptor>4520.0</CodigoActividadReceptor>
+  <NumeroConsecutivo>00100001010000038660</NumeroConsecutivo>
+  <FechaEmision>2026-04-14T16:07:19-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>Juan Diego Segura Alpízar</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>205630584</Numero>
+    </Identificacion>
+    <NombreComercial>RF DEL NORTE</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>13</Distrito>
+      <OtrasSenas>Santa Rosa Pocosol</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>24778072</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>rectifrenosdelnorte@hotmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>CARLOS VICTOR FUNES JIMENEZ</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>207400826</Numero>
+    </Identificacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>61551664</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>cfunes2026@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>3624000020200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>31410-12301</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>BOMBA PRINC CLUTCH TY COROLLA 4AF EE90 AE92 88-98 BASE ALUMINIO APLICA PARA  2C 5A 3E 7AF 4AG 5/8 </Detalle>
+      <PrecioUnitario>16575.22124</PrecioUnitario>
+      <MontoTotal>16575.22124</MontoTotal>
+      <Descuento>
+        <MontoDescuento>1989.02654</MontoDescuento>
+        <CodigoDescuento>07</CodigoDescuento>
+      </Descuento>
+      <SubTotal>14586.19470</SubTotal>
+      <BaseImponible>14586.19469</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13</Tarifa>
+        <Monto>1896.2053</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1896.2053</ImpuestoNeto>
+      <MontoTotalLinea>16482.4</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalMercanciasGravadas>16575.22124</TotalMercanciasGravadas>
+    <TotalGravado>16575.22124</TotalGravado>
+    <TotalVenta>16575.22124</TotalVenta>
+    <TotalDescuentos>1989.02654</TotalDescuentos>
+    <TotalVentaNeta>14586.19470</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>1896.2053</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>1896.2053</TotalImpuesto>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <TotalMedioPago>16482.40000</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>16482.40000</TotalComprobante>
+  </ResumenFactura>
+  <Otros />
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-c6c15a56-ccf3-43b0-ae77-fed04d090e3a"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-6c88ea44-557f-47a0-8740-0a87069a6813" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>1eQknIB6ZuMp0r5dmYeVbXzjnBuwcMzrHH1lG0ruCuQ=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-c6c15a56-ccf3-43b0-ae77-fed04d090e3a"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>dXDdIVEnPF9pWgqLph92tbl/0Bj74S5Jou3RjUNHg5c=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-c6c15a56-ccf3-43b0-ae77-fed04d090e3a"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>fHlaBG0Xc38zTp2LKTb1ueUdydLTv4tuGcCNC+UBm4k=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-c6c15a56-ccf3-43b0-ae77-fed04d090e3a">MlCIqFz+7uDAooLdHz6s9/xLYdklOQd+vU7XuvYYhTdxvtG1eErOEJZE+DV0MIXCtvUecHVR1zICCkh8Ua7ZkFr+XzCk7P3hGu/4A8gRGHTwYno8hUvCXwSfCj/fHv0Fin2TKtRr+37qhgH/Npxomg6VXjbo+Jhk+nF3/ln/R9AcQN86eXnpfMh3/Fm62cqLABoIFYdLVM/8Fw2vun6HDN6gmHuNgtrryVoHKerotEOU8MoBQtT7Ln21HfB9LALuOIL9M6FMuDiOXqQiul5Yig2youzJ6RtXS5XTPUvVmK4qv2q+OlmP6uK4zLy3qmISHF1ce5zmu7MjMml+giLsRg==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-c6c15a56-ccf3-43b0-ae77-fed04d090e3a"><ds:X509Data><ds:X509Certificate>MIIFRTCCAy2gAwIBAgIGAYMPVxWQMA0GCSqGSIb3DQEBCwUAMFgxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxGjAYBgNVBAMMEUNBIFBFUlNPTkEgRklTSUNBMB4XDTIyMDkwNTIwMjgyOFoXDTI2MDkwNDIwMjgyOFowgaExGTAXBgNVBAUTEENQRi0wMi0wNTYzLTA1ODQxFzAVBgNVBAQMDlNFR1VSQSBBTFBJWkFSMRMwEQYDVQQqDApKVUFOIERJRUdPMQswCQYDVQQGEwJDUjEXMBUGA1UECgwOUEVSU09OQSBGSVNJQ0ExDDAKBgNVBAsMA0NQRjEiMCAGA1UEAwwZSlVBTiBESUVHTyBTRUdVUkEgQUxQSVpBUjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJNNfkPmKIpnCn9fx/kyVY8kLV0ahelxu6Vkyeh3AG5ZfIvACjrpQX005MfBi7+eJ+gyfNwW1r8h3h25ywfMDkydvQBhvRLE8chIQhtkB7EWMTd0pJ7ybTs84dEEy+1+8p3stWV2jhy+YLqoMyKzgNKJW5NBeEPI/uFZoXq3CRAYrUlCes4rFGiR7PDLs3SP3cprgpCrPJJAztUFKm7LDEnBP5CLEBSQ7yMFKajJmavqLBclCrQeSNZMTxQVbnPhYSTnbPDmY9qEmRUmByvxTy6xy7fxdvZfaWhU6ZP4potEbplJ0iF+W7oymexRvheXvehY4vsSPGfPJLH81/keXmsCAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQT9mpBDe2iJEXRyJSoQYN8YiVrWTAdBgNVHQ4EFgQUw8KGOv6LqXgU1Dyxpn2jzJ6yHb4wCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBmLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAEh4wNBvaWhxcwBBpAO6JL/nWKrd/sjCbkVvvX4TzVel6G7kPvweH/ZF6Q9mebQH/y8DELYHXp8R9D2Q+OR5XewPJ0XIJTWVfHaMrQ+qfiX9PsSvGQxOQBSBivZFGQtUO+HkdpLDwtgW7URa5TSjh+KL/SiA8CgaMG9RqLRtdtA5hVGw7UbFobkv3AGdMlC6qnyNCLXJuShKUXUlwzNPOnvOTAMnQHHsjmTTHKQGiVCeUh05OG0X2Ul44rg2O3NcGB8jXJ0xbiS/ZxlfGC2S2p9r/W0QAYzP1gj1D2TcYjezQuy+uwjwq7iy1nXnk7mQM4KN45kEEdaO0Kqgq6VWR0b9cp/DHPcxlIaEfhTW09X2f2wUHkXDiYBEOvTJXjmxvF9LM+Hkaa7J7BH3mOQgJnGCyk/FOHtHnEVKCXI/yAzSKHr1A3Kq8svczz17iPfhH8w8pSGfyHbL2lGyQsIe2BVoAOiGX96KlcsOhw36PnG1IEBjv/i/toQGZOCmr0Ao8hoP9I5a8MfEUrZ6bUuLfpPn8xnhTdSUjZeBabMleRHKVOXJkUCYHO8pXpS4/hUF+FsYjt+sPAkmOo89XqBB7nxGLgbY+90D/DBJIR70vox1C4QIG9m0FfZakq8UWieyFB3O5hmaZRtpBFhUGRTSi1YaKTQLQpvATmFLl1XBnCDq</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>k01+Q+YoimcKf1/H+TJVjyQtXRqF6XG7pWTJ6HcAbll8i8AKOulBfTTkx8GLv54n6DJ83BbWvyHeHbnLB8wOTJ29AGG9EsTxyEhCG2QHsRYxN3SknvJtOzzh0QTL7X7yney1ZXaOHL5guqgzIrOA0olbk0F4Q8j+4VmhercJEBitSUJ6zisUaJHs8MuzdI/dymuCkKs8kkDO1QUqbssMScE/kIsQFJDvIwUpqMmZq+osFyUKtB5I1kxPFBVuc+FhJOds8OZj2oSZFSYHK/FPLrHLt/F29l9paFTpk/imi0RumUnSIX5bujKZ7FG+F5e96Fji+xI8Z88ksfzX+R5eaw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-9bd1d8f0-d276-4ad6-bacf-84116e8b8019"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-f6e62093-2e73-40f8-9394-f69995d0bf8e" Target="#Signature-c6c15a56-ccf3-43b0-ae77-fed04d090e3a"><xades:SignedProperties Id="SignedProperties-Signature-c6c15a56-ccf3-43b0-ae77-fed04d090e3a"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-14T16:07:20-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>LIRPbePb6V4xRvgQIv+dL6852xdHFzjndz3uuOxkQtE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA FISICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1662409708944</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-6c88ea44-557f-47a0-8740-0a87069a6813"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

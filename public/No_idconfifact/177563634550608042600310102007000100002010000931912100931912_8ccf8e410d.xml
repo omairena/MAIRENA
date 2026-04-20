@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?><FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica_V.4.4.xsd">
+  <Clave>50608042600310102007000100002010000931912100931912</Clave>
+  <ProveedorSistemas>3101595167</ProveedorSistemas>
+  <CodigoActividadEmisor>4630.9</CodigoActividadEmisor>
+  <CodigoActividadReceptor>4630.9</CodigoActividadReceptor>
+  <NumeroConsecutivo>00100002010000931912</NumeroConsecutivo>
+  <FechaEmision>2026-04-08T02:12:00</FechaEmision>
+  <Emisor>
+    <Nombre>Distribuidora y Logística DISAL, S.A.</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101020070</Numero>
+    </Identificacion>
+    <Ubicacion>
+      <Provincia>1</Provincia>
+      <Canton>09</Canton>
+      <Distrito>03</Distrito>
+      <OtrasSenas>DETRAS DE RADIAL BELEN POZOS DE SANTA ANA</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>25083030</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>serviciosfinancieros@disal.cr</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>ROYAL SOFT COMPANY SA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101097341</Numero>
+    </Identificacion>
+    <NombreComercial>SUPERMERCADO EL GALLO</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>13</Distrito>
+      <OtrasSenas>50 metros este sobre el puente del rio Kooper, Bar El Botecito</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>87261086</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>facturaselgallokooper@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>3532306010200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>4797</Codigo>
+      </CodigoComercial>
+      <Cantidad>2.000</Cantidad>
+      <UnidadMedida>Otros</UnidadMedida>
+      <UnidadMedidaComercial>C12</UnidadMedidaComercial>
+      <Detalle>DESODORANTE AEROSOL INVISIBLE BLACK  WHITE MUJER NIVEA 100ML</Detalle>
+      <PrecioUnitario>1251.10000</PrecioUnitario>
+      <MontoTotal>2502.20000</MontoTotal>
+      <SubTotal>2502.20000</SubTotal>
+      <BaseImponible>2502.20000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>325.29000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>325.29000</ImpuestoNeto>
+      <MontoTotalLinea>2827.49000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>2</NumeroLinea>
+      <CodigoCABYS>3532306020200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>4622</Codigo>
+      </CodigoComercial>
+      <Cantidad>2.000</Cantidad>
+      <UnidadMedida>Otros</UnidadMedida>
+      <UnidadMedidaComercial>C12</UnidadMedidaComercial>
+      <Detalle>DESODORANTE SPRAY ANTITRANSPIRANTE CLASSIC TOUCH TONO NATURAL MUJER NIVEA 150ML</Detalle>
+      <PrecioUnitario>2384.99500</PrecioUnitario>
+      <MontoTotal>4769.99000</MontoTotal>
+      <Descuento>
+        <MontoDescuento>476.90000</MontoDescuento>
+        <CodigoDescuento>07</CodigoDescuento>
+        <NaturalezaDescuento>Descuento Comercial</NaturalezaDescuento>
+      </Descuento>
+      <SubTotal>4293.09000</SubTotal>
+      <BaseImponible>4293.09000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>558.10000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>558.10000</ImpuestoNeto>
+      <MontoTotalLinea>4851.19000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>3</NumeroLinea>
+      <CodigoCABYS>3532306020100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>4841</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Otros</UnidadMedida>
+      <UnidadMedidaComercial>C15</UnidadMedidaComercial>
+      <Detalle>DESODORANTE BARRA DERMA CONTROL DEFEND EXTRA COMFORT MUJER NIVEA 50GR</Detalle>
+      <PrecioUnitario>2315.93000</PrecioUnitario>
+      <MontoTotal>2315.93000</MontoTotal>
+      <SubTotal>2315.93000</SubTotal>
+      <BaseImponible>2315.93000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>301.07000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>301.07000</ImpuestoNeto>
+      <MontoTotalLinea>2617.00000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>4</NumeroLinea>
+      <CodigoCABYS>3532306020100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>4846</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Otros</UnidadMedida>
+      <UnidadMedidaComercial>C15</UnidadMedidaComercial>
+      <Detalle>DESODORANTE BARRA DERMA CONTROL TONO NATURAL MUJER NIVEA 50GR</Detalle>
+      <PrecioUnitario>2315.93000</PrecioUnitario>
+      <MontoTotal>2315.93000</MontoTotal>
+      <SubTotal>2315.93000</SubTotal>
+      <BaseImponible>2315.93000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>301.07000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>301.07000</ImpuestoNeto>
+      <MontoTotalLinea>2617.00000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>5</NumeroLinea>
+      <CodigoCABYS>3532301000100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>4642</Codigo>
+      </CodigoComercial>
+      <Cantidad>0.050</Cantidad>
+      <UnidadMedida>Otros</UnidadMedida>
+      <UnidadMedidaComercial>C20</UnidadMedidaComercial>
+      <Detalle>PROTECTOR DE LABIOS FRESA LABELLO 4.8GR</Detalle>
+      <PrecioUnitario>40901.40000</PrecioUnitario>
+      <MontoTotal>2045.07000</MontoTotal>
+      <SubTotal>2045.07000</SubTotal>
+      <BaseImponible>2045.07000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>265.86000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>265.86000</ImpuestoNeto>
+      <MontoTotalLinea>2310.93000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>6</NumeroLinea>
+      <CodigoCABYS>3532301000100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>4765</Codigo>
+      </CodigoComercial>
+      <Cantidad>0.050</Cantidad>
+      <UnidadMedida>Otros</UnidadMedida>
+      <UnidadMedidaComercial>C20</UnidadMedidaComercial>
+      <Detalle>PROTECTOR DE LABIOS CEREZA LABELLO 4.8GR</Detalle>
+      <PrecioUnitario>40789.80000</PrecioUnitario>
+      <MontoTotal>2039.49000</MontoTotal>
+      <SubTotal>2039.49000</SubTotal>
+      <BaseImponible>2039.49000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>265.13000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>265.13000</ImpuestoNeto>
+      <MontoTotalLinea>2304.62000</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0.00000</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServExonerado>0.00000</TotalServExonerado>
+    <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+    <TotalMercanciasGravadas>15988.61000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00000</TotalMercExonerada>
+    <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+    <TotalGravado>15988.61000</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalExonerado>0.00000</TotalExonerado>
+    <TotalNoSujeto>0.00000</TotalNoSujeto>
+    <TotalVenta>15988.61000</TotalVenta>
+    <TotalDescuentos>476.90000</TotalDescuentos>
+    <TotalVentaNeta>15511.71000</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>2016.52000</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>2016.52000</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0.00000</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+    <TotalOtrosCargos>0.00000</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <MedioPagoOtros>Efectivo</MedioPagoOtros>
+      <TotalMedioPago>17528.23000</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>17528.23000</TotalComprobante>
+  </ResumenFactura>
+  
+<Personalizados>
+    <campoString name="Version">4.4</campoString>
+    <campoString name="IntegracionGS">xDoc Global</campoString>
+    <campoString name="ProvinciaEmisor">SAN JOSÉ</campoString>
+    <campoString name="CantonEmisor">SANTA ANA</campoString>
+    <campoString name="DistritoEmisor">POZOS</campoString>
+    <campoString name="ProvinciaReceptor">ALAJUELA</campoString>
+    <campoString name="CantonReceptor">SAN CARLOS</campoString>
+    <campoString name="DistritoReceptor">POCOSOL</campoString>
+    <campoString name="EmitedFrom">xDocGlobal</campoString>
+    <campoString name="MontoEnLetras">DIECISIETE  MIL QUINIENTOS VEINTIOCHO  CON VEINTITRES CENTESIMAS</campoString>
+    <campoString name="SistemaEmisor">EXA</campoString>
+    <campoString name="ImpresionFisica">0</campoString>
+    <campoString name="DistribucionElectronica">1</campoString>
+    <campoString name="NumeroAutorizacion">1233214566540</campoString>
+    <campoString name="FechaAutorizacion">2018-01-01T13:00:00</campoString>
+    <campoString name="CodigoCliente">36658</campoString>
+    <campoString name="Alias">SUPERMERCADO EL GALLO</campoString>
+    <campoString name="FechaEntrega">2026-04-08</campoString>
+    <campoString name="OrdenCompra">PEDFV1010000638</campoString>
+    <campoString name="FechaOrdenCompra">2026-04-06T00:00:00</campoString>
+    <campoString name="DireccionEmbarcarA">SUPERMERCADO EL GALLO</campoString>
+    <campoString name="DireccionCobro">50 metros este sobre el puente del rio Kooper, Bar El Botecito</campoString>
+    <campoString name="DireccionEmbarque">ND</campoString>
+    <campoString name="TotalPesoNeto">0.46</campoString>
+    <campoString name="TotalPesoBruto">0.61</campoString>
+    <campoString name="TotalUnidades">0.57</campoString>
+    <campoString name="NombreMoneda">COLONES</campoString>
+    <campoString name="Contacto">ERICK SAUL ACUNA RODRIGUEZ</campoString>
+    <campoString name="Ruta">RN15</campoString>
+    <campoString name="Vendedor">PROMOTOR BDF ZONA NORTE ANDERSON RODRIGU</campoString>
+    <campoString name="Sucursal">001</campoString>
+    <campoString name="WMNumeroOrden">PEDFV10100</campoString>
+    <campoString name="WMFechaOrden">2026-04-06</campoString>
+    <campoString name="CorreosReceptor">facturaselgallokooper@gmail.com</campoString>
+    <campoString name="NumeroOrden">PEDFV1010000638</campoString>
+    <campoString name="FechaOrden">2026-04-06</campoString>
+    <campoString name="NumeroInterno">00100002010000931912</campoString>
+    <campoString name="SERIE" />
+    <campoString name="FOLIO">0010000201</campoString>
+    <CustDetalle>
+      <CustDetNroLin>1</CustDetNroLin>
+      <CustDetAFN_01>0</CustDetAFN_01>
+      <CustDetAFN_02>2</CustDetAFN_02>
+      <CustDetAFN_03>2,502.20</CustDetAFN_03>
+      <CustDetAFN_05>0.00</CustDetAFN_05>
+    </CustDetalle>
+    <CustDetalle>
+      <CustDetNroLin>2</CustDetNroLin>
+      <CustDetAFN_01>0</CustDetAFN_01>
+      <CustDetAFN_02>2</CustDetAFN_02>
+      <CustDetAFN_03>4,293.09</CustDetAFN_03>
+      <CustDetAFN_05>10.00                                         476.90</CustDetAFN_05>
+    </CustDetalle>
+    <CustDetalle>
+      <CustDetNroLin>3</CustDetNroLin>
+      <CustDetAFN_01>0</CustDetAFN_01>
+      <CustDetAFN_02>1</CustDetAFN_02>
+      <CustDetAFN_03>2,315.93</CustDetAFN_03>
+      <CustDetAFN_05>0.00</CustDetAFN_05>
+    </CustDetalle>
+    <CustDetalle>
+      <CustDetNroLin>4</CustDetNroLin>
+      <CustDetAFN_01>0</CustDetAFN_01>
+      <CustDetAFN_02>1</CustDetAFN_02>
+      <CustDetAFN_03>2,315.93</CustDetAFN_03>
+      <CustDetAFN_05>0.00</CustDetAFN_05>
+    </CustDetalle>
+    <CustDetalle>
+      <CustDetNroLin>5</CustDetNroLin>
+      <CustDetAFN_01>0</CustDetAFN_01>
+      <CustDetAFN_02>1</CustDetAFN_02>
+      <CustDetAFN_03>2,045.07</CustDetAFN_03>
+      <CustDetAFN_05>0.00</CustDetAFN_05>
+    </CustDetalle>
+    <CustDetalle>
+      <CustDetNroLin>6</CustDetNroLin>
+      <CustDetAFN_01>0</CustDetAFN_01>
+      <CustDetAFN_02>1</CustDetAFN_02>
+      <CustDetAFN_03>2,039.49</CustDetAFN_03>
+      <CustDetAFN_05>0.00</CustDetAFN_05>
+    </CustDetalle>
+  </Personalizados><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-540815bf-dacf-47c7-9567-9d65a30ce808"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-2c7f54e3-f640-4d5b-b6c4-b3b6236403ce" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>HY0VE025zPqdeH4/+mf3HAvyzhLGGQoAYNLjGJXNMZE=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-540815bf-dacf-47c7-9567-9d65a30ce808"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>2UWJJwlI9m/VzZ2OHSD9szeL4QYnC/6az7WxHAsoSmA=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-540815bf-dacf-47c7-9567-9d65a30ce808"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>rrUixQ8MmfpxWzCghYbdj/ugWBZrqqjpUWKt21Xh9u0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-540815bf-dacf-47c7-9567-9d65a30ce808">E2veeLcaR27HW/FzgQ7YqqFHIFHgd6Y1UwH+fqas0336QUUy6vhwv+8VD/RoSEbxmxx2N+I4TS7E3o9hET7f+yPcOQPujou0gvuteCuqFkiiRzDgeKX4WghqrdhfMdmEjkauJfVhnguYCk+8gZ3iv6EmPNY6a57k7CgL87rymLtYKsMAuhzM9SQ42Qr4RBfqp/A728fUrUDUtWp2hfBgwh0dSG+5zO86le/2Vg8s0gzanm8R5VfQ5G16JrYWcM48nTZJAFEAgUhyNEgAb/DCXpp0ohgvSKetC16AxhtNUT/UWNL1i7Poircz866T95kE89EZ2frKEZ/9rNRSJdg6Rg==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-540815bf-dacf-47c7-9567-9d65a30ce808"><ds:X509Data><ds:X509Certificate>MIIFMjCCAxqgAwIBAgIGAYGQ7CfOMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjIwNjIzMTQxNjQ0WhcNMjYwNjIyMTQxNjQ0WjCBjDEZMBcGA1UEBRMQQ1BKLTMtMTAxLTAyMDA3MDELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE5MDcGA1UEAwwwRElTVFJJQlVJRE9SQSBZIExPR0lTVElDQSBESVNBTCBTT0NJRURBRCBBTk9OSU1BMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmefVOWLPOCwAuiqstrYmxCR5SxadESZhqeV0JSJjp2MnXcrYnUy8r3U2AbayosyBEU8cm1IXUQYKgG0Wx+arSdI233w5/0A81+AbgriczNOgrYFUsTGtOPARtgTHYDxhyx+ry0x7qjfby4qryhMyMQkXRfrLH1mb86cCDAu1baBUljk9HCfvThsOZxzd8f64HtmEniTr60sMDT9u0OGiwiyEIEmedbht0UUSWxt1XcaxytSHa4bp04Xuo8FDcUpp/bD2kQEEJ+LGQD9uraq5qTz6xwp3zMqGon0iKjb3GiPeSg8PQr8xPUNAVNMvmucryydq/PRzprR5l7Y9PGi+rQIDAQABo4HKMIHHMB8GA1UdIwQYMBaAFDttV/XWfOmeEAIgQeO9GszPs06VMB0GA1UdDgQWBBTtuIU1WfbRwBQoyuEpkPDQ1QkobDALBgNVHQ8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwYwYIKwYBBQUHAQEEVzBVMFMGCCsGAQUFBzAChkdodHRwczovL3BraS5jb21wcm9iYW50ZXNlbGVjdHJvbmljb3MuZ28uY3IvcHJvZC9pbnRlcm1lZGlhdGUtcGotcGVtLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAT8HH/2ttAc5GOGDR+7QYO2gdxS6wkz2AnGpOKxwU5xCfKxKqubvjObcB9VlBkOEDVTxnQqce43NDQl563ew1cX3zfMtMupIKlM22zUgejygG/qGcIth/wKp11Fcmm61/EyywlGAeBWLad8aECJ2l+UhzkbX8PQBpQdzoSYAOM+8Frx7OJ5CFl1ylJ5aW3f0/XGL35q1wHNdBP/B4OWfobdAj9Z2Nhs822miTEdZYaqe/KQHlojVX/CLiBb6Aaivtb7fo87Mo17w8quYpkdf81eR/p4biUa8LlRL1acBGpY2LRnSwsDtRUfOPC8rUhMCswUxO1UFFKnNO/0kwEJjzjgHTetV7HHXBF+juK89quCEuCfyZWWLuY30WE7WKV8uGrpHwZvPuPpRLBUDdMbdma2PWz8qAuoMgh537wmNCLHQxvIjUoBPpnoikYfKPmdJX6d+3lSCs/uAJH3P7vY6XZyU0zcQIFt0OgaJrfuBYNl+aCDQtOHcMN52kXQdqzYorDUi3vWo0UrceNh9MimGnHe6xy4CnwMZhx3TXtEnxRy0PHMeZwxW4OjTxbfyKVKS0grsxdF84J1clx/p6gOxMr2KaLwUA+3eaJ2TV57xsHgOAffwp93O40Djb4hVekL1G46h6fW/WBkYRxdLjhfzxzAYEU7qyz8HoIFkAhjKTJio=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>mefVOWLPOCwAuiqstrYmxCR5SxadESZhqeV0JSJjp2MnXcrYnUy8r3U2AbayosyBEU8cm1IXUQYKgG0Wx+arSdI233w5/0A81+AbgriczNOgrYFUsTGtOPARtgTHYDxhyx+ry0x7qjfby4qryhMyMQkXRfrLH1mb86cCDAu1baBUljk9HCfvThsOZxzd8f64HtmEniTr60sMDT9u0OGiwiyEIEmedbht0UUSWxt1XcaxytSHa4bp04Xuo8FDcUpp/bD2kQEEJ+LGQD9uraq5qTz6xwp3zMqGon0iKjb3GiPeSg8PQr8xPUNAVNMvmucryydq/PRzprR5l7Y9PGi+rQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-9d5dd802-3aaa-45a6-9e1d-c99213f28469"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-c6d03ac5-cd93-4c9f-ae21-ed06efe82206" Target="#Signature-540815bf-dacf-47c7-9567-9d65a30ce808"><xades:SignedProperties Id="SignedProperties-Signature-540815bf-dacf-47c7-9567-9d65a30ce808"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-08T02:17:06-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>m2e2nKeM2NiZdrGDQkK/aqYWHSusncTR1dKYWBcV+0I=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1655993804750</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://atv.hacienda.go.cr/ATV/ComprobanteElectronico/docs/esquemas/2024/v4.4/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>emisor</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-2c7f54e3-f640-4d5b-b6c4-b3b6236403ce"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

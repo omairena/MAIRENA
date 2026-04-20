@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FacturaElectronica xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <Clave>50620032600310163362800100001010000210002146308076</Clave>
+  <ProveedorSistemas>3101912274</ProveedorSistemas>
+  <CodigoActividadEmisor>4730.0</CodigoActividadEmisor>
+  <CodigoActividadReceptor>2511.0</CodigoActividadReceptor>
+  <NumeroConsecutivo>00100001010000210002</NumeroConsecutivo>
+  <FechaEmision>2026-03-20T08:59:00-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>Gasolinera Santa Clara S.A. </Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101633628</Numero>
+    </Identificacion>
+    <NombreComercial>Gasolinera GSC Florencia</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>02</Distrito>
+      <OtrasSenas>Florencia. Frente Plaza de Deportes</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>24755152</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>gasolineragscflorencia@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>BRYAN RODOLFO VILLALOBOS RODRIGUEZ</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>206160722</Numero>
+    </Identificacion>
+    <NombreComercial>BRYAN RODOLFO VILLALOBOS RODRIGUEZ</NombreComercial>
+    <Ubicacion>
+      <Provincia>1</Provincia>
+      <Canton>01</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>_____</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>87121151</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>recepcionsanesteban@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>3331100029900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>2</Codigo>
+      </CodigoComercial>
+      <Cantidad>13.445</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <Detalle>Plus 91 - 969645</Detalle>
+      <PrecioUnitario>607.00</PrecioUnitario>
+      <MontoTotal>8161.00</MontoTotal>
+      <SubTotal>8161.00</SubTotal>
+      <BaseImponible>8161.00</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>01</CodigoTarifaIVA>
+        <Tarifa>0.00</Tarifa>
+        <Monto>0.00</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>0.00</ImpuestoNeto>
+      <MontoTotalLinea>8161.00</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0.00</TotalServGravados>
+    <TotalServExentos>0.00</TotalServExentos>
+    <TotalServExonerado>0.00</TotalServExonerado>
+    <TotalServNoSujeto>0.00</TotalServNoSujeto>
+    <TotalMercanciasGravadas>0.00</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00</TotalMercExonerada>
+    <TotalMercNoSujeta>8161.00</TotalMercNoSujeta>
+    <TotalGravado>0.00</TotalGravado>
+    <TotalExento>0.00</TotalExento>
+    <TotalExonerado>0.00</TotalExonerado>
+    <TotalNoSujeto>8161.00</TotalNoSujeto>
+    <TotalVenta>8161.00</TotalVenta>
+    <TotalDescuentos>0.00</TotalDescuentos>
+    <TotalVentaNeta>8161.00</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>01</CodigoTarifaIVA>
+      <TotalMontoImpuesto>0.00</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>0.00</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0.00</TotalImpAsumEmisorFabrica>
+    <MedioPago>
+      <TipoMedioPago>02</TipoMedioPago>
+      <TotalMedioPago>8161.00</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>8161.00</TotalComprobante>
+  </ResumenFactura>
+  <InformacionReferencia>
+    <TipoDocIR>08</TipoDocIR>
+    <Numero>_</Numero>
+    <FechaEmisionIR>2026-03-20T14:59:54-06:00</FechaEmisionIR>
+    <Codigo>05</Codigo>
+    <Razon>Número Pedido Compra</Razon>
+  </InformacionReferencia>
+  <Otros>
+    <OtroTexto>Actividad Economica: 2511.0
+
+
+
+ID Despacho: 969645
+Fecha Despacho: 20/3/2026 08:57:35 a. m.
+Cliente: BRYAN RODOLFO VILLALOBOS RODRIGUEZ
+No.Autorización: 
+Placa: 206160722
+Kilometraje:0
+Horímetro 0:
+
+Comentario:
+
+
+</OtroTexto>
+  </Otros>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-3a56209b-0d94-4d21-a0fa-b900563a328a"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-e1939c31-68ee-47e6-bd7f-8de5d5a69dbc" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>QnmeKnokw8UKfbpjjfOMRYfgYShO90Vv7SURl8prWiE=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-3a56209b-0d94-4d21-a0fa-b900563a328a"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>GnEfgFKBMFqiwkSB4Rf9pllzvR4AylxXoCwssrJ7HoI=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-3a56209b-0d94-4d21-a0fa-b900563a328a"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>TgmDAbQz9314fe4bZd+ma4PKj8let05vETu35Rcjd+0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-3a56209b-0d94-4d21-a0fa-b900563a328a">ksz/An4EIpQ43E/Q5+nGPX9siCofoMBrzfcscNwNfbU0dnVb3HLHZe3rdUyFo49xU0DxQ5J5m6N6lC9avb77Pl2bklua138hiib+MxWdJYdlplIIDliV+mfARfDuRQiur0SOC09vc6R/GcdHy2N6owQYcFPFdOJch7MA8eg/vErPfsx9oBb2Fr0cuRUOruL0EPlgHAO6dyBQr4ytdlKnPxwJeLg6k7rBCSri1ooK50tDZRNIH3zHjx6RQmmhcjTBI7rlqvtcPIhtAKdmGOitemU3aLo2eA4TymfeGiK9uZIBNj4SkGW5tGQdhfB4eTUG+zMfKeloEK4kViGlMS2kYw==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-3a56209b-0d94-4d21-a0fa-b900563a328a"><ds:X509Data><ds:X509Certificate>MIIFKTCCAxGgAwIBAgIGAYlu3k0KMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjMwNzE5MTU1NjQ5WhcNMjcwNzE4MTU1NjQ5WjCBgzEZMBcGA1UEBRMQQ1BKLTMtMTAxLTYzMzYyODELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjEwMC4GA1UEAwwnR0FTT0xJTkVSQSBTQU5UQSBDTEFSQSBTT0NJRURBRCBBTk9OSU1BMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsnPoQyOH0DEDTZXxyIzKGNUHZFmN1szeWt3D6OAvRqy+twT8bV/nf8m2GDhdwiwD88BIiDw0MTWRp+gBrAMQCBrHGClO6600g2jCQ/7wLVVCR83fV9FeSVesRbjWwgcREt6KhSLXT/ja2sccaw1cFJyoY+e/rZuol3fQ8QFXrH2N7b7kAV9OwR6pCvmPXPn/6tBW4LxrikOjhjY0Cb1pnItBaI26ZWHoDHBE0A9oRjc2rqmiCQnJ2tMTHJKb0hpvhPmZ523jfWhaKVdSMj6x+5TSpws7QgiSB3RQfQt1kKv09NBOZT4zCJF4W0i/igR7LtKyHg82lhEJE+fUpGkbtQIDAQABo4HKMIHHMB8GA1UdIwQYMBaAFDttV/XWfOmeEAIgQeO9GszPs06VMB0GA1UdDgQWBBRw9K3fdrspvlPmfuyAKyjWW+tmdzALBgNVHQ8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwYwYIKwYBBQUHAQEEVzBVMFMGCCsGAQUFBzAChkdodHRwczovL3BraS5jb21wcm9iYW50ZXNlbGVjdHJvbmljb3MuZ28uY3IvcHJvZC9pbnRlcm1lZGlhdGUtcGotcGVtLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAeDgmVqIkyScJ+3+QJgQ5LiE58yf1lTXCROOJsdi33DRWCgK6z/B3rAEwiDHGDI9to00q15rC1pQPEobp6P+hxOi/fdZaWplXCMIkXrSyAUtWd08WR7PBuNsQW8kUYifc9PntcwMAryftgU7d1ipCN3g5622MTgJK/Wma41a7Ei3HNgHQxQ0LjsOYwv9m4vsf7RiUDV7LzdrSJrNDLdz3mUTR6W3xjCcOWHMKMWY/MA/Arhf7piQq/X+JWNSV6Y3rq4FASNmfTaWDSkuv4v8MRVnpz4AEIs+aDk1lDoKR0ADATAKL4IJZxz+vLJLTxHbQPjIt4TSgq86hZkbU1gUCLoqgt3dwcPwp3Z4wUcJxFVGUZ4jiZWvUrGbVxSfVk67+afY39eU1ONIwfdscOwzshKrXSlxCpgcp4wKHsBVZsRE1o7T9shLQ3WMswT1M3gHY1TBBA46R4G1nl2TTwogL3Rp/HfTdZmxAhrrdAMvRvu93JgbzO4DICWtbzaTtVVYXhXe7o8qhGuL8efX0g5n1ht+Po5ZGajlnh3hybFjIYOoDKfydQnXsG8sMpFIcesbCeRqRNnbgFkzp5oUP8QjiNbR6tyoB51XZ7Bwk2cytE7nhwxIPIun0O/tqkbdLhAmTqBGHh1ur6dWAez6c/GvWrQU7F2G0wwG7J5vnSFP0l4A=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>snPoQyOH0DEDTZXxyIzKGNUHZFmN1szeWt3D6OAvRqy+twT8bV/nf8m2GDhdwiwD88BIiDw0MTWRp+gBrAMQCBrHGClO6600g2jCQ/7wLVVCR83fV9FeSVesRbjWwgcREt6KhSLXT/ja2sccaw1cFJyoY+e/rZuol3fQ8QFXrH2N7b7kAV9OwR6pCvmPXPn/6tBW4LxrikOjhjY0Cb1pnItBaI26ZWHoDHBE0A9oRjc2rqmiCQnJ2tMTHJKb0hpvhPmZ523jfWhaKVdSMj6x+5TSpws7QgiSB3RQfQt1kKv09NBOZT4zCJF4W0i/igR7LtKyHg82lhEJE+fUpGkbtQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-3aaddfec-d298-442a-a9a8-8318a63b502f"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-af8f436e-f999-4d51-a867-3a3317cb3694" Target="#Signature-3a56209b-0d94-4d21-a0fa-b900563a328a"><xades:SignedProperties Id="SignedProperties-Signature-3a56209b-0d94-4d21-a0fa-b900563a328a"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-20T14:59:53+00:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>PDxrWbDELK528VSIaBR4ft3GUkXGBPw90M63GTTmJ3w=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1689782209802</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>Obligado Tributario</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-e1939c31-68ee-47e6-bd7f-8de5d5a69dbc"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

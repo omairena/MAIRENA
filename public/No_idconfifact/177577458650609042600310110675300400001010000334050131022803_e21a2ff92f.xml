@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica_V.4.4.xsd">
+   <Clave>50609042600310110675300400001010000334050131022803</Clave>
+   <ProveedorSistemas>3101595167</ProveedorSistemas>
+   <CodigoActividadEmisor>4649.2</CodigoActividadEmisor>
+   <NumeroConsecutivo>00400001010000334050</NumeroConsecutivo>
+   <FechaEmision>2026-04-09T16:38:39</FechaEmision>
+   <Emisor>
+      <Nombre>Corp.Agropecuaria Corpeco S.A.</Nombre>
+      <Identificacion>
+         <Tipo>02</Tipo>
+         <Numero>3101106753</Numero>
+      </Identificacion>
+      <NombreComercial>Corp.Agropecuaria Corpeco S.A.</NombreComercial>
+      <Ubicacion>
+         <Provincia>1</Provincia>
+         <Canton>01</Canton>
+         <Distrito>01</Distrito>
+         <Barrio>Barrio: 01</Barrio>
+         <OtrasSenas>Alajuelita, San Felipe, de Dekra 200    metros este, Parque Industrial LATAM, laVerbena, Bodega 500</OtrasSenas>
+      </Ubicacion>
+      <Telefono>
+         <CodigoPais>506</CodigoPais>
+         <NumTelefono>24321826</NumTelefono>
+      </Telefono>
+      <CorreoElectronico>emisionfe@corpeco.com</CorreoElectronico>
+   </Emisor>
+   <Receptor>
+      <Nombre>RAMON RODRIGUEZ MORA</Nombre>
+      <Identificacion>
+         <Tipo>01</Tipo>
+         <Numero>104061190</Numero>
+      </Identificacion>
+      <NombreComercial>RAMON RODRIGUEZ MORA</NombreComercial>
+      <Ubicacion>
+         <Provincia>1</Provincia>
+         <Canton>01</Canton>
+         <Distrito>01</Distrito>
+         <Barrio>Barrio: 01</Barrio>
+         <OtrasSenas>SAN JOSE,SANTIAGO PURISCAL,50 MTS    NOROESTE DE LA DELEGACION POLICIAL</OtrasSenas>
+      </Ubicacion>
+      <CorreoElectronico>talcaballoblanco@gmail.com;sistemas@gficr.com</CorreoElectronico>
+   </Receptor>
+   <CondicionVenta>01</CondicionVenta>
+   <PlazoCredito>0</PlazoCredito>
+   <DetalleServicio>
+      <LineaDetalle>
+         <NumeroLinea>1</NumeroLinea>
+         <CodigoCABYS>2331100000100</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>01</Tipo>
+            <Codigo>1380410</Codigo>
+         </CodigoComercial>
+         <Cantidad>2.00</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <Detalle>DOG CHOW COMPLETE ADTO 22.7 KG</Detalle>
+         <PrecioUnitario>31198.49</PrecioUnitario>
+         <MontoTotal>62396.98</MontoTotal>
+         <Descuento>
+            <MontoDescuento>0.00</MontoDescuento>
+            <CodigoDescuento>99</CodigoDescuento>
+            <CodigoDescuentoOTRO>Descuento generico</CodigoDescuentoOTRO>
+            <NaturalezaDescuento>Sin descuento articulo (%)</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>62396.98</SubTotal>
+         <BaseImponible>62396.98</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13.00</Tarifa>
+            <Monto>8111.6074</Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>8111.6074</ImpuestoNeto>
+         <MontoTotalLinea>70508.5874</MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>2</NumeroLinea>
+         <CodigoCABYS>2331100000100</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>01</Tipo>
+            <Codigo>1380275</Codigo>
+         </CodigoComercial>
+         <Cantidad>1.00</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <Detalle>CAT CHOW PESCADO+MRC 20 KG</Detalle>
+         <PrecioUnitario>37026.00</PrecioUnitario>
+         <MontoTotal>37026.00</MontoTotal>
+         <Descuento>
+            <MontoDescuento>0.00</MontoDescuento>
+            <CodigoDescuento>99</CodigoDescuento>
+            <CodigoDescuentoOTRO>Descuento generico</CodigoDescuentoOTRO>
+            <NaturalezaDescuento>Sin descuento articulo (%)</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>37026.00</SubTotal>
+         <BaseImponible>37026.00</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13.00</Tarifa>
+            <Monto>4813.38</Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>4813.38</ImpuestoNeto>
+         <MontoTotalLinea>41839.38</MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>3</NumeroLinea>
+         <CodigoCABYS>2331100000100</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>01</Tipo>
+            <Codigo>1380505</Codigo>
+         </CodigoComercial>
+         <Cantidad>1.00</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <Detalle>DOG CHOW CACHORRO RAZA PEQ 20K</Detalle>
+         <PrecioUnitario>34342.28</PrecioUnitario>
+         <MontoTotal>34342.28</MontoTotal>
+         <Descuento>
+            <MontoDescuento>0.00</MontoDescuento>
+            <CodigoDescuento>99</CodigoDescuento>
+            <CodigoDescuentoOTRO>Descuento generico</CodigoDescuentoOTRO>
+            <NaturalezaDescuento>Sin descuento articulo (%)</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>34342.28</SubTotal>
+         <BaseImponible>34342.28</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13.00</Tarifa>
+            <Monto>4464.4964</Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>4464.4964</ImpuestoNeto>
+         <MontoTotalLinea>38806.7764</MontoTotalLinea>
+      </LineaDetalle>
+   </DetalleServicio>
+   <ResumenFactura>
+      <CodigoTipoMoneda>
+         <CodigoMoneda>CRC</CodigoMoneda>
+         <TipoCambio>1</TipoCambio>
+      </CodigoTipoMoneda>
+      <TotalServGravados>0.00</TotalServGravados>
+      <TotalServExentos>0.00</TotalServExentos>
+      <TotalServExonerado>0.00</TotalServExonerado>
+      <TotalMercanciasGravadas>133765.26</TotalMercanciasGravadas>
+      <TotalMercanciasExentas>0.00</TotalMercanciasExentas>
+      <TotalMercExonerada>0.00</TotalMercExonerada>
+      <TotalGravado>133765.26</TotalGravado>
+      <TotalExento>0.00</TotalExento>
+      <TotalExonerado>0.00</TotalExonerado>
+      <TotalVenta>133765.26</TotalVenta>
+      <TotalDescuentos>0.00</TotalDescuentos>
+      <TotalVentaNeta>133765.26</TotalVentaNeta>
+      <TotalDesgloseImpuesto>
+         <Codigo>01</Codigo>
+         <CodigoTarifaIVA>08</CodigoTarifaIVA>
+         <TotalMontoImpuesto>17389.4838</TotalMontoImpuesto>
+      </TotalDesgloseImpuesto>
+      <TotalImpuesto>17389.4838</TotalImpuesto>
+      <MedioPago>
+         <TipoMedioPago>01</TipoMedioPago>
+         <TotalMedioPago>151154.7438</TotalMedioPago>
+      </MedioPago>
+      <TotalComprobante>151154.7438</TotalComprobante>
+   </ResumenFactura><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-4705c211-9c72-45f8-9a9d-77460244a0f9"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-1dd0c87a-8e35-4f0f-be32-f4a548f09679" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>RBh90Qe+pje5LRM7gkfsReXsAkkJGZ/PDLKRPa+GfXw=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-4705c211-9c72-45f8-9a9d-77460244a0f9"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>u5m1vTxhOow3glfsTjMsp/HPqcvwZAVfrU46nwqmRAY=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-4705c211-9c72-45f8-9a9d-77460244a0f9"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>B2O93Uy7kEjjayBPO1Ld87OaxDA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-4705c211-9c72-45f8-9a9d-77460244a0f9">d29qs29fCLGGlDnYBRo7shWYhku/Mga32fgXvxJsH0G+t+E/TVLCiL8HR3hWKK4WGnqqiGWGBJQIoQjQdB4l9NDIUPpuF0jgNPJwf56nhWGvIALbxxIqq0AnnF0Z3btbAEra8nPQqjSVB/fqSnIHbThqUba95EAlfRtBjBWkfYJWmZMxse55krDpE1uT/Z4QOUt9DkHEJ9vigkxXwEJi06cLB+U7TdkowiOM8vc/+yZskUqx5YX9ZLY/kMBiXLbiMsIlNQwrxB+fifYUfWls2lzhYLRBNH83+7iZY0yM6I4BeV383wq3ewJNbTekD3zIeXYyg37Q4alzHCAStfi8tw==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-4705c211-9c72-45f8-9a9d-77460244a0f9"><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>hvZEyzhzGVP9q62nX465DrVu81ugQFScBFsLdeorbwClQ+wG/lbvy3pwyMewR52XIgN0GnPnPrQLzNFdYaG2P6beKFJgCJ1/mc/gIv9TYwEDdWJLEDoiuD2pEFSQKBfeOotEv5oFNoUbNBF1S1Z0+c5Yr/XY85LEuoQxbkm1W1wMgV9lyHCg39XG2etf4slC+QJ8I29lGuOa6og64oo9Q6W81qPiRRrg7UC9Dp39szOdaO37lxNH8wEmR2uQXEAd57mWo1BUHHDr28D93xCwRoUUCsBZsN7EDRwlJkSspLza41xbFAnndP/dIvuSXOo7qkjHLgsY10nZtMHsdoVXWw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509Certificate>MIIFMzCCAxugAwIBAgIGAYKKjMyQMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjIwODExMDEzNzM5WhcNMjYwODEwMDEzNzM5WjCBjTEZMBcGA1UEBRMQQ1BKLTMtMTAxLTEwNjc1MzELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE6MDgGA1UEAwwxQ09SUE9SQUNJT04gQUdST1BFQ1VBUklBIENPUlBFQ08gU09DSUVEQUQgQU5PTklNQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIb2RMs4cxlT/autp1+OuQ61bvNboEBUnARbC3XqK28ApUPsBv5W78t6cMjHsEedlyIDdBpz5z60C8zRXWGhtj+m3ihSYAidf5nP4CL/U2MBA3ViSxA6Irg9qRBUkCgX3jqLRL+aBTaFGzQRdUtWdPnOWK/12POSxLqEMW5JtVtcDIFfZchwoN/VxtnrX+LJQvkCfCNvZRrjmuqIOuKKPUOlvNaj4kUa4O1AvQ6d/bMznWjt+5cTR/MBJkdrkFxAHee5lqNQVBxw69vA/d8QsEaFFArAWbDexA0cJSZErKS82uNcWxQJ53T/3SL7klzqO6pIxy4LGNdJ2bTB7HaFV1sCAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUeWZuVQpTduUp0RtUXZTYthRBE6YwCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAJAnG6BLTFG84fsTLKVO2Q6WfgiW0ETLICp+3VG1AW7gIJgk8M8Dr2dV4HKa/UV5rykGlnep85OQSWk5WwEyA6qCh6r+D50DxuvokwToF0IbhAcvPUxBNhvf/MQgzil2WOk2ZfFAlO1rdkbosc9EEMIQ4jfMJwEOMkqocBjauxDn79Xz1Oohx18hrELGPn5ngYdMw5qkYWASyjqkh2Uo0ldRcaEnEmjzIvu2FepfZA1FRFrQhKSBmi9MuXU9HwDIpm8eUCChONQqLRelmNF/zaDH9+egzX9YUTnBM1Hi6aByrI0wkTNzxt4NYkE9ky8Ou4lcYCnU0yiDkcittaj2bVo/r6iBbUmgHHFPwjZoDvGeioNszw9ZQ3js+Zh/4r7nIEhyigsrpiTu5TrOi71Jwm74C8k81dLQcW5qUHAOBudFGWIp46ZIGYNkWz8mymooQ7TVoYj3/Qlb7J4ZtML888FykpLDYSMrfp21TP7W+Jx6LvhVIdbugnZz8S5YyJ9uTzlSnxi0Nsucw7JNgxZey3nuibvP+P+jWmgrOLx3Cbx+E4qTrDLQ6l/NwdVnkWzjMz5Wqwg1uilpgVaohDMyX7PQv6dwXbFvc9FL0adYIYYsFB+euBJaIQuA8fbzqkgjsAxqStBdijuDRNNIkjy676Q9Fhq8WXxN4IAnQ2KZgkIK</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-4705c211-9c72-45f8-9a9d-77460244a0f9"><xades:SignedProperties Id="SignedProperties-Signature-4705c211-9c72-45f8-9a9d-77460244a0f9"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-09T16:41:22.970Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>29Dc54W8iGxruYaDoDGKnvBF+nI=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1660181859472</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://cdn.comprobanteselectronicos.go.cr/xml-schemas/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>emisor</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+   
+<Personalizados>
+      <campoString name="Version">4.4</campoString>
+      <campoString name="IntegracionGS">API REST</campoString>
+      <campoString name="ProvinciaEmisor">SAN JOSÉ</campoString>
+      <campoString name="CantonEmisor">SAN JOSÉ</campoString>
+      <campoString name="DistritoEmisor">CARMEN</campoString>
+      <campoString name="ProvinciaReceptor">SAN JOSÉ</campoString>
+      <campoString name="CantonReceptor">SAN JOSÉ</campoString>
+      <campoString name="DistritoReceptor">CARMEN</campoString>
+      <campoString name="TipoCE">01</campoString>
+      <campoString name="NumeroInterno">656155</campoString>
+      <campoString name="MontoEnLetras">CIENTO CINCUENTA Y UNO MIL CIENTO CINCUENTA Y CUATRO CON 74/100 COLONES</campoString>
+      <campoString name="Comentario">Al hacer su pago, gire el cheque a nombre de Corporación Agropecuaria Corpeco S.A. BAC 906399373;IBAN CR11010200009063993731/BCR 205-0011573-8;IBAN CR05015201205001157381/BNCR 100-01-000-213736-2;IBAN CR25015100010012137364/DAVIVIENDA IBAN CR18010409142211716617 NOTA: El firmante declara bajo juramento estar autorizado por el comprador o adquiriente mencionado para suscribirla, renuncio mi domicilio y trámite de juicio ejecutivo y acepto las disposiciones legales del código de comercio en su artículo 460. Las facturas de crédito devengan un interés del 3% mensual después de su vencimiento.</campoString>
+      <campoString name="Asesor">780356</campoString>
+      <campoString name="Pedido">23381048</campoString>
+      <campoString name="Control">0</campoString>
+      <campoString name="Bultos">4</campoString>
+      <campoString name="Operador">FLOPEZ</campoString>
+      <campoString name="OrdenCompra">160785</campoString>
+      <campoString name="CodigoCliente">94527</campoString>
+      <campoString name="DespachadoVia" />
+      <campoString name="CodInterno">23381048</campoString>
+      <campoString name="MontoLetras">CIENTO CINCUENTA Y UNO MIL CIENTO CINCUENTA Y CUATRO CON 74/100 COLONES</campoString>
+      <campoString name="EntregarEn">SAN JOSE,SANTIAGO PURISCAL,50 MTS        NOROESTE DE LA DELEGACION POLICIAL</campoString>
+      <campoString name="EnviarEmailA">talcaballoblanco@gmail.com;sistemas@gficr.com</campoString>
+      <CustDetalle>
+         <CustDetNroLin>1</CustDetNroLin>
+         <CustDetAFN_01>Lote: 52457667M4</CustDetAFN_01>
+         <CustDetAFN_02>Expira: 31-MAR-27</CustDetAFN_02>
+      </CustDetalle>
+      <CustDetalle>
+         <CustDetNroLin>2</CustDetNroLin>
+         <CustDetAFN_01>Lote: 60357667K3</CustDetAFN_01>
+         <CustDetAFN_02>Expira: 31-AUG-27</CustDetAFN_02>
+      </CustDetalle>
+      <CustDetalle>
+         <CustDetNroLin>3</CustDetNroLin>
+         <CustDetAFN_01>Lote: 53137667M3</CustDetAFN_01>
+         <CustDetAFN_02>Expira: 31-MAY-27</CustDetAFN_02>
+      </CustDetalle>
+   </Personalizados></FacturaElectronica>

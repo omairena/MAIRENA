@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50616042600300404511700700003010000066272113251412</Clave>
+  <ProveedorSistemas>3101409261</ProveedorSistemas>
+  <CodigoActividadEmisor>4752.1</CodigoActividadEmisor>
+  <NumeroConsecutivo>00700003010000066272</NumeroConsecutivo>
+  <FechaEmision>2026-04-16T14:44:45-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>COOPERATIVA DE ELECTRIFICACION RURAL DE SAN CARLOS R L</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3004045117</Numero>
+    </Identificacion>
+    <NombreComercial>COOPELESCA, RL (ALMACENES Y FERRETERÍA)</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>Costado Este de la Escuela Juan Chaves Rojas</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>24012828</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>fefacturacion@coopelesca.co.cr</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>WALTER BENAVIDES ARAYA                                                          </Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>203430885</Numero>
+    </Identificacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>62963851</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>wbenavidesa15@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>2</NumeroLinea>
+      <CodigoCABYS>3737000000100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>B-14005</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.44</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <Detalle>PORCELANATO (JL) MADERA GRIS PULIDO (MGP) 60X60 CAJA 1.44M</Detalle>
+      <PrecioUnitario>8398.23009</PrecioUnitario>
+      <MontoTotal>12093.45133</MontoTotal>
+      <Descuento>
+        <MontoDescuento>483.73805</MontoDescuento>
+        <CodigoDescuento>07</CodigoDescuento>
+      </Descuento>
+      <SubTotal>11609.71328</SubTotal>
+      <BaseImponible>11609.71328</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.0</Tarifa>
+        <Monto>1509.26273</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1509.26273</ImpuestoNeto>
+      <MontoTotalLinea>13118.97601</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>4324002039900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>27041</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.0</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <Detalle>GRIFO LAVATORIO P.P 040-CSVPC COPA CLASSIC EXES</Detalle>
+      <PrecioUnitario>10493.42</PrecioUnitario>
+      <MontoTotal>10493.420</MontoTotal>
+      <Descuento>
+        <MontoDescuento>419.73680</MontoDescuento>
+        <CodigoDescuento>07</CodigoDescuento>
+      </Descuento>
+      <SubTotal>10073.68320</SubTotal>
+      <BaseImponible>10073.68320</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.0</Tarifa>
+        <Monto>1309.57882</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1309.57882</ImpuestoNeto>
+      <MontoTotalLinea>11383.26202</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.0</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0</TotalServGravados>
+    <TotalServExentos>0</TotalServExentos>
+    <TotalServExonerado>0</TotalServExonerado>
+    <TotalServNoSujeto>0</TotalServNoSujeto>
+    <TotalMercanciasGravadas>22586.87133</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0</TotalMercanciasExentas>
+    <TotalMercExonerada>0</TotalMercExonerada>
+    <TotalMercNoSujeta>0</TotalMercNoSujeta>
+    <TotalGravado>22586.87133</TotalGravado>
+    <TotalExento>0</TotalExento>
+    <TotalExonerado>0</TotalExonerado>
+    <TotalNoSujeto>0</TotalNoSujeto>
+    <TotalVenta>22586.87133</TotalVenta>
+    <TotalDescuentos>903.47485</TotalDescuentos>
+    <TotalVentaNeta>21683.39648</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>2818.84155</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>2818.84155</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0</TotalIVADevuelto>
+    <TotalOtrosCargos>0</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>02</TipoMedioPago>
+    </MedioPago>
+    <TotalComprobante>24502.23803</TotalComprobante>
+  </ResumenFactura>
+  <Otros>
+    <OtroTexto codigo="">
+MONEDA: CRC / CONDICION VENTA: CONTADO
+MEDIO PAGO: TARJETA
+IMPUESTO AL VALOR AGREGADO:
+% IVA         MONTO
+13%        2,818.84</OtroTexto>
+  </Otros>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-5b5c34cb-f42e-4635-8e21-6901d691b73c"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-8962e5dc-5129-4fbe-82bf-b2cff9d11bfb" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>tJmp4tN4aQT1qSkiGamh+iqZZ/H6pZTpVnc7K1mbgJU=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-5b5c34cb-f42e-4635-8e21-6901d691b73c"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>B3voeXpKGTiXnekbgD4Xyk3jraWVDQeot37af65MN1U=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-5b5c34cb-f42e-4635-8e21-6901d691b73c"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>abiA81MjxTWqhmjKudqTVdKzn/lw8Krtt3hHwVdsfDg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-5b5c34cb-f42e-4635-8e21-6901d691b73c">gOe6MnBSrbjmNS7xWQBWG4q0xprwJt7ndL3jlu8WdWXQXv7/X8KJF8+s1MNf9j/ZFccsUV44Cfa+PlbMm0lJHrQ5jxxE2ond1xfAR5MOpUR043qXh++a02472Yengp7TiRUDpb8ae/nGOwGNec0wS5QA5LdDlzmwwWFSpTechM/JBrdV95q/Fx4O6bZaiC4qm6M3QcTEz/4O02cRpkfwrmk4WVu2ttAR1bukT7fQA4MBxV37yIv/DMcl9Ca7nN23V9wwn5wv493xrag1BNQSTBWUT/lijyOX3SOF+6vHyrl+WrJONBIiqa7LBP4R5lsKSYPr12SGjunSjUijtZZFFw==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-5b5c34cb-f42e-4635-8e21-6901d691b73c"><ds:X509Data><ds:X509Certificate>MIIFODCCAyCgAwIBAgIGAYJcMlIeMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjIwODAyMDEzNjE3WhcNMjYwODAxMDEzNjE3WjCBkjEZMBcGA1UEBRMQQ1BKLTMtMDA0LTA0NTExNzELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE/MD0GA1UEAww2Q09PUEVSQVRJVkEgREUgRUxFQ1RSSUZJQ0FDSU9OIFJVUkFMIERFIFNBTiBDQVJMT1MgUiBMMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiXXDcNGjOHY3kZdxaaVigRBGstzQrZRfdUAZiovcwYdv5Mhuvf1x0cJflVYhKJ4wdnfSlGnMiu1+YoOX+061WuqLqPEapFNEa8OvsaAfOyyx43GScqFX61lV6sMfigKxN21xVrxgFJjldgf+0dsTlq+LblGN2ng4LPijC5/JHZntpJF2L9eI/wXQSd4/xmNQ8djxgvf0uNbqVSE2gTX9MIFdf34auxJvBjEbjS3P9J83eTZGCUzI84qvk1PVYuZz3uW/3mqMNWBW+wSxFSRIE8d0leMylZFiAVHMzIF82nujpCSYt0PjqUlxexFLU6sKcJqXCifbZTvK2t547I6j6wIDAQABo4HKMIHHMB8GA1UdIwQYMBaAFDttV/XWfOmeEAIgQeO9GszPs06VMB0GA1UdDgQWBBQxX2SbQQsO2JghY7zZj7Z4b4DXBDALBgNVHQ8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwYwYIKwYBBQUHAQEEVzBVMFMGCCsGAQUFBzAChkdodHRwczovL3BraS5jb21wcm9iYW50ZXNlbGVjdHJvbmljb3MuZ28uY3IvcHJvZC9pbnRlcm1lZGlhdGUtcGotcGVtLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAGyP+VTZKnejP2sbCT1i7zPBFc+DBXaGJ5M/0qLq0ApJJ+lb/lRh5z5jb+KIeW61LNl+BXDfCJJxOk32RpNz1fKIcYTvkk0+M7sWV/7VKX4e+CHPXhh9GnJgyfz8WdwC8DMPwj5rwwPJCHmdtzktimeagFHSu6GwBLRuUOm0iIYtaOV2wkk0/7PaC0ZzMySLdPFvYm3jribamx9GKaJjKaHnVBILI7/UeHzsQA8nTN3ThJI3l72cP6QZjkD8Te4A9aAeeuS17vpALPAbyy/YOlmIQF+L1OWKoJ5WeR6h7xN+KN+jCfzk1/bJsuIwWfhA3L51RTl07Ukn++EWeQQSg9ju8o3aw1QiR3xvI9feiJwr9NoGPJvrqesFgo/V2+5sHQhbBT7MsP7dM0NaIIT/Nlu61FMc8tKL8vt+odWwGmzROGMciot5GR8Tk12XkiyPXJYqsDoRy//GtJ7XJcuXmAlqgv/ZsDd2tryuujgygdufi11xTB9vHclcz/1AR3m61+NBb/jTw1Gf4HiRklhdXFoLQzbCwKGJ+ipJQSMSs/QGAulvVI5a+mqBVCtXvuqltAM9SPSrQCuS58OdDedW78hxtlarmnZuPUxWgYJcWwQVhpyAY2pS55A6bkeeHEmPSBt98ewQ1c4K7yv59Inx4em1GR3Y9OiKgbyD1U+HorYM=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>iXXDcNGjOHY3kZdxaaVigRBGstzQrZRfdUAZiovcwYdv5Mhuvf1x0cJflVYhKJ4wdnfSlGnMiu1+YoOX+061WuqLqPEapFNEa8OvsaAfOyyx43GScqFX61lV6sMfigKxN21xVrxgFJjldgf+0dsTlq+LblGN2ng4LPijC5/JHZntpJF2L9eI/wXQSd4/xmNQ8djxgvf0uNbqVSE2gTX9MIFdf34auxJvBjEbjS3P9J83eTZGCUzI84qvk1PVYuZz3uW/3mqMNWBW+wSxFSRIE8d0leMylZFiAVHMzIF82nujpCSYt0PjqUlxexFLU6sKcJqXCifbZTvK2t547I6j6w==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-a194128c-e1e0-4c65-b316-17cd20c80b24"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-85c19923-b5e1-40d6-a4b3-41583323b488" Target="#Signature-5b5c34cb-f42e-4635-8e21-6901d691b73c"><xades:SignedProperties Id="SignedProperties-Signature-5b5c34cb-f42e-4635-8e21-6901d691b73c"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-16T20:44:48+00:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>iQuOwfkwnOfg9E6p/kLt+2hlh2P8Sjz+EbCJQzDoctY=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1659404177950</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://cdn.comprobanteselectronicos.go.cr/xml-schemas/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>DWxin1xWOeI8OuWQXazh4VjLWAaCLAA954em7DMh0h8=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-8962e5dc-5129-4fbe-82bf-b2cff9d11bfb"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

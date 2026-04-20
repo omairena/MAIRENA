@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica_V.4.4.xsd">
+   <Clave>50627032600310100521200400001010001232711101400708</Clave>
+   <ProveedorSistemas>3101595167</ProveedorSistemas>
+   <CodigoActividadEmisor>1104.0</CodigoActividadEmisor>
+   <CodigoActividadReceptor>5610.0</CodigoActividadReceptor>
+   <NumeroConsecutivo>00400001010001232711</NumeroConsecutivo>
+   <FechaEmision>2026-03-27T21:01:11</FechaEmision>
+   <Emisor>
+      <Nombre>Coca Cola Femsa de Costa Rica S.A.</Nombre>
+      <Identificacion>
+         <Tipo>02</Tipo>
+         <Numero>3101005212</Numero>
+      </Identificacion>
+      <NombreComercial>Coca Cola Femsa de Costa Rica S.A.</NombreComercial>
+      <Ubicacion>
+         <Provincia>1</Provincia>
+         <Canton>08</Canton>
+         <Distrito>03</Distrito>
+         <Barrio>Col Florida</Barrio>
+         <OtrasSenas>100 metros este de la Guardia Rural, Calle Blancos, Goicoechea</OtrasSenas>
+      </Ubicacion>
+      <Telefono>
+         <CodigoPais>506</CodigoPais>
+         <NumTelefono>22472000</NumTelefono>
+      </Telefono>
+      <CorreoElectronico>factura.electronicacr@kof.com</CorreoElectronico>
+   </Emisor>
+   <Receptor>
+      <Nombre>TOTAL SOFT COMPANY SOCIEDAD ANÓNIMA</Nombre>
+      <Identificacion>
+         <Tipo>02</Tipo>
+         <Numero>3101097341</Numero>
+      </Identificacion>
+      <NombreComercial>SUPER EL GALLO KOOPER </NombreComercial>
+      <Ubicacion>
+         <Provincia>2</Provincia>
+         <Canton>10</Canton>
+         <Distrito>11</Distrito>
+         <Barrio>ALAJUELA SAN CARLOS CUTRIS</Barrio>
+         <OtrasSenas>SANTA ROSA POCOSOL</OtrasSenas>
+      </Ubicacion>
+      <CorreoElectronico>FACTURASELGALLOKOOPER@GMAIL.COM</CorreoElectronico>
+   </Receptor>
+   <CondicionVenta>01</CondicionVenta>
+   <DetalleServicio>
+      <LineaDetalle>
+         <NumeroLinea>1</NumeroLinea>
+         <CodigoCABYS>2449002000200</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>01</Tipo>
+            <Codigo>167251</Codigo>
+         </CodigoComercial>
+         <Cantidad>6.000</Cantidad>
+         <UnidadMedida>Otros</UnidadMedida>
+         <TipoTransaccion>01</TipoTransaccion>
+         <UnidadMedidaComercial>BOT</UnidadMedidaComercial>
+         <Detalle>PW VER 591ML PET 12U</Detalle>
+         <PrecioUnitario>700.59000</PrecioUnitario>
+         <MontoTotal>4203.54000</MontoTotal>
+         <Descuento>
+            <MontoDescuento>6.00000</MontoDescuento>
+            <CodigoDescuento>04</CodigoDescuento>
+            <NaturalezaDescuento>Descuento Cliente</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>4197.54000</SubTotal>
+         <BaseImponible>4197.54000</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13.00</Tarifa>
+            <Monto>545.68000</Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>545.68</ImpuestoNeto>
+         <MontoTotalLinea>4743.22000</MontoTotalLinea>
+      </LineaDetalle>
+   </DetalleServicio>
+   <ResumenFactura>
+      <CodigoTipoMoneda>
+         <CodigoMoneda>CRC</CodigoMoneda>
+         <TipoCambio>1.00000</TipoCambio>
+      </CodigoTipoMoneda>
+      <TotalServGravados>0.00000</TotalServGravados>
+      <TotalServExentos>0.00000</TotalServExentos>
+      <TotalServExonerado>0.00000</TotalServExonerado>
+      <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+      <TotalMercanciasGravadas>4203.54000</TotalMercanciasGravadas>
+      <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+      <TotalMercExonerada>0.00000</TotalMercExonerada>
+      <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+      <TotalGravado>4203.54000</TotalGravado>
+      <TotalExento>0.00000</TotalExento>
+      <TotalExonerado>0</TotalExonerado>
+      <TotalVenta>4203.54000</TotalVenta>
+      <TotalDescuentos>6.00000</TotalDescuentos>
+      <TotalVentaNeta>4197.54000</TotalVentaNeta>
+      <TotalDesgloseImpuesto>
+         <Codigo>01</Codigo>
+         <CodigoTarifaIVA>08</CodigoTarifaIVA>
+         <TotalMontoImpuesto>545.68000</TotalMontoImpuesto>
+      </TotalDesgloseImpuesto>
+      <TotalImpuesto>545.68000</TotalImpuesto>
+      <TotalImpAsumEmisorFabrica>0</TotalImpAsumEmisorFabrica>
+      <TotalOtrosCargos>0.00000</TotalOtrosCargos>
+      <MedioPago>
+         <TipoMedioPago>01</TipoMedioPago>
+         <TotalMedioPago>4743.22000</TotalMedioPago>
+      </MedioPago>
+      <TotalComprobante>4743.22000</TotalComprobante>
+   </ResumenFactura><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1c1b8348-488d-4ae2-a82c-171acea2b775"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-aeccbda7-c8b0-421a-9614-5fdd9445481b" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>vIzKgicbZkBvQgaWrvK/+8a0aq4vHZwYmI9pePuOpYg=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-1c1b8348-488d-4ae2-a82c-171acea2b775"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>BsjTPQxyEnvNPu87UtQl8AH9nj+/1Z2J+hC2SFBLvDI=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-1c1b8348-488d-4ae2-a82c-171acea2b775"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>yYqZy4xDu12k1IcPm5xbTFixI3c=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-1c1b8348-488d-4ae2-a82c-171acea2b775">eozz253IX71CGipjW9uusBX5ubI1ElJoZcSDdSGCZ9W3o91/fNa2LnwTCyu0V949VjFCiS7SRQLeAPIZ58KGBsZyHpNkiKkf7V7G4GPr9W2qHzFJ75yMit+XNhMGt9//vq7BLZjMyiAix5JrsRMcCXn1l5QJJyNUOCafGiX+yEQ6xwwtxmLRebgP0Ynq8k5QCnE2EZIL+kvANj5aU4CyXDob7BWp9F1SHF0ItXWAEkyc8FxkptSNKV82jVGGzVcCnwd0GCdnwxExnQfFZ0lQ9gpuH9Umj0SdT83unEpIpEMP2pVVNnajWcgZOv+d5uY60LM0YOQjCC6WuQPfk1KB1w==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-1c1b8348-488d-4ae2-a82c-171acea2b775"><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>ppwvuv4EMNIu3AABiD5zwM/dov5s3anB8mTupvWQHaDARSStoSiLq9orVW9XJHlGthotpCjgwcIarnzQsSH2M92/4A0hC60QgWRAFB6zNR1rMOQQZduoXoLUQD3xiN53ySWIZsfYpC/+aUpKyw+MRvirSP0Vwlxbl2en/Un9SZUqQ5DVNjjzq6hx9qnbn62x+pk+83YlBKTI+Axl+/crlNRRayNC9ik+sjsQTv7W9FZXwuKfaKOHCL1IbzkUXmS2PwaQoA24KFYTDZeMQSBTuskQWFj0tsxQNXmfgIk8BWssVb/mkHqeghl0vviNdkeW6N948tJWnb4NA8IYh5jmtw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509Certificate>MIIFMDCCAxigAwIBAgIGAZl9IUNfMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjUwOTI0MTkwOTE1WhcNMjkwOTIzMTkwOTE1WjCBijEZMBcGA1UEBRMQQ1BKLTMtMTAxLTAwNTIxMjELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE3MDUGA1UEAwwuQ09DQSBDT0xBIEZFTVNBIERFIENPU1RBIFJJQ0EgU09DSUVEQUQgQU5PTklNQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKacL7r+BDDSLtwAAYg+c8DP3aL+bN2pwfJk7qb1kB2gwEUkraEoi6vaK1VvVyR5RrYaLaQo4MHCGq580LEh9jPdv+ANIQutEIFkQBQeszUdazDkEGXbqF6C1EA98Yjed8kliGbH2KQv/mlKSssPjEb4q0j9FcJcW5dnp/1J/UmVKkOQ1TY486uocfap25+tsfqZPvN2JQSkyPgMZfv3K5TUUWsjQvYpPrI7EE7+1vRWV8Lin2ijhwi9SG85FF5ktj8GkKANuChWEw2XjEEgU7rJEFhY9LbMUDV5n4CJPAVrLFW/5pB6noIZdL74jXZHlujfePLSVp2+DQPCGIeY5rcCAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUo/vp69ddoFExa8qZARm99NAAK5kwCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAEdVIKDek9Bhd3kycnYOr2t6o51y9TC6Rm4zDWiRmCMEac24/C6WaZReGPJEpvBrwhihqeEJBF60grJjzyLTXp8f5ZolKH4/eURZy+UfoVMIbi/rlQSXSJUB+/6rgNUUTJd/iUnUcjd5NIVKXStht9vWT+ZSBxbAS4KvR3xZaIazGJzzfbbhpdV8kuDpR7kX57WJ7Nj8/g0HKh+KGXm5ifBzxcqKMJszWs0Q9b3gxi13YlkCo3eQaViT7Scl3QLpYAuxFotZBBqq+5t9NEJd/sS9x4o2VO8fNAawGVmxcsg3PF898Jxz/QxR1Y6vaU0AYsYgnxyp+YIN1uQv0IH8WFFHpTlooaX+t5gga44ySnnxFtZhVqKS1hm0ZRtRx/mwEJK7SBhfd9OcVqxVspjUxzS/LAgY1imxaW8YdeYrcwz1aVBQMvYpx2nt3UJH4akbwhxbEQyhXq64vg5jWeKj9Pv9/HV1D2F2SPk01W5W9SH94ft/BrpTWGpEkM8yweQ4Hy+iGqV+E93VNkYxVxSSMyg21cvD0tiXE7gzLSAb6Z7aduPQ+AapwaYdgLUxy8TyNjh9J4xJu3LfR1o0R7kXPlyP5BqaO/mVbjjAc8s4jIyTelyNOJC9YLaZdsaYw40RAEncHpeZ0YTOqgZOmJzjH/AlXh4LnpNQ4LKmZUZh8iUg</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1c1b8348-488d-4ae2-a82c-171acea2b775"><xades:SignedProperties Id="SignedProperties-Signature-1c1b8348-488d-4ae2-a82c-171acea2b775"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-27T21:01:14.016Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>1j5NcJYRyHyOkcmJtfUVyNim6JU=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1758740955999</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://cdn.comprobanteselectronicos.go.cr/xml-schemas/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>emisor</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+   
+</FacturaElectronica>

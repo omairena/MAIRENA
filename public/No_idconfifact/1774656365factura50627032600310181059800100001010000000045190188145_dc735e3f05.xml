@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50627032600310181059800100001010000000045190188145</Clave>
+  <ProveedorSistemas>206410122</ProveedorSistemas>
+  <CodigoActividadEmisor>0146.9</CodigoActividadEmisor>
+  <CodigoActividadReceptor>4721.1</CodigoActividadReceptor>
+  <NumeroConsecutivo>00100001010000000045</NumeroConsecutivo>
+  <FechaEmision>2026-03-27T18:02:30-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>3-101-810598 SOCIEDAD ANONIMA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101810598</Numero>
+    </Identificacion>
+    <NombreComercial>3-101-810598 SOCIEDAD ANONIMA</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>02</Distrito>
+      <Barrio>LA VIEJA</Barrio>
+      <OtrasSenas>LA VIEJA DE FLORENCIA</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>87058941</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>tavoliosa@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>GANADERIA CARIBLANCO AJ LIMITADA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3102712633</Numero>
+    </Identificacion>
+    <NombreComercial>GANADERIA CARIBLANCO AJ LIMITADA</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>03</Canton>
+      <Distrito>06</Distrito>
+      <OtrasSenas>De la entrada al Invu. #3 2.5km al sur</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>40810110</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>fe.proveeduria@pollosdonjose.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>8612100000000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>001</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Os</UnidadMedida>
+      <Detalle>COMISION POR DESARROLLO Y ENGORDE DE POLLOS</Detalle>
+      <PrecioUnitario>17662458.94000</PrecioUnitario>
+      <MontoTotal>17662458.94000</MontoTotal>
+      <SubTotal>17662458.94000</SubTotal>
+      <BaseImponible>17662458.94</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>2296119.66220</Monto>
+        <Exoneracion>
+          <TipoDocumentoEX1>04</TipoDocumentoEX1>
+          <NumeroDocumento>AL-00024342-24</NumeroDocumento>
+          <NombreInstitucion>01</NombreInstitucion>
+          <FechaEmisionEX>2024-07-02T00:00:00-06:00</FechaEmisionEX>
+          <TarifaExonerada>12</TarifaExonerada>
+          <MontoExoneracion>2119495.07280</MontoExoneracion>
+        </Exoneracion>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>176624.58940</ImpuestoNeto>
+      <MontoTotalLinea>17839083.52940</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>1358650.68769</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServExonerado>16303808.25231</TotalServExonerado>
+    <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+    <TotalMercanciasGravadas>0.00000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00000</TotalMercExonerada>
+    <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+    <TotalGravado>1358650.68769</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalExonerado>16303808.25231</TotalExonerado>
+    <TotalNoSujeto>0.00000</TotalNoSujeto>
+    <TotalVenta>17662458.94000</TotalVenta>
+    <TotalDescuentos>0.00000</TotalDescuentos>
+    <TotalVentaNeta>17662458.94000</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>176624.58940</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>176624.58940</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0.00000</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+    <TotalOtrosCargos>0.00000</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <TotalMedioPago>17839083.5294</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>17839083.52940</TotalComprobante>
+  </ResumenFactura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-afaf191c-c70c-2bf4-9a09-1abd8b5fb60d"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod><ds:Reference Id="Reference-ac2ac167-6e89-da41-b75f-9e76adb6c13d" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>EMJ1CsygToq6KL8O3QsdGqNygynUY8f3yzl6trTunzg=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-afaf191c-c70c-2bf4-9a09-1abd8b5fb60d"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>JxxWZpI5r7B/UZdW3o+Nmqtrnv6LDKSe1gM9+snVPQs=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-afaf191c-c70c-2bf4-9a09-1abd8b5fb60d"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>xuv6hAEhOuOHu0bd0UH4eddC9LmEfyKbx558cZn3H+8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-afaf191c-c70c-2bf4-9a09-1abd8b5fb60d">Pb0YO5JwT777+kjpj3N87tgZrftrUtRhslT3IEE0CPIJCYo1+IMz/MXbCRThLt8n5JbYbuWcnYC90SjC666lwvyS7NbB9yMTqPA+4HAx/Yji31bx6V8KggefFehixs7bQXXwVmfLnnKE78Cl41VT6azzo4zl6HyV5s5frEst2k4O+G0vh3Ttl8xHVx59zhsSnExOMlW1U+AuSeq+xbcz7j8YbJYMiGpo2e+VhQhISuyz0JYW4TBGI42hoZ5yOTBTsUwRydBq08wVL9pSHvUAVHItYk7UpSAZH5UGlsyIpbGE3ixKZN1BcmEzLJOriFK9+k4hLSIUhhCnYT0FqjlC6g==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-afaf191c-c70c-2bf4-9a09-1abd8b5fb60d"><ds:X509Data><ds:X509Certificate>MIIFHjCCAwagAwIBAgIGAYe5d8kYMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjMwNDI1MTczMDQ3WhcNMjcwNDI0MTczMDQ3WjB5MRkwFwYDVQQFExBDUEotMy0xMDEtODEwNTk4MQswCQYDVQQGEwJDUjEZMBcGA1UECgwQUEVSU09OQSBKVVJJRElDQTEMMAoGA1UECwwDQ1BKMSYwJAYDVQQDDB0zLTEwMS04MTA1OTggU09DSUVEQUQgQU5PTklNQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOY0TEsrz/na2+bnrGR9ylnQz/JF92zr4asC5ynRrSqE6B7CsuNxNFB/3ruSTRlodvnFowk0zsKUYYHowka7S57bblnPYbqFqGAwYOGwH4BAMHU7WiGLnGjIkotiHHZorZkRuZV5TkhwKVmFCQSOu4jGWG0+JqtVregO9UAleqiE5SDr8wPD9ZIPjeYsE5Hh0qL6hkv0wixiJTKfW/FMAez4utQftPuz4mMw6GZZWTWqIy4P+7N6EC+AcOKNQpqPbs37hRf6dQm+cz0o1upcobWpCXMNdSV6F152KP+iv0hDvVEQl+Khm/h6Mg+jptMXV7+MWG7LlHpNW3HzIKtbvT0CAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUqB3WHGyw7YBbyvwvTOwecJ6LNmkwCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBACtZyO/p2ozK5QfSNJPpeBGzUgOWTPj0vHTE7AVB/LV+T/5UAqIjPIuCqEujfcbo2v05muWjVgOoeXUosIxpTDBieXMVdNCHhQ2VbkNB04dwB4N57mcUEKGJwDuUo7SrCvZTH+bfCOTVpW1o2kfg8eIvuUITyKq8m9c9f4hguv0+Owp+DD1wMVJWXSlNT+GuBRJ0qVUkqGb3vEtIehn440VhaI92WXjY79O5ntoU3PFO0PejkPpoWm1jV+kJ6kpff7Bj6GAPYe7vvOT+XEjaJSZLsqeXoGFmxHgDVyXb6boCGsFM4jjDmXdftpeRAeZR8vLwIpjulp60vadKHy7sOPP412qg+rL7rNEcnOXN5PAz17tHO8N4EoUhieOKWfwFFutCuVj1CMfdjm3x4Zn8PKYLESFKSFVC52rXbrWxjT8Ix/VK5L03a8d4EBKspytoGYc6G4QYPPwh/cRWtB8/DsD29e4U9sR/ny2OYFlnuEVDIfrdq/+5Vi9a32U5q/CXNB0ZD3AB66kPdVx2+KHiPEX7SD7n26dkndH9Zx7oH7pU68AZ1kVXyj96DLVLARTCvHXwZB7S0cU8WyB1VPpZfNwbAedoH3Ep2q3j8Y2JcDGKzrpE5eEw5w+ShTp0IKRTJPG3jqeKKMabwU23H4N4hKB9yOGVEhCjHK971Gg5fZEd</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>5jRMSyvP+drb5uesZH3KWdDP8kX3bOvhqwLnKdGtKoToHsKy43E0UH/eu5JNGWh2+cWjCTTOwpRhgejCRrtLnttuWc9huoWoYDBg4bAfgEAwdTtaIYucaMiSi2IcdmitmRG5lXlOSHApWYUJBI67iMZYbT4mq1Wt6A71QCV6qITlIOvzA8P1kg+N5iwTkeHSovqGS/TCLGIlMp9b8UwB7Pi61B+0+7PiYzDoZllZNaojLg/7s3oQL4Bw4o1Cmo9uzfuFF/p1Cb5zPSjW6lyhtakJcw11JXoXXnYo/6K/SEO9URCX4qGb+HoyD6Om0xdXv4xYbsuUek1bcfMgq1u9PQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-9725838c-cb55-71dc-d37d-dfcbd8d3ab34"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-92ff878e-2d59-9071-b65a-8c3ca105eb43" Target="#Signature-afaf191c-c70c-2bf4-9a09-1abd8b5fb60d"><xades:SignedProperties Id="SignedProperties-Signature-afaf191c-c70c-2bf4-9a09-1abd8b5fb60d"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-27T18:02:30Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>1DDLGRmKsG5ObbOUDkCldFDSuDTYAIh7I3pTVHQEcbk=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA,OU=DGT,O=MINISTERIO DE HACIENDA,C=CR</ds:X509IssuerName><ds:X509SerialNumber>1682443847960</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4/Resolucion%20Comprobantes%20Electronicos%20%20DGT-R-48-2016.pdf</xades:Identifier><xades:Description></xades:Description></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>V8lVVNGDCPen6VELRD1Ja8HARFk=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-ac2ac167-6e89-da41-b75f-9e76adb6c13d"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

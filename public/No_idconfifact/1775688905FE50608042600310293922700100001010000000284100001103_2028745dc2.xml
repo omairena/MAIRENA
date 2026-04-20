@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50608042600310293922700100001010000000284100001103</Clave>
+  <ProveedorSistemas>3101566759</ProveedorSistemas>
+  <CodigoActividadEmisor>4730.0</CodigoActividadEmisor>
+  <NumeroConsecutivo>00100001010000000284</NumeroConsecutivo>
+  <FechaEmision>2026-04-08T16:52:19</FechaEmision>
+  <Emisor>
+    <Nombre>3-102-939227 SOC. DE RESP. LIMITADA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3102939227</Numero>
+    </Identificacion>
+    <NombreComercial>TALLER Y REPUESTOS CASTRO</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>13</Distrito>
+      <OtrasSenas>2km norte de la estación de servicio Santa Rosa</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>24777104</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>repuestoscastro500@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>CARLOS VICTOR FUNES JIMENEZ</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>207400826</Numero>
+    </Identificacion>
+    <NombreComercial>CARLOS VICTOR FUNES JIMENEZ</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>SANTA ROSA</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>61551664</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>cfunes2026@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>4912906039900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>KO122</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>BUSH TIJERETA: HY ELANTRA 90- H/TAPADO MONTURA RH KO122</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>3716.81000</PrecioUnitario>
+      <MontoTotal>3716.81000</MontoTotal>
+      <SubTotal>3716.81000</SubTotal>
+      <BaseImponible>3716.81000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>483.18530</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>483.18530</ImpuestoNeto>
+      <MontoTotalLinea>4199.99530</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>2</NumeroLinea>
+      <CodigoCABYS>4912906039900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>KO121</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>BUSH TIJERETA: HY ELANTRA 90- H/TAPADO MONTURA LH KO121</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>3716.81000</PrecioUnitario>
+      <MontoTotal>3716.81000</MontoTotal>
+      <SubTotal>3716.81000</SubTotal>
+      <BaseImponible>3716.81000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>483.18530</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>483.18530</ImpuestoNeto>
+      <MontoTotalLinea>4199.99530</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>3</NumeroLinea>
+      <CodigoCABYS>4912906039900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>KO128</Codigo>
+      </CodigoComercial>
+      <Cantidad>2.000</Cantidad>
+      <UnidadMedida>U</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>BUSH TIJERETA: HY ELANTRA AVANTE 90-00 DEL KO128</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>3362.83000</PrecioUnitario>
+      <MontoTotal>6725.66000</MontoTotal>
+      <SubTotal>6725.66000</SubTotal>
+      <BaseImponible>6725.66000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>874.33580</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>874.33580</ImpuestoNeto>
+      <MontoTotalLinea>7599.99580</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>4</NumeroLinea>
+      <CodigoCABYS>4912906039900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>JP1513</Codigo>
+      </CodigoComercial>
+      <Cantidad>2.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>BUSH TIJERETA: MB MIRAGE 93-00,LANCER -00- ARRASTRE TRASERO JP1513 MR102063</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>4867.25500</PrecioUnitario>
+      <MontoTotal>9734.51000</MontoTotal>
+      <SubTotal>9734.51000</SubTotal>
+      <BaseImponible>9734.51000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>1265.48630</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1265.48630</ImpuestoNeto>
+      <MontoTotalLinea>10999.99630</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>5</NumeroLinea>
+      <CodigoCABYS>4912906039900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>JP2043</Codigo>
+      </CodigoComercial>
+      <Cantidad>2.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>BUSH TIJERETA: MB MIRAGE/LANCER-00-,OUTLANDER 02-TRASERO CONICO JP1393 JP2043</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>4955.75000</PrecioUnitario>
+      <MontoTotal>9911.50000</MontoTotal>
+      <SubTotal>9911.50000</SubTotal>
+      <BaseImponible>9911.50000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>1288.49500</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1288.49500</ImpuestoNeto>
+      <MontoTotalLinea>11199.99500</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>6</NumeroLinea>
+      <CodigoCABYS>4912999009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>JP1366</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>TIJERETA TENSORA TRASERA: MB MIRAGE,LANCER 93-00 TRAS.CORTA LH JP1366 MB809222</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>12389.38000</PrecioUnitario>
+      <MontoTotal>12389.38000</MontoTotal>
+      <SubTotal>12389.38000</SubTotal>
+      <BaseImponible>12389.38000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>1610.61940</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1610.61940</ImpuestoNeto>
+      <MontoTotalLinea>13999.99940</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>7</NumeroLinea>
+      <CodigoCABYS>4912999009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>JP1363</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>TIJERETA TENSORA TRASERA: MB MIRAGE,LANCER 93-00 TRAS.LARGA LH JP1363 MB809220</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>12389.38000</PrecioUnitario>
+      <MontoTotal>12389.38000</MontoTotal>
+      <SubTotal>12389.38000</SubTotal>
+      <BaseImponible>12389.38000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>1610.61940</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1610.61940</ImpuestoNeto>
+      <MontoTotalLinea>13999.99940</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>8</NumeroLinea>
+      <CodigoCABYS>0111100000100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>JP1364</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>TIJERETA TENSORA TRASERA: MB MIRAGE,LANCER 93-00 TRAS.LARGA RH JP1364 MB809221</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>12389.38000</PrecioUnitario>
+      <MontoTotal>12389.38000</MontoTotal>
+      <SubTotal>12389.38000</SubTotal>
+      <BaseImponible>12389.38000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>1610.61940</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1610.61940</ImpuestoNeto>
+      <MontoTotalLinea>13999.99940</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>9</NumeroLinea>
+      <CodigoCABYS>4912902999900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>5-00-027</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>FIBRA DISCO: MB MIRAGE/GALANT/ECLIPSE/EXPO D484</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>21770.30000</PrecioUnitario>
+      <MontoTotal>21770.30000</MontoTotal>
+      <SubTotal>21770.30000</SubTotal>
+      <BaseImponible>21770.30000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>2830.13900</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>2830.13900</ImpuestoNeto>
+      <MontoTotalLinea>24600.43900</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>10</NumeroLinea>
+      <CodigoCABYS>4912999009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>1-04-399</Codigo>
+      </CodigoComercial>
+      <Cantidad>2.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>BOTA CREMALLERA UNIVERSAL BT81</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>3539.82000</PrecioUnitario>
+      <MontoTotal>7079.64000</MontoTotal>
+      <SubTotal>7079.64000</SubTotal>
+      <BaseImponible>7079.64000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>920.35320</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>920.35320</ImpuestoNeto>
+      <MontoTotalLinea>7999.99320</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0.00000</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServExonerado>0.00000</TotalServExonerado>
+    <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+    <TotalMercanciasGravadas>99823.37000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00000</TotalMercExonerada>
+    <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+    <TotalGravado>99823.37000</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalExonerado>0.00000</TotalExonerado>
+    <TotalNoSujeto>0.00000</TotalNoSujeto>
+    <TotalVenta>99823.37000</TotalVenta>
+    <TotalDescuentos>0.00000</TotalDescuentos>
+    <TotalVentaNeta>99823.37000</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>12977.03810</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>12977.03810</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0.00000</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+    <TotalOtrosCargos>0.00000</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <TotalMedioPago>112800.40810</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>112800.40810</TotalComprobante>
+  </ResumenFactura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-cb1b186b-b33b-4c46-90bc-dcde7870ce7a"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-db2de469-4dfb-4238-a759-bf75aea762a0" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>AjWZj/szFScRGZXhM8Wg5zGqbN+rRNt84dzdFPqvz2E=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-cb1b186b-b33b-4c46-90bc-dcde7870ce7a"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>7FmvMuwJTb4z/pny9FktrZDyfTxKCc4kaF3+kbyMnfQ=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-cb1b186b-b33b-4c46-90bc-dcde7870ce7a"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>VkDLScgWTL2jnkeAFLxrXc0VPMrmMnUBnAT2s8hoFT8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-cb1b186b-b33b-4c46-90bc-dcde7870ce7a">Udk4bFbf/9noyFTZqSLuUfGEoyn3sQMaKnV5uabsg3jsdz3A7XScgVJzyHXZiRH0sQz37sklPZdOv8ZutPV7sTUlPD5MUcFdUGWy8M+gDL+ESA2TIt7wSnSJLOAtTuqOLffbj2HSXKV/IRS2FjyqtTjiuax777evbgOuerPEd18NrBpNviCUU+5P/e/UlkGBFwoVd5Z2tZQnFVpE7+DMZ0CDbDGV4GFaRBFz6HftrtOFqkBohhYRLHuRvkP/X0mIXfRzoncKgxo9D6WXslUs+4s+iUnXHPoVV6Uyb8A8MvqIjzxkf1Ba6s2KaPvZKw1Kq7lxyhH7glgy427twovKQA==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-cb1b186b-b33b-4c46-90bc-dcde7870ce7a"><ds:X509Data><ds:X509Certificate>MIIFMzCCAxugAwIBAgIGAZggx+EWMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjUwNzE5MDM0MzQ2WhcNMjkwNzE4MDM0MzQ2WjCBjTEZMBcGA1UEBRMQQ1BKLTMtMTAyLTkzOTIyNzELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE6MDgGA1UEAwwxMy0xMDItOTM5MjI3IFNPQ0lFREFEIERFIFJFU1BPTlNBQklMSURBRCBMSU1JVEFEQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJwsQBXzneF8MdVi4twrkujQyHJjHEMxK1cEEwkZfFlIn8jSN/38kDb/Oa/ax1Wr+yyOFPJBIsjih2NQBCw+3uZSsywMrEUhfwfJBMGD4EEILF3OgYwj152KvWWclf5jLtXHhwLUrA7udyqyjLi9DXTw90SxE7MPcHt5fMtNZO1SWlrG476AZB2xYX7w6poNBlp6xzfm2yLv3JKrA7e3G0CLfvvGE+5yJiCgf3RfITv4IawuBcI0asA//TTwa/Q792ASXmOc4bZlxVeYgieV8InlpQVoSp9KsVVLbUSo9g2edEWCu12gj/2vrjABjJ9oJwjQqo/6RvN2yRPFT1RyzTECAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUANKfelSRy0y0GsymZzljk5pYZsswCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAATiyKtDEL6FjJILMHfxDV/WzHYDJ6UVRySl6inX9KsxIuXcD+z+jS7Izt+fbamYd9oZD7yc2vgrilO1I1oqSogefLMbfItcVfhUQqFe39L45V7+HIODsjIzXPZrXLVf/2TG1RMG+TG8Wp/QU+smzH1LFo0ILW0gdsc+N/ViMca3eKsUe6Qw2AHPHY1NK4AN8EPpjz6T2IIXBMerqI9qPbmPmhaX4HtlXR6iO1NqpD48GU/eJsjdqH3SvX6pn3WNDeQRJwKC83EheMl2Cm3nw4l55a+D52Da2A15zCBDwEvOPEniG3PTfaWAhTtBvan8FVSiExOFTvdlZVZ89qHT+14JvKH4cMaryjmEwWOCKEH37OHzMgHuBFmDFbfyoQorO4nifStvue8FgwS/buTDnZj4LXT3zZQNEwFNcdwuVOhwNWRx9OOFbCzeam0wQW/Oi+BiYFGubGs+UTMnc1irrHvNozytagSTseuAv6Yip7GMgVTgQT2D4TK71mOpDwNEMC6i/1TVu60IM7XhxO1kfKJQADdUIhflgDRqB88MoPuuM363HI7bKeH2hqYaNgyR3ECSe/J7JjL81MTTgYhgB049hL/br3pj+VkbgJtXuamxD/4/u7ZXPwDpVrgznHV591FySjU5q2hLoaamGt/R7r4gcqKyzShkCv2IdgUYxETv</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>nCxAFfOd4Xwx1WLi3CuS6NDIcmMcQzErVwQTCRl8WUifyNI3/fyQNv85r9rHVav7LI4U8kEiyOKHY1AELD7e5lKzLAysRSF/B8kEwYPgQQgsXc6BjCPXnYq9ZZyV/mMu1ceHAtSsDu53KrKMuL0NdPD3RLETsw9we3l8y01k7VJaWsbjvoBkHbFhfvDqmg0GWnrHN+bbIu/ckqsDt7cbQIt++8YT7nImIKB/dF8hO/ghrC4FwjRqwD/9NPBr9Dv3YBJeY5zhtmXFV5iCJ5XwieWlBWhKn0qxVUttRKj2DZ50RYK7XaCP/a+uMAGMn2gnCNCqj/pG83bJE8VPVHLNMQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-9156ef1d-6293-4844-b02d-9d7321c33e36"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-6b7f0b2c-306d-4116-9852-cea067a7af59" Target="#Signature-cb1b186b-b33b-4c46-90bc-dcde7870ce7a"><xades:SignedProperties Id="SignedProperties-Signature-cb1b186b-b33b-4c46-90bc-dcde7870ce7a"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-08T16:53:45-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>jCacvfVJo4yCF11A0EXxgYA0nOkqSAOkmwIHi6rQeSc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1752896626966</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-db2de469-4dfb-4238-a759-bf75aea762a0"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

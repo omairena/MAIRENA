@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica.xsd" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50604032600310292159900400011010000000072134345679</Clave>
+  <ProveedorSistemas>3101806213</ProveedorSistemas>
+  <CodigoActividadEmisor>4630.4</CodigoActividadEmisor>
+  <CodigoActividadReceptor>5630.0</CodigoActividadReceptor>
+  <NumeroConsecutivo>00400011010000000072</NumeroConsecutivo>
+  <FechaEmision>2026-03-04T14:24:43-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>DISTRIBUIDORA_CASATAY_RCS_SRL  </Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3102921599</Numero>
+    </Identificacion>
+    <NombreComercial>DISTRIBUIDORA_CASATAY_RCS_SRL</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>14</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>125 MTS Noste del Templo Catolico Los Chiles</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>89665850</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>dpa@acyasociados.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>NOELIA BLANDON POLANCO</Nombre>
+    <Identificacion>
+      <Tipo>03</Tipo>
+      <Numero>155845766309</Numero>
+    </Identificacion>
+    <NombreComercial>BAR Y RESTAURANTE EL RINCONCITO</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>14</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>120 NORTEMETROS DE LA ESCUELA EL PARQUE DE LOS CHILES CONTIO A LA FERRETERIA</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>62374994</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>facturasnoheliabp@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>2449099009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>194622</Codigo>
+      </CodigoComercial>
+      <Cantidad>24.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>(13%) KERNS BEBIDA C/J TOMATE PIC 154ML HJL</Detalle>
+      <PrecioUnitario>442.47788</PrecioUnitario>
+      <MontoTotal>10619.46912</MontoTotal>
+      <SubTotal>10619.46912</SubTotal>
+      <BaseImponible>10619.46912</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>1380.53097</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1380.53097</ImpuestoNeto>
+      <MontoTotalLinea>12000.00009</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>2</NumeroLinea>
+      <CodigoCABYS>2449099009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>134988</Codigo>
+      </CodigoComercial>
+      <Cantidad>48.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>(13%) ROCK LIMON 350 ML VR 4.2%</Detalle>
+      <PrecioUnitario>720.35398</PrecioUnitario>
+      <MontoTotal>34576.99104</MontoTotal>
+      <SubTotal>34576.99104</SubTotal>
+      <BaseImponible>34576.99104</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>4495.00885</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>4495.00885</ImpuestoNeto>
+      <MontoTotalLinea>39071.99989</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0.00000</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServExonerado>0.00000</TotalServExonerado>
+    <TotalMercanciasGravadas>45196.46016</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00000</TotalMercExonerada>
+    <TotalGravado>45196.46016</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalExonerado>0.00000</TotalExonerado>
+    <TotalVenta>45196.46016</TotalVenta>
+    <TotalDescuentos>0.00000</TotalDescuentos>
+    <TotalVentaNeta>45196.46016</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>5875.53982</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>5875.53982</TotalImpuesto>
+    <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+    <TotalOtrosCargos>0.00000</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <TotalMedioPago>51071.99998</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>51071.99998</TotalComprobante>
+  </ResumenFactura>
+  <Otros>
+    <OtroTexto>MEDIOS DE PAGO APLICADOS : 
+01-EFECTIVO : 51,072.00
+
+</OtroTexto>
+  </Otros>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-f29d4cd2-d6a2-42c0-8f69-b73e8c63e5d9"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-504a07a2-431d-4c07-b5f8-5afa956980a4" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>WkRmod6xhjd9Va0z1iYhNN0TZNIV2unN1W7xTabpbxs=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-f29d4cd2-d6a2-42c0-8f69-b73e8c63e5d9"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>SktMV5UOzVfcNGxMAa+zkRazpxOrObEMf67PnA45Nkc=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-f29d4cd2-d6a2-42c0-8f69-b73e8c63e5d9"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>ElUiwWCddXUV7/g2/+iVsTGwWPK5rEniyFAOKyZUJUo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-f29d4cd2-d6a2-42c0-8f69-b73e8c63e5d9">UCnlq1Yk8qyRXHELLdQrY+Qtr0bTJUqsNvzQShX5w5LgziSiKFWoDHLr/RyPHBAx4sYNOtm1Bi3rB4XJFt278H1RXMqC2/GTRf6PMYykULYA44tfteez+FHGkWHGCQJg9+LRobnS0k3DtrfzMy58FEXAD5z3S+IifdoBFAXa+qlgxZE0dMcFwrPKLT2msuHDY4Wu2gfwCq5P4REvCk8jgbtmeZRDgrFCmxremR03HLEwtDavCr/GcEVL8WIE2OJu8XQmCGNASvDmTt5kOL6x/LKaRkG85Pr7UlqeiNnXE4CrO+Oittz+MFjfqd50A/ZvtDNDBMWUAsdNQbkrcY+3ZA==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-f29d4cd2-d6a2-42c0-8f69-b73e8c63e5d9"><ds:X509Data><ds:X509Certificate>MIIFRTCCAy2gAwIBAgIGAZxT0gAfMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjYwMjEyMjE0NjM3WhcNMzAwMjExMjE0NjM3WjCBnzEZMBcGA1UEBRMQQ1BKLTMtMTAyLTkyMTU5OTELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjFMMEoGA1UEAwxDRElTVFJJQlVJRE9SQSBDQVNBVEFZIFJDUyBTT0NJRURBRCBERSBSRVNQT05TQUJJTElEQUQgTElNSVRBREEgbnVsbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANkLAckCuk1ara3CzBLXb+1GqGAWqBf9VM7JUdWntCc4wkF0t87DfFEXuuoOotXUChlpRQx7ii77LofkibddbSNM2T2bFJg9L/H//PEiyE9JYZrtrfaEUsVicmXF2Dzx+EfOy+dFy4PbqxCV/uqdFK5+JxmgLFd/geIjyCxV/Mh60dbUiUeH3qPMB+X08wTmB9Ay40+0Q99pAGbu7NcobBuv6/3hJyzo1ssbF0AOJO7bseP9FlLb9evNY95AEZAXBtZJgge+AWD1SfeFOxKgqDR0eX0dEPop5i5MWEUMXLy2iz9QwZNPIu/8O9rivxXWXBC8qUTDmEhjDjI2/ekvTn8CAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUsxTllYZjFC+2NAXud2lexkQWtvcwCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAB3kT+DlpkHPKib5fH6Ps/sEOrtWPOXplKwLxY9QoLCv/nlwOB3YSUwQ0aT5OnTd4hlbcTmOA6shos597794M0iO1b2oIvE+IhkDJlvDo3uP3hrjO8SGN0OTx+9ew1rQEaltkX2IYDxKp3t1U/IwPgkFUaQyEfMMKtIcsEyr9qDAISH8WEQxde7GWHRvEdCTD2eRab5jLzfxIuMyBt66FmS7ufeHAnppQXyYjn8xmnEWhw639HE006usGNHqeRf8yoRKHD3yhlboCibzt0ZTCg1RX3xAwkwecJhqsMYNZRdlDfMJLfanhnknXuaGeh083shM1WMKoMN4AjN8pk/VPtdU6Ni6dngo6Chw41DaJwoH/GA8HLZeTFyMsJjG0QyrK3SkKYWdQaP1MLJGyFtZGuSPvov53N5dPdlFxfaO4N8raIeCcu4ZbFS1DRUJjzvguKkxe0yNYuysPzwxu1h/+kodopzP3rOeyU9NG0gyk/hk3gTL/iHCtdh8EbJRGSG1k4REbej5D/v5MmMpYpERbM8Zvvje5G1fJ23QWZVHjrUMAEhl2dJiYwHngm+5N9ybAmWzcyu/Gq/K7XnuwtKedI/gRwt4VGE2xmWGoYKwc2n84l0C+fe8dfNpFiCpOTE4b6JeCOHHmSFL8o0W24e+hK/BefdhzOFhuMbUpi9ub7SU</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>2QsByQK6TVqtrcLMEtdv7UaoYBaoF/1UzslR1ae0JzjCQXS3zsN8URe66g6i1dQKGWlFDHuKLvsuh+SJt11tI0zZPZsUmD0v8f/88SLIT0lhmu2t9oRSxWJyZcXYPPH4R87L50XLg9urEJX+6p0Urn4nGaAsV3+B4iPILFX8yHrR1tSJR4feo8wH5fTzBOYH0DLjT7RD32kAZu7s1yhsG6/r/eEnLOjWyxsXQA4k7tux4/0WUtv1681j3kARkBcG1kmCB74BYPVJ94U7EqCoNHR5fR0Q+inmLkxYRQxcvLaLP1DBk08i7/w72uK/FdZcELypRMOYSGMOMjb96S9Ofw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-e2108f26-3e38-42c4-864e-0bc0788fc1dd"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-582bdee3-0f5f-4588-bf0a-0dde1602dd5e" Target="#Signature-f29d4cd2-d6a2-42c0-8f69-b73e8c63e5d9"><xades:SignedProperties Id="SignedProperties-Signature-f29d4cd2-d6a2-42c0-8f69-b73e8c63e5d9"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-04T14:24:45-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>zQfrfH5+/vYPjyETF+rxWnts02LyLFbMao+tTkfPaAc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1770932797471</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://atv.hacienda.go.cr/ATV/ComprobanteElectronico/docs/esquemas/2024/v4.4/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>eUGBLxo7SaqxaR+CGU5DCjUc514GOiOU9S0Smy5W7HE=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-504a07a2-431d-4c07-b5f8-5afa956980a4"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

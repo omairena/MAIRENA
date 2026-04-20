@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50601042600310175161000100002010000000282159170303</Clave>
+  <ProveedorSistemas>206410122</ProveedorSistemas>
+  <CodigoActividadEmisor>4312.0</CodigoActividadEmisor>
+  <CodigoActividadReceptor>0122.3</CodigoActividadReceptor>
+  <NumeroConsecutivo>00100002010000000282</NumeroConsecutivo>
+  <FechaEmision>2026-04-01T09:43:47-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>MOVIMIENTO DE TIERRA JASSHI SA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101751610</Numero>
+    </Identificacion>
+    <NombreComercial>MOVIMIENTO DE TIERRA JASSHI SA</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>04</Distrito>
+      <Barrio>LOS CHILES</Barrio>
+      <OtrasSenas>Aguas Zarcas ,  Los Chiles, 800 OESTE DE EMPACADORA MAMIRME</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>86447110</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>jasshi2022@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>PIÑAS ORGANICAS DEL BOSQUE SOCIEDAD ANONIMA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101789174</Numero>
+    </Identificacion>
+    <NombreComercial>PIÑAS ORGANICAS DEL BOSQUE SOCIEDAD ANONIMA</NombreComercial>
+    <Ubicacion>
+      <Provincia>1</Provincia>
+      <Canton>02</Canton>
+      <Distrito>03</Distrito>
+      <OtrasSenas>GUACHIPELIN, PLAZA ROBLE, EDIFICIO TERRAZA B. PISO 7</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>22873000</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>pinasorganicasdelbosque.compras@dole.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>5433000009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>001</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Os</UnidadMedida>
+      <Detalle>Servicios de movimiento de tierras: excavación, nivelación y ordenación de terrenos agrícolas</Detalle>
+      <PrecioUnitario>3505420.00000</PrecioUnitario>
+      <MontoTotal>3505420.00000</MontoTotal>
+      <SubTotal>3505420.00000</SubTotal>
+      <BaseImponible>3505420</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>455704.60000</Monto>
+        <Exoneracion>
+          <TipoDocumentoEX1>04</TipoDocumentoEX1>
+          <NumeroDocumento>AL-00071442-25</NumeroDocumento>
+          <NombreInstitucion>01</NombreInstitucion>
+          <FechaEmisionEX>2025-11-10T00:00:00-06:00</FechaEmisionEX>
+          <TarifaExonerada>13</TarifaExonerada>
+          <MontoExoneracion>455704.60000</MontoExoneracion>
+        </Exoneracion>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>0.00000</ImpuestoNeto>
+      <MontoTotalLinea>3505420.00000</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0.00000</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServExonerado>3505420.00000</TotalServExonerado>
+    <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+    <TotalMercanciasGravadas>0.00000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00000</TotalMercExonerada>
+    <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+    <TotalGravado>0.00000</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalExonerado>3505420.00000</TotalExonerado>
+    <TotalNoSujeto>0.00000</TotalNoSujeto>
+    <TotalVenta>3505420.00000</TotalVenta>
+    <TotalDescuentos>0.00000</TotalDescuentos>
+    <TotalVentaNeta>3505420.00000</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>0.00000</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>0.00000</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0.00000</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+    <TotalOtrosCargos>0.00000</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>04</TipoMedioPago>
+      <TotalMedioPago>3505420</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>3505420.00000</TotalComprobante>
+  </ResumenFactura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-ec96bdee-1189-dba7-a8b3-e97ff4231b70"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod><ds:Reference Id="Reference-4b87d5be-8f0d-0a4d-b477-bcb39b4f85fc" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>ivU61EHY9ZN5Zqj+LH3/6nTTBZE0+SAvzeZI0GOM0VU=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-ec96bdee-1189-dba7-a8b3-e97ff4231b70"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>ZQqywZAqJ+lLfIZTxzkmdCqnO17+qGGlFvH2O2Nmwcc=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-ec96bdee-1189-dba7-a8b3-e97ff4231b70"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>gASbualuSTS6zaotA5M3hxAY5HZbvKGZKE5vpbQtvm8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-ec96bdee-1189-dba7-a8b3-e97ff4231b70">cemdu+x2fYNKy958sAO8IRVMHfyVNLd4OdSskC1k+hKdRCJ1DuJV4G+oTzFQKM75f35VlMQPB+Xoc+BSFYxS8r3gXsHbf+J023MXTxiP9ET4sEiEJlEYTg9PhXPwSR4F6nKkPtDfir3eS4CV7y1ctq1rwU9P7UtURLNV+Agsq6++BVVi7khXfVlvGCvBNzkmzlWYPhLZowxEDmS061gpaOn7IJ/Upf8IBtJVZADWVHlQDv7FDbjzwq+SN0FhNgBUAxsiy1C5yYC42bGSbgHzgPToFvhH/DWh8nrq0/DJ2B46kHMAaNrcUTxNGoZh2Xr+q9+o6D7+svV7uyNx66N75A==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-ec96bdee-1189-dba7-a8b3-e97ff4231b70"><ds:X509Data><ds:X509Certificate>MIIFLjCCAxagAwIBAgIGAYP1k5qjMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjIxMDIwMTMyNzE0WhcNMjYxMDE5MTMyNzE0WjCBiDEZMBcGA1UEBRMQQ1BKLTMtMTAxLTc1MTYxMDELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE1MDMGA1UEAwwsTU9WSU1JRU5UTyBERSBUSUVSUkEgSkFTU0hJIFNPQ0lFREFEIEFOT05JTUEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCi1TRf33TW1nfkyVhc1utwUD2P5YTUJ6H7qfhQ8VscOWXdX1qO+RkQDUTbncDOjeeTyrtYGvpMKmkRU60KheNTh2bIXChsPK+tj66lVzq4JflmuoXSGuBcEd7Q+CPTmDP41E/g1UEr53RHf6K0eEYb7SeqsQL0C5J7E3UKbe71i2ArOjlLcwawkK5ePqeruFNYfknAF5/LKgrGnA4C5wZ2txRmw1czA0hBw82NEVmLrKky11o6IUedeDggTbyktCeA1UTTsrsadzsvpb6+qbAWWukG74iD57yI+B/F4+NoCWAN8DO0RJPK8m9zXvBSARubkRoUGl4aoPCaQwO4KjDpAgMBAAGjgcowgccwHwYDVR0jBBgwFoAUO21X9dZ86Z4QAiBB470azM+zTpUwHQYDVR0OBBYEFD03A5wrpGMAnnEkWAUJ6XrWsRvkMAsGA1UdDwQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDBjBggrBgEFBQcBAQRXMFUwUwYIKwYBBQUHMAKGR2h0dHBzOi8vcGtpLmNvbXByb2JhbnRlc2VsZWN0cm9uaWNvcy5nby5jci9wcm9kL2ludGVybWVkaWF0ZS1wai1wZW0uY3J0MA0GCSqGSIb3DQEBCwUAA4ICAQAeMJ4LJEKxO6pg4HJFKkstE5lov0giBzOVK62X0Vmlm1FYjXPk4X3XRTmAX0UijRYuLLqqSB8aFvvhEF5MHSVqi/M0HEbqHtVC4Dhg8zBu+j2kepRaGQASXLS4ZDEC/6YEpDvR8NdQzu4I3NQspPSCJwJXOEdxDoTzR+cp+4dgz2xslisZzsKPGl8g0ZW/78p3aCtLsMBIpML267lghIfWeail2lADSFaM7UetiPBsoiKJtP5uDpXDXpf8dHsL209i0KypbnN5tQ3e7MpGOLMsg64lf1ZTV5/HLhbmXEbYwOLOY5iVQhiOnLVLVRBjOg/0Clxh2Jfp5VhqG9awYEcZdmiGWdBOQARSpsSCcPqceIM5zfHAbk3YQQAXKJkemXahEL8q2AExcS9g0ELY0nD9jNKjPyE4QWy7U4KPFrO55/PGyHSDZ5gLSzOss1QGz7PDYkMVU+PhLA0G/IkfJQSDNlHw5f4uSnYroD/OxiSfS3617iIg2SU1AQSyvToqQgZEM3wSAg/Hube7FP3m8Sey913Pe4XJHCHmCIuzTO+Gn41M7GdFmCcZ8XCjclOOYTz0lKasYEomPliZY++C03hYmX0eNr1PI/vJyqbJxiSitdaWjm16mDvYTLCN2KDr99dWQ3OlxmzBTsutDWmHQ6/BTxqXdcZQBsVXwhbtR6hQHg==</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>otU0X9901tZ35MlYXNbrcFA9j+WE1Ceh+6n4UPFbHDll3V9ajvkZEA1E253Azo3nk8q7WBr6TCppEVOtCoXjU4dmyFwobDyvrY+upVc6uCX5ZrqF0hrgXBHe0Pgj05gz+NRP4NVBK+d0R3+itHhGG+0nqrEC9AuSexN1Cm3u9YtgKzo5S3MGsJCuXj6nq7hTWH5JwBefyyoKxpwOAucGdrcUZsNXMwNIQcPNjRFZi6ypMtdaOiFHnXg4IE28pLQngNVE07K7Gnc7L6W+vqmwFlrpBu+Ig+e8iPgfxePjaAlgDfAztESTyvJvc17wUgEbm5EaFBpeGqDwmkMDuCow6Q==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-ad02784d-2f89-5091-3589-91fef6703031"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-891081b3-3116-1d54-4636-793eb17e00d3" Target="#Signature-ec96bdee-1189-dba7-a8b3-e97ff4231b70"><xades:SignedProperties Id="SignedProperties-Signature-ec96bdee-1189-dba7-a8b3-e97ff4231b70"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-01T09:43:47Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>0SryboiwSCPCuYgxGArK5zZ5W2aBhkkUfsBZ8+REjeQ=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA,OU=DGT,O=MINISTERIO DE HACIENDA,C=CR</ds:X509IssuerName><ds:X509SerialNumber>1666272434851</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4/Resolucion%20Comprobantes%20Electronicos%20%20DGT-R-48-2016.pdf</xades:Identifier><xades:Description></xades:Description></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>V8lVVNGDCPen6VELRD1Ja8HARFk=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-4b87d5be-8f0d-0a4d-b477-bcb39b4f85fc"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

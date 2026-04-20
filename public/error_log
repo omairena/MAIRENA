@@ -1,0 +1,139 @@
+[06-Jan-2025 15:20:32 America/Costa_Rica] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FacturacionController::update() in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1093
+[06-Jan-2025 15:24:07 America/Costa_Rica] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FacturacionController::guardar() in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 744
+[06-Jan-2025 15:24:22 America/Costa_Rica] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FacturacionController::guardar() in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 744
+[06-Jan-2025 15:24:29 America/Costa_Rica] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FacturacionController::guardar() in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 744
+[06-Jan-2025 15:24:40 America/Costa_Rica] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FacturacionController::guardar() in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 744
+[06-Jan-2025 15:25:34 America/Costa_Rica] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FacturacionController::guardar() in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 744
+[06-Jan-2025 15:26:09 America/Costa_Rica] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FacturacionController::guardar() in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 744
+[09-Jan-2025 13:02:22 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:02:34 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:02:58 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:03:02 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:03:30 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:04:15 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:05:46 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:07:28 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:07:29 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:07:35 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:07:40 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:07:43 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:07:52 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:08:33 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:09:32 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:11:32 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:14:17 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1343
+[09-Jan-2025 13:14:47 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1342
+[09-Jan-2025 13:20:34 America/Costa_Rica] PHP Fatal error:  Assignments can only happen to writable values in /home/okgmfvzr/public_html/sistema/app/Http/Controllers/FacturacionController.php on line 1423
+[19-Mar-2025 16:11:14 America/Costa_Rica] PHP Fatal error:  Cannot use [] for reading in /home/okgmfvzr/oscar.snesteban.com/app/Http/Controllers/ReportesController.php on line 3166
+[23-Mar-2025 12:31:49 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/oscar.snesteban.com/storage/framework/views/d58b41ee0b934a872ee30321ec608e3c0d53bf04.php on line 89
+[23-Mar-2025 12:31:49 America/Costa_Rica] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php:1235
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/okgmfvzr/...', 1235, Array)
+#1 /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php(1235): ob_end_flush()
+#2 /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php(399): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/okgmfvzr/oscar.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/okgmfvzr/oscar.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalEr in /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php on line 1235
+[23-Mar-2025 12:31:58 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/oscar.snesteban.com/storage/framework/views/d58b41ee0b934a872ee30321ec608e3c0d53bf04.php on line 89
+[23-Mar-2025 12:31:58 America/Costa_Rica] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php:1235
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/okgmfvzr/...', 1235, Array)
+#1 /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php(1235): ob_end_flush()
+#2 /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php(399): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/okgmfvzr/oscar.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/okgmfvzr/oscar.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalEr in /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php on line 1235
+[24-Mar-2025 15:48:56 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/oscar.snesteban.com/storage/framework/views/c2b0eeada70207e33049cbdf33c9edd55c4d90cc.php on line 146
+[24-Mar-2025 15:48:56 America/Costa_Rica] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php:1235
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/okgmfvzr/...', 1235, Array)
+#1 /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php(1235): ob_end_flush()
+#2 /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php(399): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/okgmfvzr/oscar.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/okgmfvzr/oscar.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalEr in /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php on line 1235
+[24-Mar-2025 15:50:53 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/oscar.snesteban.com/storage/framework/views/c2b0eeada70207e33049cbdf33c9edd55c4d90cc.php on line 146
+[24-Mar-2025 15:50:53 America/Costa_Rica] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php:1235
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/okgmfvzr/...', 1235, Array)
+#1 /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php(1235): ob_end_flush()
+#2 /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php(399): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/okgmfvzr/oscar.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/okgmfvzr/oscar.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalEr in /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php on line 1235
+[24-Mar-2025 15:51:17 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/oscar.snesteban.com/storage/framework/views/c2b0eeada70207e33049cbdf33c9edd55c4d90cc.php on line 146
+[24-Mar-2025 15:51:17 America/Costa_Rica] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php:1235
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/okgmfvzr/...', 1235, Array)
+#1 /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php(1235): ob_end_flush()
+#2 /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php(399): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/okgmfvzr/oscar.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/okgmfvzr/oscar.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalEr in /home/okgmfvzr/oscar.snesteban.com/vendor/symfony/http-foundation/Response.php on line 1235
+[24-Mar-2025 17:32:24 America/Costa_Rica] Total Credito: 0.00
+[24-Mar-2025 18:20:30 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/oscar.snesteban.com/app/Exports/SalesExportcolon.php on line 90
+[01-Apr-2025 08:41:23 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/v4-4.snesteban.com/storage/framework/views/b7c583ce410f6c27e5c3dc4381c43d8e30912162.php on line 89
+[01-Apr-2025 08:41:23 America/Costa_Rica] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php:1235
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/okgmfvzr/...', 1235, Array)
+#1 /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php(1235): ob_end_flush()
+#2 /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php(399): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/okgmfvzr/v4-4.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/okgmfvzr/v4-4.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError)) in /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php on line 1235
+[01-Apr-2025 13:34:25 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/v4-4.snesteban.com/storage/framework/views/b7c583ce410f6c27e5c3dc4381c43d8e30912162.php on line 89
+[01-Apr-2025 13:34:25 America/Costa_Rica] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php:1235
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/okgmfvzr/...', 1235, Array)
+#1 /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php(1235): ob_end_flush()
+#2 /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php(399): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/okgmfvzr/v4-4.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/okgmfvzr/v4-4.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError)) in /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php on line 1235
+[01-Apr-2025 13:37:23 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/v4-4.snesteban.com/storage/framework/views/b7c583ce410f6c27e5c3dc4381c43d8e30912162.php on line 89
+[01-Apr-2025 13:37:23 America/Costa_Rica] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php:1235
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/okgmfvzr/...', 1235, Array)
+#1 /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php(1235): ob_end_flush()
+#2 /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php(399): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/okgmfvzr/v4-4.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/okgmfvzr/v4-4.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError)) in /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php on line 1235
+[01-Apr-2025 13:37:41 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/v4-4.snesteban.com/storage/framework/views/b7c583ce410f6c27e5c3dc4381c43d8e30912162.php on line 89
+[01-Apr-2025 13:37:41 America/Costa_Rica] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php:1235
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/okgmfvzr/...', 1235, Array)
+#1 /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php(1235): ob_end_flush()
+#2 /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php(399): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/okgmfvzr/v4-4.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/okgmfvzr/v4-4.snesteban.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError)) in /home/okgmfvzr/v4-4.snesteban.com/vendor/symfony/http-foundation/Response.php on line 1235
+[03-Apr-2025 16:39:06 America/Costa_Rica] No se recibió 'respuesta-xml' para la clave: 50603042500300816798900100001010000000001100000001
+[03-Apr-2025 16:40:36 America/Costa_Rica] No se recibió 'respuesta-xml' para la clave: 50603042500300816798900100001010000000002100000002
+[29-May-2025 10:00:41 America/Costa_Rica] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FacturacionController::deletefac() in /home/okgmfvzr/v4-4.snesteban.com/app/Http/Controllers/FacturacionController.php on line 2562
+[27-Jun-2025 13:46:53 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[04-Jul-2025 00:58:18 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[04-Jul-2025 01:03:16 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[04-Jul-2025 01:05:22 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[04-Jul-2025 10:39:57 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[07-Jul-2025 06:53:22 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[10-Jul-2025 00:49:00 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[10-Jul-2025 17:44:12 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[10-Jul-2025 17:44:47 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[10-Jul-2025 17:45:14 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[10-Jul-2025 17:45:26 America/Costa_Rica] PHP Fatal error:  Cannot use empty array elements in arrays in /home/okgmfvzr/pch-online.snesteban.com/app/Exports/SalesExport.php on line 89
+[19-Aug-2025 09:08:20 America/Costa_Rica] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ReportesController::Xml2Array() in /home/okgmfvzr/alfer.snesteban.com/app/Http/Controllers/ReportesController.php on line 2890
+[25-Aug-2025 14:48:45 UTC] PHP Warning:  POST Content-Length of 23002451 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Aug-2025 14:49:09 UTC] PHP Warning:  POST Content-Length of 23002451 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Aug-2025 14:52:15 UTC] PHP Warning:  POST Content-Length of 23002492 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Aug-2025 14:52:57 UTC] PHP Warning:  POST Content-Length of 23002492 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Aug-2025 14:56:31 UTC] PHP Warning:  POST Content-Length of 23002492 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Aug-2025 14:57:00 UTC] PHP Warning:  POST Content-Length of 23002492 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[29-Sep-2025 09:16:32 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[29-Sep-2025 09:19:38 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[29-Sep-2025 09:22:14 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[29-Sep-2025 09:25:36 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/dompdf/dompdf/src/Renderer/Text.php on line 130
+[29-Sep-2025 09:29:25 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[29-Sep-2025 09:33:35 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[29-Sep-2025 09:34:35 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[29-Sep-2025 09:49:51 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[29-Sep-2025 09:52:37 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php on line 466
+[29-Sep-2025 09:54:26 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[29-Sep-2025 09:57:05 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[29-Sep-2025 09:58:47 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/public/funcionFacturacion506.php on line 91
+[29-Sep-2025 10:03:50 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[25-Feb-2026 16:24:32 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[25-Feb-2026 16:24:37 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[25-Feb-2026 16:24:39 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169
+[25-Feb-2026 16:24:40 America/Costa_Rica] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/okgmfvzr/public_html/sistema/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php on line 169

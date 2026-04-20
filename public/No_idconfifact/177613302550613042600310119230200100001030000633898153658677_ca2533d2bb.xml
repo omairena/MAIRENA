@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NotaCreditoElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/notaCreditoElectronica" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/notaCreditoElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/notaCreditoElectronica_V.4.4.xsd">
+   <Clave>50613042600310119230200100001030000633898153658677</Clave>
+   <ProveedorSistemas>3101595167</ProveedorSistemas>
+   <CodigoActividadEmisor>4630.9</CodigoActividadEmisor>
+   <NumeroConsecutivo>00100001030000633898</NumeroConsecutivo>
+   <FechaEmision>2026-04-13T20:10:51</FechaEmision>
+   <Emisor>
+      <Nombre>CIAMESA, S.A.</Nombre>
+      <Identificacion>
+         <Tipo>02</Tipo>
+         <Numero>3101192302</Numero>
+      </Identificacion>
+      <Registrofiscal8707>123456</Registrofiscal8707>
+      <NombreComercial>CIAMESA, S.A.</NombreComercial>
+      <Ubicacion>
+         <Provincia>2</Provincia>
+         <Canton>01</Canton>
+         <Distrito>02</Distrito>
+         <OtrasSenas>ALAJUELA, EL COYOL, P. EMPRES. NOVAPARK 2KM ESTE DE EST. RTV</OtrasSenas>
+      </Ubicacion>
+      <Telefono>
+         <CodigoPais>506</CodigoPais>
+         <NumTelefono>24367000</NumTelefono>
+      </Telefono>
+      <CorreoElectronico>FACTURASSERVICIOS@CIAMESA.COM</CorreoElectronico>
+   </Emisor>
+   <Receptor>
+      <Nombre>ROYAL SOFT COMPANY SA </Nombre>
+      <Identificacion>
+         <Tipo>02</Tipo>
+         <Numero>3101097341</Numero>
+      </Identificacion>
+      <NombreComercial>ROYAL SOFT COMPANY SA </NombreComercial>
+      <Telefono>
+         <CodigoPais>506</CodigoPais>
+         <NumTelefono>71689430</NumTelefono>
+      </Telefono>
+      <CorreoElectronico>facturaselgallokooper@gmail.com</CorreoElectronico>
+   </Receptor>
+   <CondicionVenta>02</CondicionVenta>
+   <PlazoCredito>30</PlazoCredito>
+   <DetalleServicio>
+      <LineaDetalle>
+         <NumeroLinea>1</NumeroLinea>
+         <CodigoCABYS>3694000010100</CodigoCABYS>
+         <CodigoComercial>
+            <Tipo>01</Tipo>
+            <Codigo>47514</Codigo>
+         </CodigoComercial>
+         <Cantidad>4.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+         <Detalle>VASO FESTIVAL 9 60PAQ12U EXP</Detalle>
+         <PrecioUnitario>231.00000</PrecioUnitario>
+         <MontoTotal>924.00000</MontoTotal>
+         <Descuento>
+            <MontoDescuento>0.00000</MontoDescuento>
+            <CodigoDescuento>07</CodigoDescuento>
+            <NaturalezaDescuento>Descuento Comercial</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>924.00000</SubTotal>
+         <BaseImponible>924.00000</BaseImponible>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifaIVA>08</CodigoTarifaIVA>
+            <Tarifa>13.00</Tarifa>
+            <Monto>120.12000</Monto>
+         </Impuesto>
+         <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+         <ImpuestoNeto>120.12000</ImpuestoNeto>
+         <MontoTotalLinea>1044.12000</MontoTotalLinea>
+      </LineaDetalle>
+   </DetalleServicio>
+   <ResumenFactura>
+      <CodigoTipoMoneda>
+         <CodigoMoneda>CRC</CodigoMoneda>
+         <TipoCambio>1.00000</TipoCambio>
+      </CodigoTipoMoneda>
+      <TotalServGravados>0.00000</TotalServGravados>
+      <TotalServExentos>0.00000</TotalServExentos>
+      <TotalServExonerado>0.00000</TotalServExonerado>
+      <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+      <TotalMercanciasGravadas>924.00000</TotalMercanciasGravadas>
+      <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+      <TotalMercExonerada>0.00000</TotalMercExonerada>
+      <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+      <TotalGravado>924.00000</TotalGravado>
+      <TotalExento>0.00000</TotalExento>
+      <TotalExonerado>0.00000</TotalExonerado>
+      <TotalNoSujeto>0.00000</TotalNoSujeto>
+      <TotalVenta>924.00000</TotalVenta>
+      <TotalDescuentos>0.00000</TotalDescuentos>
+      <TotalVentaNeta>924.00000</TotalVentaNeta>
+      <TotalDesgloseImpuesto>
+         <Codigo>01</Codigo>
+         <CodigoTarifaIVA>08</CodigoTarifaIVA>
+         <TotalMontoImpuesto>120.12</TotalMontoImpuesto>
+      </TotalDesgloseImpuesto>
+      <TotalImpuesto>120.12000</TotalImpuesto>
+      <TotalComprobante>1044.12000</TotalComprobante>
+   </ResumenFactura>
+   <InformacionReferencia>
+      <TipoDocIR>09</TipoDocIR>
+      <TipoDocRefOTRO>Otros</TipoDocRefOTRO>
+      <Numero>50610042600310119230200100001010000648715194441458</Numero>
+      <FechaEmisionIR>2026-04-10T17:31:15</FechaEmisionIR>
+      <Codigo>02</Codigo>
+      <Razon>NOTA CREDITO / NOTA DEBITO</Razon>
+   </InformacionReferencia>
+   <Otros>
+      <OtroTexto codigo="FechaReclamo">20260413</OtroTexto>
+   </Otros><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-ae36506d-e3a3-4dea-a92f-27388758e2e6"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-910e3ff5-dc49-4321-94ab-de464c5bd9e7" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>mcifkjBuUr6TXaS7q6srZag+zIp/Mgo55MyPvuYfqLo=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-ae36506d-e3a3-4dea-a92f-27388758e2e6"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>JwNO+TAAr8awmHckcplZeAAWEr+6mYjVypWd911gv0w=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-ae36506d-e3a3-4dea-a92f-27388758e2e6"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>8QbMM8nTf1D9pBQPKwnAL7MldQc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-ae36506d-e3a3-4dea-a92f-27388758e2e6">ae3PEci0EGfe+Hpl5qyiLJK607e9gHTnvN2vR0dbN0LZmbM+G3gyTpv6NXdVTQvOH/Buvxf6a1DFZhoi7W4LDKo0Sf13/XQm70UcpnXj/dcb6x7sN1wI/ADBJVtA0BPDWjj+sRsVBfE5+dwZjDnuIZiGt47jZPhPloDPX/4ut6ZR/99FJc+D9Wnya6//rpya6NQ5yEH7P98btCrDN7WK2pZODByTSmErcaF0J3y0/aLea4e/QRHX6Fry/YH0F9H7R/IaEUqCwrrvKKvupz3MTEgVAOqtU1+BHHmJqYjQ7nONRNJtColRU1Z4hrSV5jDhSO9EyqgWIL9s0mZFGwaw+A==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-ae36506d-e3a3-4dea-a92f-27388758e2e6"><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>gUZyORlI2+6o7UrsHiZXGsFltvlXxocmbH5YU6NSrG+jNOJUsBA3XBKz0HKu0RjkxUvmrb6A8S0yPpYofOpriXQMfdYv/Yn1lakerSXyWuzPYurKyYwPL7Rh+xLNYVXowyHwctkz6Ve7/5hIY6ealQbeI0MGp9lrOwv5JPkY+JI26SrsANoTDYmewj2KveW24mVve6EOFy2ZHbehlFC6TuzcNyCKxye1EJWsud0POqI0mGSxwSYi9isUmlr4RpSBhByg3Q9MFrw1MV/MahN27oqUBvK1qXf14Xw+o91b5WZY59GqdLNEjbJVEZuWv0kJ4Zevuy/xenU6gOOKrMElsw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509Certificate>MIIFGTCCAwGgAwIBAgIGAYhOQUlkMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjMwNTI0MTQ1NDQxWhcNMjcwNTIzMTQ1NDQxWjB0MRkwFwYDVQQFExBDUEotMy0xMDEtMTkyMzAyMQswCQYDVQQGEwJDUjEZMBcGA1UECgwQUEVSU09OQSBKVVJJRElDQTEMMAoGA1UECwwDQ1BKMSEwHwYDVQQDDBhDSUFNRVNBIFNPQ0lFREFEIEFOT05JTUEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCBRnI5GUjb7qjtSuweJlcawWW2+VfGhyZsflhTo1Ksb6M04lSwEDdcErPQcq7RGOTFS+atvoDxLTI+lih86muJdAx91i/9ifWVqR6tJfJa7M9i6srJjA8vtGH7Es1hVejDIfBy2TPpV7v/mEhjp5qVBt4jQwan2Ws7C/kk+Rj4kjbpKuwA2hMNiZ7CPYq95bbiZW97oQ4XLZkdt6GUULpO7Nw3IIrHJ7UQlay53Q86ojSYZLHBJiL2KxSaWvhGlIGEHKDdD0wWvDUxX8xqE3buipQG8rWpd/XhfD6j3VvlZljn0ap0s0SNslURm5a/SQnhl6+7L/F6dTqA44qswSWzAgMBAAGjgcowgccwHwYDVR0jBBgwFoAUO21X9dZ86Z4QAiBB470azM+zTpUwHQYDVR0OBBYEFLLkWnPR2+P7IJ8aMGfFB9d8Ur6SMAsGA1UdDwQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDBjBggrBgEFBQcBAQRXMFUwUwYIKwYBBQUHMAKGR2h0dHBzOi8vcGtpLmNvbXByb2JhbnRlc2VsZWN0cm9uaWNvcy5nby5jci9wcm9kL2ludGVybWVkaWF0ZS1wai1wZW0uY3J0MA0GCSqGSIb3DQEBCwUAA4ICAQBtXiaoHj9852rIeDAhQ7h6ZcMm0zhMrIZ+doAxr4pELBqMkuAfuBDlCwXjQbkwdzcCJor11ahjraZ6savqWMIwSnLIr+BMDg3oaI/gQzQTk0CFPmxdTBUozv8zSN5/q8SEoQ4N5ZVES01MHuhS3APPODrHw+ZrNjypZjfJ9OoWlf1ADOc337vNAtaR2KYHUOQnm8FeI4/Hlaxfl2ny0cJi2yBcguSE/OaDsReRC2VxV8G/w/rBFHwEVVG+U9dxASqVDg4lDSO/x+NUYYKHaSnRnC1j02gfGQG/xQ/lbsdok1wcFHIUAazw81B6UK5Slf0n9FixNMOLnCNtOrO5rjJoI2A6IlkIzPMovRHn5jkpFpXsnMPs2+g789EuvpJWNZdlt+2JPowmyb01q8wkBUM86jHF0wf3ANxLq+d0F5S1T/cssb2lxFNHMklhVN6xbunlIe3pUtecKezMek0TctcJxO+YoFjwTNZ2DEto3PDlkL9ssWFTytEABJ59GZc9McIxq+NCYdO1N8MKtzJwJ/PkfPzV9GajGEP56bikU9yt85BOXvD+Le98qu9uJFXsPXTLkg02N9E8ujaczarRkjQWEdFlU3cgX3t+pPIs1jzOK74BgFkQCtx97Ukh/sVyXSam/m7XyvIKa6ZVekAr1/Hme1rywth0vKangO3hwrPKoA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-ae36506d-e3a3-4dea-a92f-27388758e2e6"><xades:SignedProperties Id="SignedProperties-Signature-ae36506d-e3a3-4dea-a92f-27388758e2e6"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-13T20:15:09.532Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>av9AoBfEw/muGspVsTC3+PvFh4o=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1684940081508</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://cdn.comprobanteselectronicos.go.cr/xml-schemas/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>emisor</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+   
+</NotaCreditoElectronica>

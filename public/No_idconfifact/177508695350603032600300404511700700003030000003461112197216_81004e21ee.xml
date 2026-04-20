@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NotaCreditoElectronica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/notaCreditoElectronica">
+  <Clave>50603032600300404511700700003030000003461112197216</Clave>
+  <ProveedorSistemas>3101409261</ProveedorSistemas>
+  <CodigoActividadEmisor>4752.1</CodigoActividadEmisor>
+  <NumeroConsecutivo>00700003030000003461</NumeroConsecutivo>
+  <FechaEmision>2026-03-03T17:12:06-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>COOPERATIVA DE ELECTRIFICACION RURAL DE SAN CARLOS R L</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3004045117</Numero>
+    </Identificacion>
+    <NombreComercial>COOPELESCA, RL (ALMACENES Y FERRETERÍA)</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>Costado Este de la Escuela Juan Chaves Rojas</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>24012828</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>fefacturacion@coopelesca.co.cr</CorreoElectronico>
+  </Emisor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>4634001020100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>29201</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.0</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <Detalle>CABLE THHN 8 BLANCO ENERWIRE</Detalle>
+      <PrecioUnitario>712.38938</PrecioUnitario>
+      <MontoTotal>712.38938</MontoTotal>
+      <SubTotal>712.38938</SubTotal>
+      <BaseImponible>712.38938</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.0</Tarifa>
+        <Monto>92.61062</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>92.61062</ImpuestoNeto>
+      <MontoTotalLinea>805.00000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>2</NumeroLinea>
+      <CodigoCABYS>4634001020100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>29203</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.0</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <Detalle>CABLE THHN 8 ROJO ENERWIRE</Detalle>
+      <PrecioUnitario>712.38938</PrecioUnitario>
+      <MontoTotal>712.38938</MontoTotal>
+      <SubTotal>712.38938</SubTotal>
+      <BaseImponible>712.38938</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.0</Tarifa>
+        <Monto>92.61062</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>92.61062</ImpuestoNeto>
+      <MontoTotalLinea>805.00000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>3</NumeroLinea>
+      <CodigoCABYS>4299901019900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>14188</Codigo>
+      </CodigoComercial>
+      <Cantidad>16.0</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <Detalle>GAZA EMT 1/2" UNA  ALETA UL</Detalle>
+      <PrecioUnitario>14.775</PrecioUnitario>
+      <MontoTotal>236.4000</MontoTotal>
+      <SubTotal>236.4000</SubTotal>
+      <BaseImponible>236.4000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.0</Tarifa>
+        <Monto>30.73200</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>30.73200</ImpuestoNeto>
+      <MontoTotalLinea>267.13200</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>4</NumeroLinea>
+      <CodigoCABYS>3632098010100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>05924</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.0</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <Detalle>TAPON HEMBRA LISO PVC 1/2" SCH40</Detalle>
+      <PrecioUnitario>65.78</PrecioUnitario>
+      <MontoTotal>65.780</MontoTotal>
+      <SubTotal>65.780</SubTotal>
+      <BaseImponible>65.780</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.0</Tarifa>
+        <Monto>8.55140</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>8.55140</ImpuestoNeto>
+      <MontoTotalLinea>74.33140</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.0</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0</TotalServGravados>
+    <TotalServExentos>0</TotalServExentos>
+    <TotalServExonerado>0</TotalServExonerado>
+    <TotalServNoSujeto>0</TotalServNoSujeto>
+    <TotalMercanciasGravadas>1726.95876</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0</TotalMercanciasExentas>
+    <TotalMercExonerada>0</TotalMercExonerada>
+    <TotalMercNoSujeta>0</TotalMercNoSujeta>
+    <TotalGravado>1726.95876</TotalGravado>
+    <TotalExento>0</TotalExento>
+    <TotalExonerado>0</TotalExonerado>
+    <TotalNoSujeto>0</TotalNoSujeto>
+    <TotalVenta>1726.95876</TotalVenta>
+    <TotalDescuentos>0</TotalDescuentos>
+    <TotalVentaNeta>1726.95876</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>224.50464</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>224.50464</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0</TotalIVADevuelto>
+    <TotalOtrosCargos>0</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>99</TipoMedioPago>
+      <MedioPagoOtros>Ingresos Anticipados</MedioPagoOtros>
+    </MedioPago>
+    <TotalComprobante>1951.46340</TotalComprobante>
+  </ResumenFactura>
+  <InformacionReferencia>
+    <TipoDocIR>99</TipoDocIR>
+    <TipoDocRefOTRO>Otros</TipoDocRefOTRO>
+    <Numero>50617022600300404511700700003040000001780120106440</Numero>
+    <FechaEmisionIR>2026-03-03T17:12:06</FechaEmisionIR>
+    <Codigo>99</Codigo>
+    <CodigoReferenciaOTRO>Otros</CodigoReferenciaOTRO>
+    <Razon>Nota Crédito: Rechazo de hacienda
+MONEDA: CRC / CONDICION VENTA: CONTADO
+MEDIO PAGO: OTROS
+
+IMPUESTO AL VALOR AGREGADO:
+% IVA         MONTO
+13%          224.50</Razon>
+  </InformacionReferencia>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-63092c76-4cc9-4a65-8ca6-ce4e1d75bb58"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-874e3a75-cef4-4ae9-8002-65852e9fa193" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>WfDwEfzW4ESkMwqbo7f9pXalf0KIPgyYBQnM+8YSpKw=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-63092c76-4cc9-4a65-8ca6-ce4e1d75bb58"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>LrzmFNAGPDJwWBBxKDcYKIduvRNCx/zhMXCYNijkk2I=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-63092c76-4cc9-4a65-8ca6-ce4e1d75bb58"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>ntapvEiX3oGVfh2/zKV4YirYv9QEhTA1za3FHz0/9V0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-63092c76-4cc9-4a65-8ca6-ce4e1d75bb58">OMQxhy6C3RebYCB0Moo+dwgJycdPnBf2fyTU/w8S9BKQcfhIPL17ibavTKzaw5J6caFoLt7ucIe9roJopJX6GPPlqk6q7OtRSMQhAd/3htDVn1tUM++pYDnmvejzh387wzxYvLZ/p1QnfsqwDTUI064BM7z302BMFU4CMEILFVup98wGVDgaXFHnpAQqJ8MG+tKb3QA5xULu3pniQBAqrqfY9SFfxw0GJger62DOkxKZ6yUWuKn6rsVkO/0GYadXVLtu9hGj1QteRT+XYrDASDdT66voKk0VdxNsVd3aiz3wSIR3ck5JCKYFUy5trhRXuxFvWS1MzdQkuac6HZpUGA==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-63092c76-4cc9-4a65-8ca6-ce4e1d75bb58"><ds:X509Data><ds:X509Certificate>MIIFODCCAyCgAwIBAgIGAYJcMlIeMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjIwODAyMDEzNjE3WhcNMjYwODAxMDEzNjE3WjCBkjEZMBcGA1UEBRMQQ1BKLTMtMDA0LTA0NTExNzELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE/MD0GA1UEAww2Q09PUEVSQVRJVkEgREUgRUxFQ1RSSUZJQ0FDSU9OIFJVUkFMIERFIFNBTiBDQVJMT1MgUiBMMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiXXDcNGjOHY3kZdxaaVigRBGstzQrZRfdUAZiovcwYdv5Mhuvf1x0cJflVYhKJ4wdnfSlGnMiu1+YoOX+061WuqLqPEapFNEa8OvsaAfOyyx43GScqFX61lV6sMfigKxN21xVrxgFJjldgf+0dsTlq+LblGN2ng4LPijC5/JHZntpJF2L9eI/wXQSd4/xmNQ8djxgvf0uNbqVSE2gTX9MIFdf34auxJvBjEbjS3P9J83eTZGCUzI84qvk1PVYuZz3uW/3mqMNWBW+wSxFSRIE8d0leMylZFiAVHMzIF82nujpCSYt0PjqUlxexFLU6sKcJqXCifbZTvK2t547I6j6wIDAQABo4HKMIHHMB8GA1UdIwQYMBaAFDttV/XWfOmeEAIgQeO9GszPs06VMB0GA1UdDgQWBBQxX2SbQQsO2JghY7zZj7Z4b4DXBDALBgNVHQ8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwYwYIKwYBBQUHAQEEVzBVMFMGCCsGAQUFBzAChkdodHRwczovL3BraS5jb21wcm9iYW50ZXNlbGVjdHJvbmljb3MuZ28uY3IvcHJvZC9pbnRlcm1lZGlhdGUtcGotcGVtLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAGyP+VTZKnejP2sbCT1i7zPBFc+DBXaGJ5M/0qLq0ApJJ+lb/lRh5z5jb+KIeW61LNl+BXDfCJJxOk32RpNz1fKIcYTvkk0+M7sWV/7VKX4e+CHPXhh9GnJgyfz8WdwC8DMPwj5rwwPJCHmdtzktimeagFHSu6GwBLRuUOm0iIYtaOV2wkk0/7PaC0ZzMySLdPFvYm3jribamx9GKaJjKaHnVBILI7/UeHzsQA8nTN3ThJI3l72cP6QZjkD8Te4A9aAeeuS17vpALPAbyy/YOlmIQF+L1OWKoJ5WeR6h7xN+KN+jCfzk1/bJsuIwWfhA3L51RTl07Ukn++EWeQQSg9ju8o3aw1QiR3xvI9feiJwr9NoGPJvrqesFgo/V2+5sHQhbBT7MsP7dM0NaIIT/Nlu61FMc8tKL8vt+odWwGmzROGMciot5GR8Tk12XkiyPXJYqsDoRy//GtJ7XJcuXmAlqgv/ZsDd2tryuujgygdufi11xTB9vHclcz/1AR3m61+NBb/jTw1Gf4HiRklhdXFoLQzbCwKGJ+ipJQSMSs/QGAulvVI5a+mqBVCtXvuqltAM9SPSrQCuS58OdDedW78hxtlarmnZuPUxWgYJcWwQVhpyAY2pS55A6bkeeHEmPSBt98ewQ1c4K7yv59Inx4em1GR3Y9OiKgbyD1U+HorYM=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>iXXDcNGjOHY3kZdxaaVigRBGstzQrZRfdUAZiovcwYdv5Mhuvf1x0cJflVYhKJ4wdnfSlGnMiu1+YoOX+061WuqLqPEapFNEa8OvsaAfOyyx43GScqFX61lV6sMfigKxN21xVrxgFJjldgf+0dsTlq+LblGN2ng4LPijC5/JHZntpJF2L9eI/wXQSd4/xmNQ8djxgvf0uNbqVSE2gTX9MIFdf34auxJvBjEbjS3P9J83eTZGCUzI84qvk1PVYuZz3uW/3mqMNWBW+wSxFSRIE8d0leMylZFiAVHMzIF82nujpCSYt0PjqUlxexFLU6sKcJqXCifbZTvK2t547I6j6w==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-d26b5690-1dc6-432a-9fb6-d1c7072ddc5b"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-f4478127-fd8d-41c2-a85f-e08c149a21b7" Target="#Signature-63092c76-4cc9-4a65-8ca6-ce4e1d75bb58"><xades:SignedProperties Id="SignedProperties-Signature-63092c76-4cc9-4a65-8ca6-ce4e1d75bb58"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-03T23:12:18+00:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>iQuOwfkwnOfg9E6p/kLt+2hlh2P8Sjz+EbCJQzDoctY=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1659404177950</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://cdn.comprobanteselectronicos.go.cr/xml-schemas/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>DWxin1xWOeI8OuWQXazh4VjLWAaCLAA954em7DMh0h8=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-874e3a75-cef4-4ae9-8002-65852e9fa193"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></NotaCreditoElectronica>

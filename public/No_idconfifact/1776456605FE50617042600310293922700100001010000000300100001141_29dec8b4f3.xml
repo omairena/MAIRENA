@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50617042600310293922700100001010000000300100001141</Clave>
+  <ProveedorSistemas>3101566759</ProveedorSistemas>
+  <CodigoActividadEmisor>4730.0</CodigoActividadEmisor>
+  <NumeroConsecutivo>00100001010000000300</NumeroConsecutivo>
+  <FechaEmision>2026-04-17T14:05:24</FechaEmision>
+  <Emisor>
+    <Nombre>3-102-939227 SOC. DE RESP. LIMITADA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3102939227</Numero>
+    </Identificacion>
+    <NombreComercial>TALLER Y REPUESTOS CASTRO</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>13</Distrito>
+      <OtrasSenas>2km norte de la estación de servicio Santa Rosa</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>24777104</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>repuestoscastro500@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>CARLOS VICTOR FUNES JIMENEZ</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>207400826</Numero>
+    </Identificacion>
+    <NombreComercial>CARLOS VICTOR FUNES JIMENEZ</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>SANTA ROSA</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>61551664</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>cfunes2026@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>4315100000000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>1-04-249</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>BERIN P/ BIELA: TY TERCEL 3E,5E R027H 0.50</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>9602.00000</PrecioUnitario>
+      <MontoTotal>9602.00000</MontoTotal>
+      <SubTotal>9602.00000</SubTotal>
+      <BaseImponible>9602.00000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>1248.26000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1248.26000</ImpuestoNeto>
+      <MontoTotalLinea>10850.26000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>2</NumeroLinea>
+      <CodigoCABYS>4315100000000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>1-04-300</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>BERIN P/ BANCADA: TY TERCEL 3E,5E M07A1 0.50</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>9602.00000</PrecioUnitario>
+      <MontoTotal>9602.00000</MontoTotal>
+      <SubTotal>9602.00000</SubTotal>
+      <BaseImponible>9602.00000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>1248.26000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1248.26000</ImpuestoNeto>
+      <MontoTotalLinea>10850.26000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>3</NumeroLinea>
+      <CodigoCABYS>4391501009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>16400-55100</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>ENCOMIENDA</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>2655.00000</PrecioUnitario>
+      <MontoTotal>2655.00000</MontoTotal>
+      <SubTotal>2655.00000</SubTotal>
+      <BaseImponible>2655.00000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>345.15000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>345.15000</ImpuestoNeto>
+      <MontoTotalLinea>3000.15000</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0.00000</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServExonerado>0.00000</TotalServExonerado>
+    <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+    <TotalMercanciasGravadas>21859.00000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00000</TotalMercExonerada>
+    <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+    <TotalGravado>21859.00000</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalExonerado>0.00000</TotalExonerado>
+    <TotalNoSujeto>0.00000</TotalNoSujeto>
+    <TotalVenta>21859.00000</TotalVenta>
+    <TotalDescuentos>0.00000</TotalDescuentos>
+    <TotalVentaNeta>21859.00000</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>2841.67000</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>2841.67000</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0.00000</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+    <TotalOtrosCargos>0.00000</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <TotalMedioPago>24700.67000</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>24700.67000</TotalComprobante>
+  </ResumenFactura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-a813d412-071d-4d8d-aa9c-2da038a1be65"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-6aa49abe-f7e5-4494-b9e7-edcc99cb7484" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>o+3gpjaMOfobMCBuvuyWP9Zs0grv8dJJHZhuEIqDkRA=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-a813d412-071d-4d8d-aa9c-2da038a1be65"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>WvMClNMuoLiHY9otTfsEPUUhv8RfWCf5J6Oal89j5bc=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-a813d412-071d-4d8d-aa9c-2da038a1be65"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Q2fSTqxXn6uYfTuUJfNwNMcBOkJrwwX7KPsEH1QGSCo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-a813d412-071d-4d8d-aa9c-2da038a1be65">L1blEyFM09ED+dp/Ki5wOfTE2fGXd6UFQdEUWZ3ILk/isUr0KoZ+qwT0A3OMnbriMDIackzaEKVqfGqnyOkrFcOsH48WuBjPxMHUkh6u0jz9lMIC7Mqx9kSArcJ8UFzU13K7KiMoIyiN1RVbfDOiueRtjTm3s14FTqTnzKS5alBl38fM+N7X1SpBtpDpKeQrzU8xryi/xpeGgOJwt6rTbfQ9O3P8947G+WnZ3t2HHcie5W/R079g8cEwBZsX5gNzwdthTrHScT6vZD8YcFTMIkDipSMx4k4j3Ibp2rLeLZEXb1+VZVVYZNjWlJs1tTY2qtynQ6fwFWXIZU08xbRb6Q==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-a813d412-071d-4d8d-aa9c-2da038a1be65"><ds:X509Data><ds:X509Certificate>MIIFMzCCAxugAwIBAgIGAZggx+EWMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjUwNzE5MDM0MzQ2WhcNMjkwNzE4MDM0MzQ2WjCBjTEZMBcGA1UEBRMQQ1BKLTMtMTAyLTkzOTIyNzELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE6MDgGA1UEAwwxMy0xMDItOTM5MjI3IFNPQ0lFREFEIERFIFJFU1BPTlNBQklMSURBRCBMSU1JVEFEQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJwsQBXzneF8MdVi4twrkujQyHJjHEMxK1cEEwkZfFlIn8jSN/38kDb/Oa/ax1Wr+yyOFPJBIsjih2NQBCw+3uZSsywMrEUhfwfJBMGD4EEILF3OgYwj152KvWWclf5jLtXHhwLUrA7udyqyjLi9DXTw90SxE7MPcHt5fMtNZO1SWlrG476AZB2xYX7w6poNBlp6xzfm2yLv3JKrA7e3G0CLfvvGE+5yJiCgf3RfITv4IawuBcI0asA//TTwa/Q792ASXmOc4bZlxVeYgieV8InlpQVoSp9KsVVLbUSo9g2edEWCu12gj/2vrjABjJ9oJwjQqo/6RvN2yRPFT1RyzTECAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUANKfelSRy0y0GsymZzljk5pYZsswCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAATiyKtDEL6FjJILMHfxDV/WzHYDJ6UVRySl6inX9KsxIuXcD+z+jS7Izt+fbamYd9oZD7yc2vgrilO1I1oqSogefLMbfItcVfhUQqFe39L45V7+HIODsjIzXPZrXLVf/2TG1RMG+TG8Wp/QU+smzH1LFo0ILW0gdsc+N/ViMca3eKsUe6Qw2AHPHY1NK4AN8EPpjz6T2IIXBMerqI9qPbmPmhaX4HtlXR6iO1NqpD48GU/eJsjdqH3SvX6pn3WNDeQRJwKC83EheMl2Cm3nw4l55a+D52Da2A15zCBDwEvOPEniG3PTfaWAhTtBvan8FVSiExOFTvdlZVZ89qHT+14JvKH4cMaryjmEwWOCKEH37OHzMgHuBFmDFbfyoQorO4nifStvue8FgwS/buTDnZj4LXT3zZQNEwFNcdwuVOhwNWRx9OOFbCzeam0wQW/Oi+BiYFGubGs+UTMnc1irrHvNozytagSTseuAv6Yip7GMgVTgQT2D4TK71mOpDwNEMC6i/1TVu60IM7XhxO1kfKJQADdUIhflgDRqB88MoPuuM363HI7bKeH2hqYaNgyR3ECSe/J7JjL81MTTgYhgB049hL/br3pj+VkbgJtXuamxD/4/u7ZXPwDpVrgznHV591FySjU5q2hLoaamGt/R7r4gcqKyzShkCv2IdgUYxETv</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>nCxAFfOd4Xwx1WLi3CuS6NDIcmMcQzErVwQTCRl8WUifyNI3/fyQNv85r9rHVav7LI4U8kEiyOKHY1AELD7e5lKzLAysRSF/B8kEwYPgQQgsXc6BjCPXnYq9ZZyV/mMu1ceHAtSsDu53KrKMuL0NdPD3RLETsw9we3l8y01k7VJaWsbjvoBkHbFhfvDqmg0GWnrHN+bbIu/ckqsDt7cbQIt++8YT7nImIKB/dF8hO/ghrC4FwjRqwD/9NPBr9Dv3YBJeY5zhtmXFV5iCJ5XwieWlBWhKn0qxVUttRKj2DZ50RYK7XaCP/a+uMAGMn2gnCNCqj/pG83bJE8VPVHLNMQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-ed35b68a-0c6d-4872-8e5d-fe23c018cac9"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-c488b162-0ad2-4b2e-aa57-9fb4c95b63dc" Target="#Signature-a813d412-071d-4d8d-aa9c-2da038a1be65"><xades:SignedProperties Id="SignedProperties-Signature-a813d412-071d-4d8d-aa9c-2da038a1be65"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-17T14:07:56-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>jCacvfVJo4yCF11A0EXxgYA0nOkqSAOkmwIHi6rQeSc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1752896626966</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-6aa49abe-f7e5-4494-b9e7-edcc99cb7484"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50616042600020561099600200001010000022785112049010</Clave>
+  <ProveedorSistemas>3101409261</ProveedorSistemas>
+  <CodigoActividadEmisor>4752.1</CodigoActividadEmisor>
+  <NumeroConsecutivo>00200001010000022785</NumeroConsecutivo>
+  <FechaEmision>2026-04-16T07:54:46-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>Julio César Campos Vargas</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>205610996</Numero>
+    </Identificacion>
+    <NombreComercial>Paleco Los Ángeles</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>07</Distrito>
+      <OtrasSenas>Los Ángeles, contiguo a la Escuela</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>24693030</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>facturaspalecolosangeles@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>WALTER BENAVIDES ARAYA                                                          </Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>203430885</Numero>
+    </Identificacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>62963851</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>wbenavidesa15@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>3751000000000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>000102</Codigo>
+      </CodigoComercial>
+      <Cantidad>7.0</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <Detalle>PEGA PORCELANATO PLATA 20K HIBOND BBG  ROJO</Detalle>
+      <PrecioUnitario>4424.77876</PrecioUnitario>
+      <MontoTotal>30973.45132</MontoTotal>
+      <SubTotal>30973.45132</SubTotal>
+      <BaseImponible>30973.45132</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.0</Tarifa>
+        <Monto>4026.54867</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>4026.54867</ImpuestoNeto>
+      <MontoTotalLinea>34999.99999</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.0</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0</TotalServGravados>
+    <TotalServExentos>0</TotalServExentos>
+    <TotalServExonerado>0</TotalServExonerado>
+    <TotalServNoSujeto>0</TotalServNoSujeto>
+    <TotalMercanciasGravadas>30973.45132</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0</TotalMercanciasExentas>
+    <TotalMercExonerada>0</TotalMercExonerada>
+    <TotalMercNoSujeta>0</TotalMercNoSujeta>
+    <TotalGravado>30973.45132</TotalGravado>
+    <TotalExento>0</TotalExento>
+    <TotalExonerado>0</TotalExonerado>
+    <TotalNoSujeto>0</TotalNoSujeto>
+    <TotalVenta>30973.45132</TotalVenta>
+    <TotalDescuentos>0</TotalDescuentos>
+    <TotalVentaNeta>30973.45132</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>4026.54867</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>4026.54867</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0</TotalIVADevuelto>
+    <TotalOtrosCargos>0</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>02</TipoMedioPago>
+    </MedioPago>
+    <TotalComprobante>34999.99999</TotalComprobante>
+  </ResumenFactura>
+  <Otros>
+    <OtroTexto codigo="">
+MONEDA: CRC / CONDICION VENTA: CONTADO
+MEDIO PAGO: TARJETA
+IMPUESTO AL VALOR AGREGADO:
+% IVA         MONTO
+13%        4,026.55</OtroTexto>
+  </Otros>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-04445190-d01d-4729-9eda-3b3a73f0fd10"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-af586043-38d6-4cf1-b363-eb362799a6c9" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Ah/CqiCh9A3KlflWwlAIsvsdRdBSyZGlBERkcgbSUBY=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-04445190-d01d-4729-9eda-3b3a73f0fd10"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>tcSMuPxn9CUCUY8adrXunwftwfeGjNSwbKfouBN4YL4=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-04445190-d01d-4729-9eda-3b3a73f0fd10"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Qo1rLe+J8mKmSMQw0h4lJqszYl8xhBoI5TSkMIbSE1U=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-04445190-d01d-4729-9eda-3b3a73f0fd10">XwSG30zs7Y3p4atV+6w3XSbYWIaW8jQRTObBs8qKX23gFhDwmlwwsfNJ+5QApENdRK3NRUuF64tV8rT2VnyQuf2nqSrmJQOuHsVYWPFgS+EgMCC8VT+Pc2IGAN7QkCYf3Qy3NZ8TeFvraT2oiyDZ81WyDoaOe08MRMs6AyX1FUqnJa0S9ia9fHpx2JOR1XrJVMEinN4Mdgv0H1glqTrh+01Y6ETyy5oHiS+aXfZvvsi7Hkc9OQqH3T6YNMQLICmrmg6609vqhjuknca4k+UsD57CL4KgbyoB/UiwQkD4RC5z/i9kacpbw8U+sZeKaJ2LmAggKOcByYBx4FoVTrUUfQ==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-04445190-d01d-4729-9eda-3b3a73f0fd10"><ds:X509Data><ds:X509Certificate>MIIFRTCCAy2gAwIBAgIGAYY4j8xEMA0GCSqGSIb3DQEBCwUAMFgxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxGjAYBgNVBAMMEUNBIFBFUlNPTkEgRklTSUNBMB4XDTIzMDIwOTIzNDMxM1oXDTI3MDIwODIzNDMxM1owgaExGTAXBgNVBAUTEENQRi0wMi0wNTYxLTA5OTYxFjAUBgNVBAQMDUNBTVBPUyBWQVJHQVMxFDASBgNVBCoMC0pVTElPIENFU0FSMQswCQYDVQQGEwJDUjEXMBUGA1UECgwOUEVSU09OQSBGSVNJQ0ExDDAKBgNVBAsMA0NQRjEiMCAGA1UEAwwZSlVMSU8gQ0VTQVIgQ0FNUE9TIFZBUkdBUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAImYYR6R0/Aif9dDXv2oNxPczVn1ivr1lz0KCczSHrMLKM0dE1tWWiME//+0sLTUJeFDEa/BceDSNfW/RDRxSiHDhEAZ44sPqBPOe0EQZQscj1NjNQ7Xr7b/Ur2CIkH8nKiO57HnhAUZwAg4CHocte3Q4Y23U6UAfK/8iYZoDdCh9+Mj+sUI8Cd2kG7YaElUBQNkYqEAzV4+lyp6UCBf+4HKSORLVuljxNREhhs8bhmnTkN9DiyU3S8P75/zjG2zeotoe7FaWZfYZVbM835EwF9kklNiUuX+feB0rUTYmLWdx3P96F1yknl0lVZ5cSjzaET0Pm+pey/kSSe2y1kq87UCAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQT9mpBDe2iJEXRyJSoQYN8YiVrWTAdBgNVHQ4EFgQUKCkn1mfHA5dpTFKNbx39kPzl9JwwCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBmLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAEaLukgvxGW4fBLE022VLSL/VD9a/MiSrmJmpZ97P6dU0EYiWpBRffRz3mFmp35X+AjfNQiKq3C4N9F0KJzR3BhioHdu6AD6gExbBEhHccJJw1plq3PWnfaLXA7bVMiv71/yg+LRBarMQ6ncktiHlP/KXsCm4RJDVcr3/NjEvy0CUYgz0+ZdLMBqP2wT6QwvM/I/mKUR/FU+fHo+MpFNIVLhLKHhk++D3QQAhn3xKswuZ4aIK7iK++65BFAsLaAOiDlaDIL151ydB5Szr1abbSqWDpvmHKVuefNFeD4jKhaBJukqpf8g6L5F0dEtZJ2SSMzoyS1a8HHm24u873FdHmJb1kqo5mHSLsPBK81R/i5nggMYIatc1lRjk4to3KHSlwc2G8YG/ElZ2siR4q77KSIieBN8tIFD8+nFY1QWAGIAlJ3IFWv8iI1C+o+8rStJyzT2fzQRJGkSY1fymaVoUkQwAGmlwolTWXCjknhVS82Oak8zLfDjaW1tVBLOSIVJ+zw3/QrDyRKTf+lc4GgCx8qqQ9Dhny470koYHGLfDUNOFfw4zCjuTXLYt5wCFFeRMqN0hszJC/UUh2Tj5GPtenfa5WYjYJcYpeJ40pT6y3/yDyZyIkbXRyX9jpKd7V35wt4G4Bzk/WdEgp03qh1gC9De5MgaDxUfvNLHlUnxb9Dk</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>iZhhHpHT8CJ/10Ne/ag3E9zNWfWK+vWXPQoJzNIeswsozR0TW1ZaIwT//7SwtNQl4UMRr8Fx4NI19b9ENHFKIcOEQBnjiw+oE857QRBlCxyPU2M1Dtevtv9SvYIiQfycqI7nseeEBRnACDgIehy17dDhjbdTpQB8r/yJhmgN0KH34yP6xQjwJ3aQbthoSVQFA2RioQDNXj6XKnpQIF/7gcpI5EtW6WPE1ESGGzxuGadOQ30OLJTdLw/vn/OMbbN6i2h7sVpZl9hlVszzfkTAX2SSU2JS5f594HStRNiYtZ3Hc/3oXXKSeXSVVnlxKPNoRPQ+b6l7L+RJJ7bLWSrztQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-eedcffcb-0aa7-4400-941b-6a4855f5762f"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-49401f06-3818-46b7-a0a2-202e47385636" Target="#Signature-04445190-d01d-4729-9eda-3b3a73f0fd10"><xades:SignedProperties Id="SignedProperties-Signature-04445190-d01d-4729-9eda-3b3a73f0fd10"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-16T13:54:47+00:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>qu7kQgQI6/CpWjuskc3V4BqgPUIOloWoXGLCiSYrQVc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA FISICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1675986193476</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://cdn.comprobanteselectronicos.go.cr/xml-schemas/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>DWxin1xWOeI8OuWQXazh4VjLWAaCLAA954em7DMh0h8=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-af586043-38d6-4cf1-b363-eb362799a6c9"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/FacturaElectronica_V.4.4.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+  <Clave>50625032600301227729900100623010000030712102904912</Clave>
+  <ProveedorSistemas>3012277299</ProveedorSistemas>
+  <CodigoActividadEmisor>4630.4</CodigoActividadEmisor>
+  <CodigoActividadReceptor>4711.2</CodigoActividadReceptor>
+  <NumeroConsecutivo>00100623010000030712</NumeroConsecutivo>
+  <FechaEmision>2026-03-25T12:12:38-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>British American Tobacco Central America, S.A</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3012277299</Numero>
+    </Identificacion>
+    <Registrofiscal8707 />
+    <Ubicacion>
+      <Provincia>4</Provincia>
+      <Canton>01</Canton>
+      <Distrito>01</Distrito>
+      <Barrio>Los Angeles</Barrio>
+      <OtrasSenas>CD San José,Costa Rica,Costa Rica</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>22091717</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>svc-ventascr@bat.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>ROYAL SOFT COMPANY S.A</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101097341</Numero>
+    </Identificacion>
+    <NombreComercial>SUPERMERCADO EL GALLO</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>13</Distrito>
+      <Barrio>SANTA ROSA</Barrio>
+      <OtrasSenas>BARRIO PARAISO</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>72686739</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>facturaselgallokooper@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>02</CondicionVenta>
+  <PlazoCredito>30</PlazoCredito>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>3899401010200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>50055702</Codigo>
+      </CodigoComercial>
+      <Cantidad>24</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>5_CLIPP_PQ_DP24</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <PrecioUnitario>277.29</PrecioUnitario>
+      <MontoTotal>6654.96</MontoTotal>
+      <SubTotal>6654.96</SubTotal>
+      <BaseImponible>6654.96</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>865.14</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>865.14</ImpuestoNeto>
+      <MontoTotalLinea>7520.1</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>2</NumeroLinea>
+      <CodigoCABYS>2502000000200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>10201841</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>PALL 2CAPS 20/200 ERE SQ COS IBIZA</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <PrecioUnitario>22825</PrecioUnitario>
+      <MontoTotal>22825</MontoTotal>
+      <SubTotal>22825</SubTotal>
+      <BaseImponible>22825</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>01</CodigoTarifaIVA>
+        <Tarifa>0.00</Tarifa>
+        <Monto>0</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>0</ImpuestoNeto>
+      <MontoTotalLinea>22825</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>3</NumeroLinea>
+      <CodigoCABYS>2502000000200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>10201809</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>PALL 2CAPS 20/200 ERE SQ COS VEGAS</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <PrecioUnitario>22825</PrecioUnitario>
+      <MontoTotal>22825</MontoTotal>
+      <SubTotal>22825</SubTotal>
+      <BaseImponible>22825</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>01</CodigoTarifaIVA>
+        <Tarifa>0.00</Tarifa>
+        <Monto>0</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>0</ImpuestoNeto>
+      <MontoTotalLinea>22825</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>4</NumeroLinea>
+      <CodigoCABYS>2502000000200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>10201810</Codigo>
+      </CodigoComercial>
+      <Cantidad>0.5</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>PALL 2CAPS 20/200 ERE SQ COS APM_MEN</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <PrecioUnitario>22825</PrecioUnitario>
+      <MontoTotal>11412.5</MontoTotal>
+      <SubTotal>11412.5</SubTotal>
+      <BaseImponible>11412.5</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>01</CodigoTarifaIVA>
+        <Tarifa>0.00</Tarifa>
+        <Monto>0</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>0</ImpuestoNeto>
+      <MontoTotalLinea>11412.5</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>5</NumeroLinea>
+      <CodigoCABYS>2502000000200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>10201814</Codigo>
+      </CodigoComercial>
+      <Cantidad>0.5</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>PALL MALL CLASSICS 20/200 KRE SQ COS</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <PrecioUnitario>14635.2</PrecioUnitario>
+      <MontoTotal>7317.6</MontoTotal>
+      <SubTotal>7317.6</SubTotal>
+      <BaseImponible>7317.6</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>01</CodigoTarifaIVA>
+        <Tarifa>0.00</Tarifa>
+        <Monto>0</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>0</ImpuestoNeto>
+      <MontoTotalLinea>7317.6</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>6</NumeroLinea>
+      <CodigoCABYS>2502000000200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>10201800</Codigo>
+      </CodigoComercial>
+      <Cantidad>0.2</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>PALL MALL CLASSICS LI_CR</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <PrecioUnitario>14635.2</PrecioUnitario>
+      <MontoTotal>2927.04</MontoTotal>
+      <SubTotal>2927.04</SubTotal>
+      <BaseImponible>2927.04</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>01</CodigoTarifaIVA>
+        <Tarifa>0.00</Tarifa>
+        <Monto>0</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>0</ImpuestoNeto>
+      <MontoTotalLinea>2927.04</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>7</NumeroLinea>
+      <CodigoCABYS>4693999090000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>10218584</Codigo>
+      </CodigoComercial>
+      <Cantidad>0.1</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>Vuse Vega 1k Mint Ice 2.0 10 Pack</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <PrecioUnitario>30823.01</PrecioUnitario>
+      <MontoTotal>3082.3</MontoTotal>
+      <SubTotal>3082.3</SubTotal>
+      <BaseImponible>3082.3</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>400.7</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>400.7</ImpuestoNeto>
+      <MontoTotalLinea>3483</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>8</NumeroLinea>
+      <CodigoCABYS>4693999090000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>10218557</Codigo>
+      </CodigoComercial>
+      <Cantidad>0.1</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>Vuse Vega 1k Blueberry Ice 2.0 10 Pack</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <PrecioUnitario>30823.01</PrecioUnitario>
+      <MontoTotal>3082.3</MontoTotal>
+      <SubTotal>3082.3</SubTotal>
+      <BaseImponible>3082.3</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>400.7</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>400.7</ImpuestoNeto>
+      <MontoTotalLinea>3483</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>9</NumeroLinea>
+      <CodigoCABYS>4693999090000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>10218585</Codigo>
+      </CodigoComercial>
+      <Cantidad>0.1</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>Vuse Vega 1k Berry Blend 2.0 10 Pack</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <PrecioUnitario>30823.01</PrecioUnitario>
+      <MontoTotal>3082.3</MontoTotal>
+      <SubTotal>3082.3</SubTotal>
+      <BaseImponible>3082.3</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>400.7</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>400.7</ImpuestoNeto>
+      <MontoTotalLinea>3483</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>10</NumeroLinea>
+      <CodigoCABYS>4693999090000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>10218558</Codigo>
+      </CodigoComercial>
+      <Cantidad>0.1</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unid</UnidadMedidaComercial>
+      <Detalle>Vuse Vega 1k Apple Sour 2.0 10 Pack</Detalle>
+      <NumeroVINoSerie />
+      <RegistroMedicamento />
+      <PrecioUnitario>30823.01</PrecioUnitario>
+      <MontoTotal>3082.3</MontoTotal>
+      <SubTotal>3082.3</SubTotal>
+      <BaseImponible>3082.3</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>400.7</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>400.7</ImpuestoNeto>
+      <MontoTotalLinea>3483</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0</TotalServGravados>
+    <TotalServExentos>0</TotalServExentos>
+    <TotalServExonerado>0</TotalServExonerado>
+    <TotalServNoSujeto>0</TotalServNoSujeto>
+    <TotalMercanciasGravadas>18984.16</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0</TotalMercanciasExentas>
+    <TotalMercExonerada>0</TotalMercExonerada>
+    <TotalMercNoSujeta>67307.14</TotalMercNoSujeta>
+    <TotalGravado>18984.16</TotalGravado>
+    <TotalExento>0</TotalExento>
+    <TotalExonerado>0</TotalExonerado>
+    <TotalNoSujeto>67307.14</TotalNoSujeto>
+    <TotalVenta>86291.3</TotalVenta>
+    <TotalDescuentos>0</TotalDescuentos>
+    <TotalVentaNeta>86291.3</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>01</CodigoTarifaIVA>
+      <TotalMontoImpuesto>0.00</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>2467.94</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>2467.94</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0</TotalIVADevuelto>
+    <TotalOtrosCargos>0</TotalOtrosCargos>
+    <MedioPago />
+    <TotalComprobante>88759.24</TotalComprobante>
+  </ResumenFactura>
+  <Otros>
+    <OtroContenido codigo="FechaOrden">2026-03-25T12:12:38-06:00</OtroContenido>
+    <OtroContenido codigo="MontoEnLetras">OCHENTA Y OCHO MIL SETECIENTOS CINCUENTA Y NUEVE CON 24/100 COLONES</OtroContenido>
+  </Otros>
+<ds:Signature Id="Id-e5e453d3009a28c304769f7413121d5757b4652f" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="r-id-1" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><ds:XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#">not(ancestor-or-self::ds:Signature)</ds:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>ZNs8pEx7N9BVyavnYdgEvpURLCkMZC+Z75Vt4pKmSF0=</ds:DigestValue></ds:Reference><ds:Reference URI="#xades-id-e5e453d3009a28c304769f7413121d5757b4652f" Type="http://uri.etsi.org/01903#SignedProperties"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>w3z4H586zs+AOJUKx7YRLrk/YJYAPB0Q27Anxy36b7s=</ds:DigestValue></ds:Reference><ds:Reference URI="#xades-id-e5e453d3009a28c304769f7413121d5757b4652f" Type="http://uri.etsi.org/01903#SignedProperties"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>OoWukU+dbhA5pVI94K4Cy1Sl+r6QykSQFdyjyl0kSKA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-e5e453d3009a28c304769f7413121d5757b4652f">PtYl053SsbNtO70Np9YJq47O1hJZ2VqCvGGSvcH4jWR1ZK5ZLSpLaVVIhQ0D1xv2PC82NeofFbyjuQazi+Ah7nXhX2BBoImJQfflPtnFGUtkYTKyx6njsiazlRdY34pD/LNJpiOOqCNDlm47gWi+hXrwPpXMCmWxcqZ21kINQVMZauz15V2AS1cO6y0w9GAyvy/NO/Zq043cUQpmcF7VUtNfK6XV94xVsJGk2uPRLhNXFY98kheKA93bTgJtmibaRDtEisxbNrsISRxx2lXJZHnWDtri6tEPKvOImD5/ZZ3+mV7nyjos93PzuIbBynIGu+Ob7EdNUdyk6RBl6W0DoA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFSDCCAzCgAwIBAgIGAYw1tzdEMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjMxMjA0MTY0NDA4WhcNMjcxMjAzMTY0NDA4WjCBojEZMBcGA1UEBRMQQ1BKLTMtMDEyLTI3NzI5OTELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjFPME0GA1UEAwxGQlJJVElTSCBBTUVSSUNBTiBUT0JBQ0NPIENFTlRSQUwgQU1FUklDQSBTIEEgQkFUQ0EgU1VDVVJTQUwgQ09TVEEgUklDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALrGTV7GREKw6Eofudcu7RRjbYcyoKj0E3wbrwth4AlDLqn2KQ7wSDFPrkq4Zd8gqi+DQ5sU68UGqOE8528N+0U8Ly0OMbVH0cqFHpqLTnTY/qUFnwMTh6j5OzaaYybARoQekINCvyAMNaQj84IYi8Jm5GchhZEXd1pHuVKQiP6eUtNruXV8CSWKKe3NZ/EBQ4iHXSlqjUf9c0re2kZmdvBZTK5bqCXm/zqMtWSNbntJJGHaAogJAX7vzQUbs3G70tiujsYATNVIJE4BOyH9Z0HGyO2/VpLVw1ozU2czoX7XsVI6aYMyJtRhYLG0fItBwuqLFZZ8FAq/K7FIS6X1Rn8CAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQU0b33xFxvi6JzpvsYj8oklnpDP6gwCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAFImF5qdh2U9e2qkP7t2oYj8njUMJE5Av2ZqQZjRaFCdADCSHAU7+JsFR7EB431cRZ32frRbjdpVLAbMDz+LhxPnA4VIkREb9sZNsA8RDhJsH/9LzhrFD+2iymwmnHesUCnczNOEGzvq2YfkldvtrZcc3QdwjmZa/uwF7jdoT1JCWwyI91mPOvrgQDilKXlcG9OO15HQ1shlwuPTTrknOrJKIhS5ajhI2nYQ25iaZraBA2cUmEmczAfxBRPBlkwuX24LYU37V/sdyCDlgSfZWqvjGv1Yl/8Q5LwJ/HFyLhvadgAZexDKP9XIm2uEJUj+4KnKzEsnuFI06g14TfWgUPL9NpdWB/cKuWXx9O0cgYUndzky+SMQfkfJNXWDw70nNW3f58awpf+8YZPQPSBJRnIH5LS1B5im3EB0ZOIf2crZCpi1Q9h0SRd/zHaANCYgNHf0lQ62iOhj4xsVdslHkp0ZfnMnhTcUbO7wK0R30iJhsFc5Q6ie5UbGl0lXtmIEuW0OdBP1EmStLgygGULy3aOzYqKtyjzxEFPA0T/B8ceQc9/goz5/CwKha1DGtXYkTPolnuaaweZD76px1WgvroR+EJHBoy0oWGJF3JSww9E/VablcWoEFlxkWQj1IuKSYW4zi5XTiwJYH90H7nLTOjcDqxU24a1ZaSoqjIm51TVz</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties Target="#Id-e5e453d3009a28c304769f7413121d5757b4652f" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"><xades:SignedProperties Id="xades-id-e5e453d3009a28c304769f7413121d5757b4652f"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-25T15:28:15-04:00</xades:SigningTime><xades:SigningCertificate><xades:Cert xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><xades:CertDigest xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue xmlns:xades="http://uri.etsi.org/01903/v1.3.2#">xyRhq0GoKHjxZjCVpjt4plgUfD0=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509IssuerName xmlns:xades="http://uri.etsi.org/01903/v1.3.2#">CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber xmlns:xades="http://uri.etsi.org/01903/v1.3.2#">1701708248900</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><xades:Description></xades:Description></xades:SigPolicyId><xades:SigPolicyHash xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue xmlns:xades="http://uri.etsi.org/01903/v1.3.2#">DmMa9oaZV9rBZzBgkZtnS+HcKQ+H8snoL5gcQm25Aok=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#r-id-1"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

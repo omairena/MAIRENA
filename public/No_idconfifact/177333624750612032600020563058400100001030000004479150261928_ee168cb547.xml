@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NotaCreditoElectronica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/notaCreditoElectronica">
+  <Clave>50612032600020563058400100001030000004479150261928</Clave>
+  <ProveedorSistemas>3101783163</ProveedorSistemas>
+  <CodigoActividadEmisor>4520.0</CodigoActividadEmisor>
+  <CodigoActividadReceptor>4520.0</CodigoActividadReceptor>
+  <NumeroConsecutivo>00100001030000004479</NumeroConsecutivo>
+  <FechaEmision>2026-03-12T11:23:14-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>Juan Diego Segura Alpízar</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>205630584</Numero>
+    </Identificacion>
+    <NombreComercial>RF DEL NORTE</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>13</Distrito>
+      <OtrasSenas>Santa Rosa Pocosol</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>24778072</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>rectifrenosdelnorte@hotmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>CARLOS VICTOR FUNES JIMENEZ</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>207400826</Numero>
+    </Identificacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>61551664</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>cfunes2026@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>4331001000000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>DAC3873W</Codigo>
+      </CodigoComercial>
+      <Cantidad>2</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <TipoTransaccion>01</TipoTransaccion>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>ROL DAC387340W HD CIVIC 92--94 38X73X40 BOC DEL Y TRAS/ CRV  04 K24A  S/ ABS / 44300-S04-004/ 367.4160.1- KOYO </Detalle>
+      <PrecioUnitario>22858.40708</PrecioUnitario>
+      <MontoTotal>45716.81416</MontoTotal>
+      <Descuento>
+        <MontoDescuento>5486.01768</MontoDescuento>
+        <CodigoDescuento>07</CodigoDescuento>
+      </Descuento>
+      <SubTotal>40230.79648</SubTotal>
+      <BaseImponible>40230.79646</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13</Tarifa>
+        <Monto>5230.00352</Monto>
+      </Impuesto>
+      <ImpuestoNeto>5230.00352</ImpuestoNeto>
+      <MontoTotalLinea>45460.8</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalMercanciasGravadas>45716.81416</TotalMercanciasGravadas>
+    <TotalGravado>45716.81416</TotalGravado>
+    <TotalVenta>45716.81416</TotalVenta>
+    <TotalDescuentos>5486.01768</TotalDescuentos>
+    <TotalVentaNeta>40230.79648</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>5230.00352</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>5230.00352</TotalImpuesto>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <TotalMedioPago>45460.79999</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>45460.79999</TotalComprobante>
+  </ResumenFactura>
+  <InformacionReferencia>
+    <TipoDocIR>01</TipoDocIR>
+    <Numero>50611032600020563058400100001010000038307111020467</Numero>
+    <FechaEmisionIR>2026-03-11T14:25:18.916-06:00</FechaEmisionIR>
+    <Codigo>06</Codigo>
+    <Razon>CAMBIO</Razon>
+  </InformacionReferencia>
+  <Otros />
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-c084fa70-92ac-4ec1-b746-67bfffc3e0e6"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-78caee51-c5e7-4c2c-ba7a-d9075ff85617" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>9qFNkFzMtF6Eu81fObnDBZvtoLwHSfLnCeVSbnCBUrE=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-c084fa70-92ac-4ec1-b746-67bfffc3e0e6"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>K3reBO4UyBa2mmzt/fyanjWUMPSAU/FviicCCcYDT5E=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-c084fa70-92ac-4ec1-b746-67bfffc3e0e6"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>VK140AhEW5n0UkeZ/fAMZ8sicY1Y9JvmaFH3c4zQNgc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-c084fa70-92ac-4ec1-b746-67bfffc3e0e6">NFNIZmjx5U4zjAyJNhxhvHm8tI8epFfCBLgjBjhFApEtP5koMw7lBo7bv3iplsVl26BPQMi10occVV2dH94HG5l77nnXVVRxJNFLXxpnHHOUSRAb+mortdK85b3BYKuP+xVPW8VWqvwmj8SK5MVLHDRXqWXLf9Lhde3hmFBoHx71CJAwdXS+DX76w09jKRG2XfcuNCOfKkKcsUt2RstMvVNzrSAmxqO3BHZN7i+qyI4yt9R8rs04NqGLUMODcQRH7KxnfJi7KoiW9f4a3mOPjeL1iFIQLtoUeLBHHtJygCKN0qgFUhWUOwqCscKUxEd/xsAXCcPfom2Pvd2d8PdM1Q==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-c084fa70-92ac-4ec1-b746-67bfffc3e0e6"><ds:X509Data><ds:X509Certificate>MIIFRTCCAy2gAwIBAgIGAYMPVxWQMA0GCSqGSIb3DQEBCwUAMFgxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxGjAYBgNVBAMMEUNBIFBFUlNPTkEgRklTSUNBMB4XDTIyMDkwNTIwMjgyOFoXDTI2MDkwNDIwMjgyOFowgaExGTAXBgNVBAUTEENQRi0wMi0wNTYzLTA1ODQxFzAVBgNVBAQMDlNFR1VSQSBBTFBJWkFSMRMwEQYDVQQqDApKVUFOIERJRUdPMQswCQYDVQQGEwJDUjEXMBUGA1UECgwOUEVSU09OQSBGSVNJQ0ExDDAKBgNVBAsMA0NQRjEiMCAGA1UEAwwZSlVBTiBESUVHTyBTRUdVUkEgQUxQSVpBUjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJNNfkPmKIpnCn9fx/kyVY8kLV0ahelxu6Vkyeh3AG5ZfIvACjrpQX005MfBi7+eJ+gyfNwW1r8h3h25ywfMDkydvQBhvRLE8chIQhtkB7EWMTd0pJ7ybTs84dEEy+1+8p3stWV2jhy+YLqoMyKzgNKJW5NBeEPI/uFZoXq3CRAYrUlCes4rFGiR7PDLs3SP3cprgpCrPJJAztUFKm7LDEnBP5CLEBSQ7yMFKajJmavqLBclCrQeSNZMTxQVbnPhYSTnbPDmY9qEmRUmByvxTy6xy7fxdvZfaWhU6ZP4potEbplJ0iF+W7oymexRvheXvehY4vsSPGfPJLH81/keXmsCAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQT9mpBDe2iJEXRyJSoQYN8YiVrWTAdBgNVHQ4EFgQUw8KGOv6LqXgU1Dyxpn2jzJ6yHb4wCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBmLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAEh4wNBvaWhxcwBBpAO6JL/nWKrd/sjCbkVvvX4TzVel6G7kPvweH/ZF6Q9mebQH/y8DELYHXp8R9D2Q+OR5XewPJ0XIJTWVfHaMrQ+qfiX9PsSvGQxOQBSBivZFGQtUO+HkdpLDwtgW7URa5TSjh+KL/SiA8CgaMG9RqLRtdtA5hVGw7UbFobkv3AGdMlC6qnyNCLXJuShKUXUlwzNPOnvOTAMnQHHsjmTTHKQGiVCeUh05OG0X2Ul44rg2O3NcGB8jXJ0xbiS/ZxlfGC2S2p9r/W0QAYzP1gj1D2TcYjezQuy+uwjwq7iy1nXnk7mQM4KN45kEEdaO0Kqgq6VWR0b9cp/DHPcxlIaEfhTW09X2f2wUHkXDiYBEOvTJXjmxvF9LM+Hkaa7J7BH3mOQgJnGCyk/FOHtHnEVKCXI/yAzSKHr1A3Kq8svczz17iPfhH8w8pSGfyHbL2lGyQsIe2BVoAOiGX96KlcsOhw36PnG1IEBjv/i/toQGZOCmr0Ao8hoP9I5a8MfEUrZ6bUuLfpPn8xnhTdSUjZeBabMleRHKVOXJkUCYHO8pXpS4/hUF+FsYjt+sPAkmOo89XqBB7nxGLgbY+90D/DBJIR70vox1C4QIG9m0FfZakq8UWieyFB3O5hmaZRtpBFhUGRTSi1YaKTQLQpvATmFLl1XBnCDq</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>k01+Q+YoimcKf1/H+TJVjyQtXRqF6XG7pWTJ6HcAbll8i8AKOulBfTTkx8GLv54n6DJ83BbWvyHeHbnLB8wOTJ29AGG9EsTxyEhCG2QHsRYxN3SknvJtOzzh0QTL7X7yney1ZXaOHL5guqgzIrOA0olbk0F4Q8j+4VmhercJEBitSUJ6zisUaJHs8MuzdI/dymuCkKs8kkDO1QUqbssMScE/kIsQFJDvIwUpqMmZq+osFyUKtB5I1kxPFBVuc+FhJOds8OZj2oSZFSYHK/FPLrHLt/F29l9paFTpk/imi0RumUnSIX5bujKZ7FG+F5e96Fji+xI8Z88ksfzX+R5eaw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-0b1d9fd8-f25f-48aa-9656-5034fd03d384"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-e36f4559-642a-4996-a25d-8af5356025df" Target="#Signature-c084fa70-92ac-4ec1-b746-67bfffc3e0e6"><xades:SignedProperties Id="SignedProperties-Signature-c084fa70-92ac-4ec1-b746-67bfffc3e0e6"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-12T11:23:14-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>LIRPbePb6V4xRvgQIv+dL6852xdHFzjndz3uuOxkQtE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA FISICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1662409708944</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-78caee51-c5e7-4c2c-ba7a-d9075ff85617"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></NotaCreditoElectronica>

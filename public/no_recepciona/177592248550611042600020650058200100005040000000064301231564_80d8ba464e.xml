@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TiqueteElectronico xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/tiqueteElectronico">
+  <Clave>50611042600020650058200100005040000000064301231564</Clave>
+  <ProveedorSistemas>3101783163</ProveedorSistemas>
+  <CodigoActividadEmisor>4773.0</CodigoActividadEmisor>
+  <NumeroConsecutivo>00100005040000000064</NumeroConsecutivo>
+  <FechaEmision>2026-04-11T08:49:35-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>Carlos Roberto Quiros Araya</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>206500582</Numero>
+    </Identificacion>
+    <NombreComercial>Distribuidora de gas QyH (M3)</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>04</Distrito>
+      <OtrasSenas>Pitalito, Aguas Zarcas, Del supermercado el pueblo 200 metros norte y 25 metros oeste</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>60274972</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>crquiros20@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>Carlos Andres Molina Tenorio</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>207970586</Numero>
+    </Identificacion>
+    <NombreComercial>supermercado el gallo kooper</NombreComercial>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>71258146</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>facturaselgallokooper@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>3342900000000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>04</Codigo>
+      </CodigoComercial>
+      <CodigoComercial>
+        <Tipo>02</Tipo>
+        <Codigo>25libPre</Codigo>
+      </CodigoComercial>
+      <CodigoComercial>
+        <Tipo>02</Tipo>
+        <Codigo>7</Codigo>
+      </CodigoComercial>
+      <CodigoComercial>
+        <Tipo>02</Tipo>
+        <Codigo>25lbPresion</Codigo>
+      </CodigoComercial>
+      <Cantidad>9</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <UnidadMedidaComercial>Unidad</UnidadMedidaComercial>
+      <Detalle>CILINDRO DE 25 LBS PRESION </Detalle>
+      <PrecioUnitario>5085</PrecioUnitario>
+      <MontoTotal>45765</MontoTotal>
+      <SubTotal>45765</SubTotal>
+      <BaseImponible>45765</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>10</CodigoTarifaIVA>
+        <Tarifa>0</Tarifa>
+        <Monto>0</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>0</ImpuestoNeto>
+      <MontoTotalLinea>45765</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalMercanciasExentas>45765.00000</TotalMercanciasExentas>
+    <TotalExento>45765.00000</TotalExento>
+    <TotalVenta>45765.00000</TotalVenta>
+    <TotalVentaNeta>45765.00000</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>10</CodigoTarifaIVA>
+      <TotalMontoImpuesto>0</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <MedioPago>
+      <TipoMedioPago>01</TipoMedioPago>
+      <TotalMedioPago>45765.00000</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>45765.00000</TotalComprobante>
+  </ResumenFactura>
+  <Otros />
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-8f609a73-d81a-4cba-b2f1-aac5cb17cddc"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-c103c939-ade8-4599-bcdb-c4cdce3705c9" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>8vqqV28n7u/+DkKLWsaVc/vWS5VsRa8+5RH+7GFMg3Q=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-8f609a73-d81a-4cba-b2f1-aac5cb17cddc"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>AV4bxD0suOWjlOPkc+3BTX1jqVOq2jARwPV8lRXk2Nc=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-8f609a73-d81a-4cba-b2f1-aac5cb17cddc"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>LrPzJuG+tc6tioV9D6wVUqxJk89VTsIw4CdrQbndKhc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-8f609a73-d81a-4cba-b2f1-aac5cb17cddc">NkWbPwUm6vKaRWz246pSWNrjtbmgATsNwsJKi3H8n7qyNIu5lDobzJntG/LTnm+M9oZymzCbaVZelcO2/nWLEqi3sys32nJCpLd6Md6QQUCjVVquAovAYzCTbGqBK8WFqIhC0GekEeIBFDRBvB3HK+8H/JWO1QCSWO56uLT3GktBxNYPM5yEJahdA/IGxCA4cmCKDU6JheBX+aawW8vhYkTNb4t8Fgxv40WXEnXI+QuDSkNv1pzXac0IIk72Zx23g7r2eOLB4720s46bkaShy/yxTiwCvSkb4Cm8xheRqexIPrBizn1viVt4o1x5OkUpmB/kK5dKdePTk4W2qt6tKw==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-8f609a73-d81a-4cba-b2f1-aac5cb17cddc"><ds:X509Data><ds:X509Certificate>MIIFSjCCAzKgAwIBAgIGAYFOSUYNMA0GCSqGSIb3DQEBCwUAMFgxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxGjAYBgNVBAMMEUNBIFBFUlNPTkEgRklTSUNBMB4XDTIyMDYxMDE1NDM1M1oXDTI2MDYwOTE1NDM1M1owgaYxGTAXBgNVBAUTEENQRi0wMi0wNjUwLTA1ODIxCTAHBgNVBAQMADEkMCIGA1UEKgwbQ0FSTE9TIFJPQkVSVE8gUVVJUk9TIEFSQVlBMQswCQYDVQQGEwJDUjEXMBUGA1UECgwOUEVSU09OQSBGSVNJQ0ExDDAKBgNVBAsMA0NQRjEkMCIGA1UEAwwbQ0FSTE9TIFJPQkVSVE8gUVVJUk9TIEFSQVlBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAskUN19FdDYyipRw2zyPIZgO3dzTNEb8yA5nXxBAw3qvqN5X/UjVCxl1LsipjIQqT+Dh7T+UrS2xDitGSTSlNyvfwW9WbeU62kt6UPwL6qRgtjwQx/k7LnW9wLHubwypjTL7715oZH4GlyMJfp63AepEYv10h6kgUkMSJ39VDSHzzFIoNPfkbFu7VLtdMG3aSjSV9TO5Q2oWQI3sxQnix+psT7UouW8UMSWs67HIQnmlotdzpFEz/FJBbwpk94p3bucWSAQv7tYVUMRXpMYyd/z6osu8U3d8aFYPFvxTMarLouzKkYEVGcJGPnyFkdlNTNx9zhqPkFBJo5u5W5upVlQIDAQABo4HKMIHHMB8GA1UdIwQYMBaAFBP2akEN7aIkRdHIlKhBg3xiJWtZMB0GA1UdDgQWBBQPtWpf270OFhwIVjCiBxxiVaV2mjALBgNVHQ8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwYwYIKwYBBQUHAQEEVzBVMFMGCCsGAQUFBzAChkdodHRwczovL3BraS5jb21wcm9iYW50ZXNlbGVjdHJvbmljb3MuZ28uY3IvcHJvZC9pbnRlcm1lZGlhdGUtcGYtcGVtLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAkcp1KZ0yroECrdIFpa1tQhIUTgMLKke+iNLVAvLJCsWy9yPLlsiQj+CF+FFD/vpduZwukfEOKHfylv65iPIeExTFPn4uqWjqb3CKR7osgSOMh5KQe7gtlbU6Ti3dTOQ5/54MBXRjOkJrGxm7jibtLXulS+uRM/qnlnd5++G8N/xy4Sn76ZVzpYQofRPXCmZThy+jMJvt9wPAXnaRySQAafcvtn6dH7FeowMWCRLiOSZVY0jtaGzqFU6ywvV0zrBvKW15DQMObbb9zAlMax2BkAbo5TlLSJC8Py9LU0trvVBpdh5Qv2qqqo4+KNohlY7qSDcz/XbEr7XxDiOud+7AUD6xc18bkB1V2U8GjR2r4ovOfF5l7YQNRW54pBAIkLSScKxQHLSlBoRxs5jXc8uNnRUhXhD2BwUzKnKjJR4QzaSCgGr1yuVRBnrF85Iq6fXNM4RJylwlFCX4Hs20iwTLuz9OOCIIvWmHzv/dPTVtLx+xovh0b5+83rVUZs9XT9LsX4HZHcNYBaZOqfh7dqyuXifTgOjmcFSaGBs2gVGa1zCecRuBnUapxy3EXPt4ViBNResCmOQ+NVc+dI0MlngZV7lGnSWADJqf8aB4R3eKSFiGxkdo/vokJpg2VQYb2VrTfDsL8w25W83tqIGOPRYnMFIhzjrZCLGHZgE08VfdTlo=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>skUN19FdDYyipRw2zyPIZgO3dzTNEb8yA5nXxBAw3qvqN5X/UjVCxl1LsipjIQqT+Dh7T+UrS2xDitGSTSlNyvfwW9WbeU62kt6UPwL6qRgtjwQx/k7LnW9wLHubwypjTL7715oZH4GlyMJfp63AepEYv10h6kgUkMSJ39VDSHzzFIoNPfkbFu7VLtdMG3aSjSV9TO5Q2oWQI3sxQnix+psT7UouW8UMSWs67HIQnmlotdzpFEz/FJBbwpk94p3bucWSAQv7tYVUMRXpMYyd/z6osu8U3d8aFYPFvxTMarLouzKkYEVGcJGPnyFkdlNTNx9zhqPkFBJo5u5W5upVlQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-e45bb3df-164c-413e-9b1d-707a1ea558cf"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-89315417-8874-4398-a598-817f76e086d2" Target="#Signature-8f609a73-d81a-4cba-b2f1-aac5cb17cddc"><xades:SignedProperties Id="SignedProperties-Signature-8f609a73-d81a-4cba-b2f1-aac5cb17cddc"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-11T09:47:47-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>GdnmB3HS0jdlu0DRPMdHACTuHfZgUSU3/+uX+i/UuMw=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA FISICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1654875833869</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-c103c939-ade8-4599-bcdb-c4cdce3705c9"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TiqueteElectronico>

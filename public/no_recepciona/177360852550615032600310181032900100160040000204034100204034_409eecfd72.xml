@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TiqueteElectronico xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/tiqueteElectronico">
+  <Clave>50615032600310181032900100160040000204034100204034</Clave>
+  <ProveedorSistemas>3101769529</ProveedorSistemas>
+  <CodigoActividadEmisor>5610.0</CodigoActividadEmisor>
+  <NumeroConsecutivo>00100160040000204034</NumeroConsecutivo>
+  <FechaEmision>2026-03-15T14:43:52</FechaEmision>
+  <Emisor>
+    <Nombre>CUATRO CACHOS S.A</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101810329</Numero>
+    </Identificacion>
+    <NombreComercial>SANTO PECADO COSTA RICA</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>Frente al Ministerio de Hacienda  San Carlos</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>88654106</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>facturas@taquirous.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>MONICA RODRIGUEZ SANCHES</Nombre>
+    <Identificacion>
+      <Tipo>05</Tipo>
+      <Numero>603050462</Numero>
+    </Identificacion>
+    <NombreComercial>.....</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>Frente al Ministerio de Hacienda  San Carlos</OtrasSenas>
+    </Ubicacion>
+    <OtrasSenasExtranjero>NO INDICA DIRECCION</OtrasSenasExtranjero>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>84283212</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>gs7facturas@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <CondicionVentaOtros>                                                                                                    </CondicionVentaOtros>
+  <PlazoCredito>1</PlazoCredito>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>6331000000000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>03</Tipo>
+        <Codigo>V120100439</Codigo>
+      </CodigoComercial>
+      <Cantidad>2.000</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <UnidadMedidaComercial>SP</UnidadMedidaComercial>
+      <Detalle>Patacones /Chicharrón- SP</Detalle>
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>4070.80000</PrecioUnitario>
+      <MontoTotal>8141.60000</MontoTotal>
+      <SubTotal>8141.60000</SubTotal>
+      <BaseImponible>8141.60000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoImpuestoOTRO>Impuesto Combinado</CodigoImpuestoOTRO>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>1058.40800</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>1058.40800</ImpuestoNeto>
+      <MontoTotalLinea>9200.00800</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>2</NumeroLinea>
+      <CodigoCABYS>6331000000000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>03</Tipo>
+        <Codigo>V120100432</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <UnidadMedidaComercial>SP</UnidadMedidaComercial>
+      <Detalle>Tacos al Pastor SP</Detalle>
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>4380.53000</PrecioUnitario>
+      <MontoTotal>4380.53000</MontoTotal>
+      <SubTotal>4380.53000</SubTotal>
+      <BaseImponible>4380.53000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoImpuestoOTRO>Impuesto Combinado</CodigoImpuestoOTRO>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>569.46890</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>569.46890</ImpuestoNeto>
+      <MontoTotalLinea>4949.99890</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>3</NumeroLinea>
+      <CodigoCABYS>6340002020200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>03</Tipo>
+        <Codigo>V229</Codigo>
+      </CodigoComercial>
+      <Cantidad>2.000</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <UnidadMedidaComercial>SP</UnidadMedidaComercial>
+      <Detalle>Limon Hierba Buena SP</Detalle>
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>1460.17690</PrecioUnitario>
+      <MontoTotal>2920.35380</MontoTotal>
+      <SubTotal>2920.35380</SubTotal>
+      <BaseImponible>2920.35380</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoImpuestoOTRO>Impuesto Combinado</CodigoImpuestoOTRO>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>379.64599</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>379.64599</ImpuestoNeto>
+      <MontoTotalLinea>3299.99979</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>4</NumeroLinea>
+      <CodigoCABYS>2449001000000</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>03</Tipo>
+        <Codigo>V1323</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <UnidadMedidaComercial>UN</UnidadMedidaComercial>
+      <Detalle>7 UP 600 ml SP</Detalle>
+      <RegistroMedicamento />
+      <FormaFarmaceutica />
+      <PrecioUnitario>1681.41590</PrecioUnitario>
+      <MontoTotal>1681.41590</MontoTotal>
+      <SubTotal>1681.41590</SubTotal>
+      <BaseImponible>1681.41590</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoImpuestoOTRO>Impuesto Combinado</CodigoImpuestoOTRO>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>218.58407</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>218.58407</ImpuestoNeto>
+      <MontoTotalLinea>1899.99997</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <OtrosCargos>
+    <TipoDocumentoOC>06</TipoDocumentoOC>
+    <Detalle>IMPUESTO DE SERVICIO</Detalle>
+    <PorcentajeOC>10.00000</PorcentajeOC>
+    <MontoCargo>1712.38997</MontoCargo>
+  </OtrosCargos>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>15442.48380</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServExonerado>0.00000</TotalServExonerado>
+    <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+    <TotalMercanciasGravadas>1681.41590</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00000</TotalMercExonerada>
+    <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+    <TotalGravado>17123.89970</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalExonerado>0.00000</TotalExonerado>
+    <TotalNoSujeto>0.00000</TotalNoSujeto>
+    <TotalVenta>17123.89970</TotalVenta>
+    <TotalDescuentos>0.00000</TotalDescuentos>
+    <TotalVentaNeta>17123.89970</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>2226.10696</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>2226.10696</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0.00000</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+    <TotalOtrosCargos>1712.38997</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>02</TipoMedioPago>
+      <MedioPagoOtros>Tarjeta</MedioPagoOtros>
+      <TotalMedioPago>21062.39663</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>21062.39663</TotalComprobante>
+  </ResumenFactura>
+  <Otros>
+    <OtroTexto codigo="Notas">DEPARTAMENTO: -</OtroTexto>
+    <OtroTexto codigo="NumeroOrden">SIN DATO</OtroTexto>
+    <OtroTexto codigo="EnviarGLN">SIN DATO</OtroTexto>
+    <OtroTexto codigo="NumeroRecepcion">SIN DAT</OtroTexto>
+    <OtroTexto codigo="FechaRecepcion">19000101</OtroTexto>
+    <OtroTexto codigo="NumeroVendedor">SIN DATO</OtroTexto>
+    <OtroContenido codigo="50615032600310181032900100160040000204034100204034">&lt;COMPRAENTREGA xmlns="HTTP://WWW.COMPROBANTESELECTRONICOSCR.COM/ESQUEMAS/COMPRAENTREGA/" xsi:schemalocation="HTTP://WWW.COMPROBANTESELECTRONICOSCR.COM/ESQUEMAS/COMPRAENTREGA/ SCHEMA.XSD" xmlns:xsi="HTTP://WWW.W3.ORG/2001/XMLSCHEMA-INSTANCE"&gt;&lt;NUMEROVENDEDOR&gt;SIN DATO&lt;/NUMEROVENDEDOR&gt;&lt;NUMEROORDEN&gt;SIN DATO&lt;/NUMEROORDEN&gt;&lt;ENVIARGLN&gt;SIN DATO&lt;/ENVIARGLN&gt;&lt;FECHAORDEN&gt;1900-01-01&lt;/FECHAORDEN&gt;&lt;NUMERORECEPCION&gt;SIN DAT&lt;/NUMERORECEPCION&gt;&lt;/COMPRAENTREGA&gt;</OtroContenido>
+  </Otros>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-b2093780-4827-4dc4-a70f-9f24d7237fab"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-f2dc4bd1-454b-4a25-8202-8d643301e008" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>bIu4dfK2g4ZgOyFbnReb3ZK4momPg5ba+uB6i/7+MUg=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-b2093780-4827-4dc4-a70f-9f24d7237fab"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>39mm6AjhPj/I2+kG2khgajpA8hSZNhMb4VgU4R2PjCQ=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-b2093780-4827-4dc4-a70f-9f24d7237fab"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>pIKm8dLxKnwqUfhrw/zpxL9O57R5zBkfxqs5D6VwVIw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-b2093780-4827-4dc4-a70f-9f24d7237fab">RuGNMW3kuXA4QJoVEuar2zMiPjSrpQCvLggbRKJaZycXbLs+Zr1CCE0bYibaY2LhaVfo2imBtuV1BIOqKGc/vHU70EXvBuPVlyyF9zLV1uAqSsThFOpS4IkRvsYFZiaa1ejb0Y8dLVrPI6I82jqGEGrZlCnf2J3eT9fzZmWmjJpQVjqoE9UgnWsKWW2iNykJ3efsIRIKWnghSKz3lvs+uJX9ALG8pA4WgbvvNL3WNKodiC/KMQQNXLHW4pJQQNureiSDwDSzRDCaER93+Ol0WKk/Pb/HPLrlAePuiW6UK4Abn+1qRWQw+rbbI9Nhs4pe4aLYaN1EeDINORUbCGkzqA==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-b2093780-4827-4dc4-a70f-9f24d7237fab"><ds:X509Data><ds:X509Certificate>MIIFHzCCAwegAwIBAgIGAZY7rrGMMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjUwNDE1MjMwMDI2WhcNMjkwNDE0MjMwMDI2WjB6MRkwFwYDVQQFExBDUEotMy0xMDEtODEwMzI5MQswCQYDVQQGEwJDUjEZMBcGA1UECgwQUEVSU09OQSBKVVJJRElDQTEMMAoGA1UECwwDQ1BKMScwJQYDVQQDDB5DVUFUUk8gQ0FDSE9TIFNPQ0lFREFEIEFOT05JTUEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQClpfImtuJi5F1qHabx6RwISLzKGBymw6lf/sWlrVmHWqdxig4pcWksCmPNIZEcNYYoEI158AfZpWuuqgMyepght4ME2cR8C90Gmp71Uz3Itotsiwf/R2MRdh8mYFtACo4oTYa88HsVKN76+tCC3kMmf8AqOl+liWXO6Gm6pyvu9BRKzHN6b2XrtBv4ZBxZQAupGY5OQWSjFzwEpQbfg18qGN4+K+lMCVjNvwMLLststYAj0rbsGhLN6H8IxLUfD4BOmB1GPrQ3F51rKOnSqz7TSnWXlBk5VHYKGt1ogtnftVWkvE62qihJk6E+OOwsqo8poDzLhhHS7KFCcsAnrDH1AgMBAAGjgcowgccwHwYDVR0jBBgwFoAUO21X9dZ86Z4QAiBB470azM+zTpUwHQYDVR0OBBYEFLu9e7nhFRDT5s9qjrgWMg8fmpt9MAsGA1UdDwQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDBjBggrBgEFBQcBAQRXMFUwUwYIKwYBBQUHMAKGR2h0dHBzOi8vcGtpLmNvbXByb2JhbnRlc2VsZWN0cm9uaWNvcy5nby5jci9wcm9kL2ludGVybWVkaWF0ZS1wai1wZW0uY3J0MA0GCSqGSIb3DQEBCwUAA4ICAQCkIuS4lynAOiv+Bo/MPbeiiH0uOm+cJUnPElWMMwkJ7dJ7MZxNo6ekp3xDB9tBZF49EfHnwDcI3M80Wktw5zFv1vRzIPPxCCNTKHFXbW6N7B3trNIzRl+6NTSJ5Q31WSVoNSME5MdkM2Nl2EKQ4HvwzAkGgxe3FQY9TFdswZrJ3Kkihach8a7BDY+0aSTA+KoCTqL9W3nMiSpj2cMeVy8G5uCtT5B6XqAtfsUGnMrrK4lUw+DtTdJ427oRyoAHXVDfiRPziia9EhlS+g+I9FqZ1oLEqRoaNsCOtWZjq9AvA5hDWr6a1YacB8TXQ6E3Jl5dQS9Y+AhFiOvFclphvhdKC1139l4iyWZTLCEon2Rjno10SW3xoigmD968Zr4zKsbmdXv4D3InH5GXyxCnQnMBxmmXyEEUuND3xLNEEBEwiauhqPzsBLKJyBUvmn0WXOIuGSnKNuraohnreDBSNzbXuAQCTEUzJk2VGlQzMP0VejZivnbUHA7pRRfTqqZK/eXQpFAgBQvwIFHjqH4bDw4bC9iBwP1g4ojWHzG3XoS3n6Ae+N2Y8UcE/SFqoRX+bVYC3C2DWJPvRgM3UGrI8KfhSBWQudOaRVNW629OfZXpjloU8POnRlhBD7KzGvIgJS1qq0Wwb2gYu3Wqmpf0GNa6QZ5VhsNJDJ3jsSLgNyZmVg==</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>paXyJrbiYuRdah2m8ekcCEi8yhgcpsOpX/7Fpa1Zh1qncYoOKXFpLApjzSGRHDWGKBCNefAH2aVrrqoDMnqYIbeDBNnEfAvdBpqe9VM9yLaLbIsH/0djEXYfJmBbQAqOKE2GvPB7FSje+vrQgt5DJn/AKjpfpYllzuhpuqcr7vQUSsxzem9l67Qb+GQcWUALqRmOTkFkoxc8BKUG34NfKhjePivpTAlYzb8DCy7LbLWAI9K27BoSzeh/CMS1Hw+ATpgdRj60Nxedayjp0qs+00p1l5QZOVR2ChrdaILZ37VVpLxOtqooSZOhPjjsLKqPKaA8y4YR0uyhQnLAJ6wx9Q==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-ce8fcf11-3054-4427-85a7-738564c73ca9"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-8df207f6-bbc3-42f7-9326-5966ec8fb5ab" Target="#Signature-b2093780-4827-4dc4-a70f-9f24d7237fab"><xades:SignedProperties Id="SignedProperties-Signature-b2093780-4827-4dc4-a70f-9f24d7237fab"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-15T15:01:32-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>ivIzsWjUYHy9A9jlSoM6HxsoHZyxiILE+seBrunC3Uk=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1744758026636</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://atv.hacienda.go.cr/ATV/ComprobanteElectronico/docs/esquemas/2024/v4.4/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>DWxin1xWOeI8OuWQXazh4VjLWAaCLAA954em7DMh0h8=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>emisor</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-f2dc4bd1-454b-4a25-8202-8d643301e008"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TiqueteElectronico>

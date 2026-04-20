@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><TiqueteElectronico xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/tiqueteElectronico" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/tiqueteElectronico https://atv.hacienda.go.cr/ATV/ComprobanteElectronico/docs/esquemas/2024/v4.4/TiqueteElectronico_V4.4.xsd">
+  <Clave>50601042600300222367800100001040000003196199999999</Clave>
+  <ProveedorSistemas>3101614859</ProveedorSistemas>
+  <CodigoActividadEmisor>3600.0</CodigoActividadEmisor>
+  <NumeroConsecutivo>00100001040000003196</NumeroConsecutivo>
+  <FechaEmision>2026-04-01T00:16:05-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>ASADA PUEBLO NUEVO Y EL PORO</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3002223678</Numero>
+    </Identificacion>
+    <NombreComercial>ASADA PUEBLO NUEVO Y EL PORO</NombreComercial>
+    <Ubicacion>
+      <Provincia>1</Provincia>
+      <Canton>04</Canton>
+      <Distrito>04</Distrito>
+      <Barrio>GRIFO ALTO DE PURISCAL, DIAGONAL AL CEMENTERIO DE </Barrio>
+      <OtrasSenas>GRIFO ALTO DE PURISCAL, DIAGONAL AL CEMENTERIO DE </OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>88601011</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>asadapueblonuevoyporo@gmail.com</CorreoElectronico>
+  </Emisor>
+  <CondicionVenta>02</CondicionVenta>
+  <PlazoCredito>10</PlazoCredito>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>6921000000100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>10</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <Detalle>HIDRANTES</Detalle>
+      <RegistroMedicamento/>
+      <FormaFarmaceutica/>
+      <PrecioUnitario>182.00000</PrecioUnitario>
+      <MontoTotal>182.00000</MontoTotal>
+      <SubTotal>182.00000</SubTotal>
+      <BaseImponible>182.00000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>10</CodigoTarifaIVA>
+        <Tarifa>0</Tarifa>
+        <Monto>0.00000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>0.00000</ImpuestoNeto>
+      <MontoTotalLinea>182.00000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>2</NumeroLinea>
+      <CodigoCABYS>6921000000200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>23</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <Detalle>APORTE SOLIDARIO</Detalle>
+      <RegistroMedicamento/>
+      <FormaFarmaceutica/>
+      <PrecioUnitario>884.96000</PrecioUnitario>
+      <MontoTotal>884.96000</MontoTotal>
+      <SubTotal>884.96000</SubTotal>
+      <BaseImponible>884.96000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>115.04000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>115.04000</ImpuestoNeto>
+      <MontoTotalLinea>1000.00000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>3</NumeroLinea>
+      <CodigoCABYS>6921000000200</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>323</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <Detalle>PROTECCION RECURSO HIDRICO</Detalle>
+      <RegistroMedicamento/>
+      <FormaFarmaceutica/>
+      <PrecioUnitario>308.00000</PrecioUnitario>
+      <MontoTotal>308.00000</MontoTotal>
+      <SubTotal>308.00000</SubTotal>
+      <BaseImponible>308.00000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>10</CodigoTarifaIVA>
+        <Tarifa>0</Tarifa>
+        <Monto>0.00000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>0.00000</ImpuestoNeto>
+      <MontoTotalLinea>308.00000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>4</NumeroLinea>
+      <CodigoCABYS>6921000000100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>5</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <Detalle>CARGO FIJO</Detalle>
+      <RegistroMedicamento/>
+      <FormaFarmaceutica/>
+      <PrecioUnitario>3100.00000</PrecioUnitario>
+      <MontoTotal>3100.00000</MontoTotal>
+      <SubTotal>3100.00000</SubTotal>
+      <BaseImponible>3100.00000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>403.00000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>403.00000</ImpuestoNeto>
+      <MontoTotalLinea>3503.00000</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>5</NumeroLinea>
+      <CodigoCABYS>6921000000100</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>6</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <Detalle>MONTO CONSUMO</Detalle>
+      <RegistroMedicamento/>
+      <FormaFarmaceutica/>
+      <PrecioUnitario>3675.00000</PrecioUnitario>
+      <MontoTotal>3675.00000</MontoTotal>
+      <SubTotal>3675.00000</SubTotal>
+      <BaseImponible>3675.00000</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>477.75000</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>477.75000</ImpuestoNeto>
+      <MontoTotalLinea>4152.75000</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>7659.96000</TotalServGravados>
+    <TotalServExentos>490.00000</TotalServExentos>
+    <TotalServExonerado>0.00000</TotalServExonerado>
+    <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+    <TotalMercanciasGravadas>0.00000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00000</TotalMercExonerada>
+    <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+    <TotalGravado>7659.96000</TotalGravado>
+    <TotalExento>490.00000</TotalExento>
+    <TotalExonerado>0.00000</TotalExonerado>
+    <TotalNoSujeto>0.00000</TotalNoSujeto>
+    <TotalVenta>8149.96000</TotalVenta>
+    <TotalDescuentos>0.00000</TotalDescuentos>
+    <TotalVentaNeta>8149.96000</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>10</CodigoTarifaIVA>
+      <TotalMontoImpuesto>0.00000</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>995.79000</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>995.79000</TotalImpuesto>
+    <TotalOtrosCargos>0.00000</TotalOtrosCargos>
+    <TotalComprobante>9145.75000</TotalComprobante>
+  </ResumenFactura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-c874696b-f76f-4632-82a6-90ec23ad24f1">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference Id="xmldsig-c874696b-f76f-4632-82a6-90ec23ad24f1-ref0" URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>jjzaRAHKldeMy6l/m/QdrtSHS6O3h0NMiAFH+Y7wRWU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-c874696b-f76f-4632-82a6-90ec23ad24f1-signedprops">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>DRVSMDig8SOUgU3nd7nNYNlF0k5l5kb1bsj0bAeJf20=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="xmldsig-c874696b-f76f-4632-82a6-90ec23ad24f1-sigvalue">
+QbEtBe3RcFoYt82/THMvGT1WlkbyQ19sxC0XAhSKbYzYp5Kn7rK1znZ+lcG4MiLAtdwwhMg/rzYV&#13;
+0Y3u7GcuASFpDR6di6DlayMLn7R1HRrnP4qKJva6zzSwI15HjSvJquA30J1zt318YhUaynn+b2I9&#13;
+HW3I+UvWjTRfYZkBNSfz2ism0F5AhtyLnbt4V09EX2DQYKPhwvMrxL7nQNrFd2sY3PGm4P+2QWLu&#13;
+EVEQ2qMCLNwaCmSKltdiIhuNSPd+dEl7L28mBg3HxaJHErreDFAq2ae7q5vBFV4gsiMg4mCML8Ue&#13;
+8+pU9xMs3MQpnnuLLTP5UnOC/Z/4cgANyNPsJg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFSTCCAzGgAwIBAgIGAY57tW5oMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYD&#13;
+VQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBF&#13;
+UlNPTkEgSlVSSURJQ0EwHhcNMjQwMzI2MTcwMTExWhcNMjgwMzI1MTcwMTExWjCBozEZMBcGA1UE&#13;
+BRMQQ1BKLTMtMDAyLTIyMzY3ODELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJ&#13;
+Q0ExDDAKBgNVBAsMA0NQSjFQME4GA1UEAwxHQVNPQ0lBQ0lPTiBBRE1JTklTVFJBRE9SQSBERUwg&#13;
+QUNVRURVQ1RPIFJVUkFMIERFIFBVRUJMTyBOVUVWTyBZIEVMIFBPUk8wggEiMA0GCSqGSIb3DQEB&#13;
+AQUAA4IBDwAwggEKAoIBAQCKkRcyHhBrJCPdpNi6UNUShsxNhxb6xQc/Th+GpG3SBVGhs/5maBfm&#13;
+2y4v6UPfITp1ULPMZFlW1xzBUEA05DR67Qb1WmzDJli7chKhEAc9rhSpWAlh7314tBShFLZeRHDX&#13;
+cYq4ta2EU2oELRsTOvcTHyRy980VK50H9SCc1HON4C81hl7kW2TaahmE6eR9BewIZE9TBHIFlICr&#13;
+Z5geLDyWKwu1B9kFQm5gG9ijB3FpLc6U8atoGvSW11pD4XTDthm9/7KY3tXb/HOUnvff3UwVuky6&#13;
+WjsGkGvCTbvjaLuFJwHIZpe1xZXRRtE+2YBbSIB9/ZdnpBq41gN2ZJUMYY5RAgMBAAGjgcowgccw&#13;
+HwYDVR0jBBgwFoAUO21X9dZ86Z4QAiBB470azM+zTpUwHQYDVR0OBBYEFNyBJ+AodoJj5MxUJFSz&#13;
+4K1afA1YMAsGA1UdDwQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDBjBggrBgEFBQcBAQRXMFUw&#13;
+UwYIKwYBBQUHMAKGR2h0dHBzOi8vcGtpLmNvbXByb2JhbnRlc2VsZWN0cm9uaWNvcy5nby5jci9w&#13;
+cm9kL2ludGVybWVkaWF0ZS1wai1wZW0uY3J0MA0GCSqGSIb3DQEBCwUAA4ICAQAUfazglog7T968&#13;
+e/O5uvDe751DmR8dibGogMribol5iNRyqJV16CiMH8RC1njLF1pxxqHVNuRoadSuzwsMiR5v2rMr&#13;
+9f/v/U+olWE0MiIt/1T8rwU/MgxiL+Pp5aKYdta6GxAWeGPuUZ8qggROgjuuaGvEpO9z0Ejx2XjX&#13;
+ucZmFzQIVV+hXrvGZJvAcaUs6/ShhtJSFAxgY5BttXTGveGXHP6RFeN6/SYjgSwYKkncqOJwSaLH&#13;
+8xYJzBN6BxgbYVxaMoQdsyGZa+QVckSi2pg5vGu4nIlaq/DWujegqdqUCK/hXzk5C81zlJ19IuXB&#13;
+ZsT9EqnCfzjwgkESdmibQbbDhQZCmte9zvgo/mZkmqywl/EBnlJKPUQWOdIOqndE2DojS7B7x1Fz&#13;
+sckqFoGLDbAvOZCQ0VtrbIFb26EaKM7+uUzVdMvqgQzYEtJR2WgbPY6DULDO87RfBhEdKPAd2ux2&#13;
+v4/HpDrFC5RVToqGZHFK3pd7IWY9e0Qv3Hmd8DdwiKnuLOFZlC2+RYveHGLNTZlp1/Hv206gW226&#13;
+7cch9EeboQ2txKF8RkKup4tD7Bw4CEiP/Y/9gYSTR+fqvpmQ4OvyB1req6EcfTdl/5B+wwQN0elp&#13;
+uDdgF3nfSsXAEq6+P39oIHNysxotQ/YNHy5TsvP/He44eiiwSdSpsL1L/pzeOQ==
+</ds:X509Certificate>
+<ds:X509IssuerSerial>
+<ds:X509IssuerName>cn=CA PERSONA JURIDICA,ou=DGT,o=MINISTERIO DE HACIENDA,c=CR</ds:X509IssuerName>
+<ds:X509SerialNumber>1711472471656</ds:X509SerialNumber>
+</ds:X509IssuerSerial>
+<ds:X509SubjectName>cn=ASOCIACION ADMINISTRADORA DEL ACUEDUCTO RURAL DE PUEBLO NUEVO Y EL PORO,ou=CPJ,o=PERSONA JURIDICA,c=CR,serialNumber=CPJ-3-002-223678</ds:X509SubjectName>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-c874696b-f76f-4632-82a6-90ec23ad24f1"><xades:SignedProperties Id="xmldsig-c874696b-f76f-4632-82a6-90ec23ad24f1-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-01T00:16:05.792-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>94iAT7zJD3/Vm/WjRzxpzGXLmkHsI+76F7n7xAyDLlk=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>cn=CA PERSONA JURIDICA,ou=DGT,o=MINISTERIO DE HACIENDA,c=CR</ds:X509IssuerName><ds:X509SerialNumber>1711472471656</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://www.hacienda.go.cr/ATV/ComprobanteElectronico/docs/esquemas/2016/v4.3/Resoluci%C3%B3n_General_sobre_disposiciones_t%C3%A9cnicas_comprobantes_electr%C3%B3nicos_para_efectos_tributarios.pdf</xades:Identifier></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qejyRRM8RyeH+uO5XMcFUY6G1fYHho06sAHH7sue9gM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-c874696b-f76f-4632-82a6-90ec23ad24f1-ref0"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></TiqueteElectronico>

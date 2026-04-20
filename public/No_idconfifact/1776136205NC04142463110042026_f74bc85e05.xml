@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><NotaCreditoElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/notaCreditoElectronica" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#">
+    <Clave>50613042600400004213800100001030007101908103241111</Clave>
+    <ProveedorSistemas>4000042138</ProveedorSistemas>
+    <CodigoActividadEmisor>3600.0</CodigoActividadEmisor>
+    <NumeroConsecutivo>00100001030007101908</NumeroConsecutivo>
+    <FechaEmision>2026-04-13T07:11:38.664175653</FechaEmision>
+    <Emisor>
+        <Nombre>INSTITUTO COSTARRICENSE DE ACUEDUCTOS Y ALCANTARILLADOS</Nombre>
+        <Identificacion>
+            <Tipo>02</Tipo>
+            <Numero>4000042138</Numero>
+        </Identificacion>
+        <NombreComercial>INSTITUTO COSTARRICENSE DE ACUEDUCTOS Y ALCANTARILLADOS</NombreComercial>
+        <Ubicacion>
+            <Provincia>1</Provincia>
+            <Canton>01</Canton>
+            <Distrito>09</Distrito>
+            <Barrio>BARRIO ALFA</Barrio>
+            <OtrasSenas>Pavas</OtrasSenas>
+        </Ubicacion>
+        <Telefono>
+            <CodigoPais>506</CodigoPais>
+            <NumTelefono>22425464</NumTelefono>
+        </Telefono>
+        <CorreoElectronico>contactenos@aya.go.cr</CorreoElectronico>
+    </Emisor>
+    <Receptor>
+        <Nombre>TALABARTERIA  EL CABALLO BLANCO  S.A</Nombre>
+        <Identificacion>
+            <Tipo>02</Tipo>
+            <Numero>3101261981</Numero>
+        </Identificacion>
+    </Receptor>
+    <CondicionVenta>02</CondicionVenta>
+    <PlazoCredito>30</PlazoCredito>
+    <DetalleServicio>
+        <LineaDetalle>
+            <NumeroLinea>5</NumeroLinea>
+            <CodigoCABYS>6921000000100</CodigoCABYS>
+            <CodigoComercial>
+                <Tipo>01</Tipo>
+                <Codigo>VA720-5</Codigo>
+            </CodigoComercial>
+            <Cantidad>1.000</Cantidad>
+            <UnidadMedida>m³</UnidadMedida>
+            <Detalle>Ajuste por redondeo</Detalle>
+            <PrecioUnitario>0.45000</PrecioUnitario>
+            <MontoTotal>0.45000</MontoTotal>
+            <SubTotal>0.45000</SubTotal>
+            <BaseImponible>0.45000</BaseImponible>
+            <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+            <ImpuestoNeto>0.00000</ImpuestoNeto>
+            <MontoTotalLinea>0.45000</MontoTotalLinea>
+        </LineaDetalle>
+    </DetalleServicio>
+    <ResumenFactura>
+        <CodigoTipoMoneda>
+            <CodigoMoneda>CRC</CodigoMoneda>
+            <TipoCambio>1.00000</TipoCambio>
+        </CodigoTipoMoneda>
+        <TotalServGravados>0.00000</TotalServGravados>
+        <TotalServExentos>0.45000</TotalServExentos>
+        <TotalServExonerado>0.00000</TotalServExonerado>
+        <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+        <TotalMercanciasGravadas>0.00000</TotalMercanciasGravadas>
+        <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+        <TotalMercExonerada>0.00000</TotalMercExonerada>
+        <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+        <TotalGravado>0.00000</TotalGravado>
+        <TotalExento>0.45000</TotalExento>
+        <TotalExonerado>0.00000</TotalExonerado>
+        <TotalNoSujeto>0.00000</TotalNoSujeto>
+        <TotalVenta>0.45000</TotalVenta>
+        <TotalDescuentos>0.00000</TotalDescuentos>
+        <TotalVentaNeta>0.45000</TotalVentaNeta>
+        <TotalImpuesto>0.00000</TotalImpuesto>
+        <TotalImpAsumEmisorFabrica>0.00000</TotalImpAsumEmisorFabrica>
+        <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+        <TotalComprobante>0.45000</TotalComprobante>
+    </ResumenFactura>
+    <InformacionReferencia>
+        <TipoDocIR>04</TipoDocIR>
+        <Numero>50613042600400004213800100001040038223246103241121</Numero>
+        <FechaEmisionIR>2026-04-13T07:07:45</FechaEmisionIR>
+        <Codigo>02</Codigo>
+        <Razon>NOTA DE CREDITO PARCIAL 20260411</Razon>
+    </InformacionReferencia>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-359590e9-bbcd-4406-a634-256ddc8472b8">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference Id="xmldsig-359590e9-bbcd-4406-a634-256ddc8472b8-ref0" URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rihbwTZtc44NpTmFgEalfXWEqhX71An24jUfWSf30aY=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-359590e9-bbcd-4406-a634-256ddc8472b8-signedprops">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>SYjcp05uvKmdC1z8sNHz2z2Vz2z5D23qDf/RMF8W0B0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="xmldsig-359590e9-bbcd-4406-a634-256ddc8472b8-sigvalue">
+X/uxI4OY0wjwoZwN/wUaoKXRFpEIgalfqLrUaHtYghzQXtARiu0Ff38qDeOCMrTrzmvp2omiLhRO&#13;
++r5WjgdShsSBd1aoFkkwBlrlrOat5TcJCY9RWA8JHjA8uGZDfzV8uJzwJ8wG7JcMSbE3lxk8HIMp&#13;
+Va/axXzZUZm/DZWf2cPw/LitZjTKt9d8OQ2MiBVlNtYcjL2zCX8dX9Z9+FXGjy1WWI4WuXo647su&#13;
+c+GCbmqMU/hoYac5awWJppqD+ugJ+OEvnDjtzoMCyopJKbHx4i2LSgJKKDVTUWZXpFYnhZc9t9AC&#13;
+HSia7rcInChg+Zg0Hi0muN5pp9NzBHs3oz8Rbw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFOTCCAyGgAwIBAgIGAYP18p0UMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYD&#13;
+VQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBF&#13;
+UlNPTkEgSlVSSURJQ0EwHhcNMjIxMDIwMTUxMTAxWhcNMjYxMDE5MTUxMTAxWjCBkzEZMBcGA1UE&#13;
+BRMQQ1BKLTQtMDAwLTA0MjEzODELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJ&#13;
+Q0ExDDAKBgNVBAsMA0NQSjFAMD4GA1UEAww3SU5TVElUVVRPIENPU1RBUlJJQ0VOU0UgREUgQUNV&#13;
+RURVQ1RPUyBZIEFMQ0FOVEFSSUxMQURPUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB&#13;
+ALJ0IMU3ubDKU5W4FcgQYvMy7AaXll6/ldJWIkbwO0h8Pv5ssYTO4KNg8GBwb9/uFAVkaJCnSn91&#13;
+Lfv8rrc7JGfvi9cP3RA9+JtL9DWUTG7tgpCHnGStuFZBVZrnTCxtY67X0w5KGEvbWMFsF5KkU2L2&#13;
+CfHu/b//hu3HVlmTN34tzNpD3eQZUVljQuLmo5AGN6rWm0bJzO2OxWRiWdZtwR6fdPjhSp23CWAV&#13;
+0/il/slf2ZHSXC3nPl/nxPTOW/ABmb1v1BRAKK6z9XwaA9sPiLVN/pkNHI79Dj3yaoR8dJal/PbB&#13;
+R4bAA1AKimwYjrycgQMnt1OxOm87voxdI2Dk1ocCAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf1&#13;
+1nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUa4qkOCkYobhAyaZIObrBBezyxmMwCwYDVR0PBAQD&#13;
+AgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0&#13;
+cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRl&#13;
+LXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAEOdydqzvUf4V5FuhuZm9txuR6Q1V47ff+sU&#13;
+URTg0+18U54jyNnIDdntWy10VOM+Qjwp5qYj9EPpbwnis0TkyVaZTt79Y8PCusosPp09UmFjOk0I&#13;
+pFV8L0IsxNz2nb2Q52u60mcomTMBowlneXCFNh3yDbIqsHpEuoRnEuGJMSStXIVN/Z107SGDUGa0&#13;
+9nsR+73H9MlZHQ9DWr9SChT8X8SzZBav4ydhVzkRBeqFH4g9qmd0YKBqfxQiwAt87IUe+LEctn1I&#13;
+jPs7diUsJy0GvvdRxGTa4oYa95FPYgo6hMOjCCX42X7v9YyDqBjpYmY2VqfFXUKljx6F54VZCPh1&#13;
+8ZYFQeGC+AlD82XcIsoYMNJLolAaQdumlxhkP5buaQkbboH/8WxS5WwO4sndYDt0cpBIfwqE+CZU&#13;
+8FJ2bV+jj7tb5Ob7ls5aBNA0ccCqK2guB7nVsAbjKs+4oLY/b7leBIal/xOxTsCKU5SkrwhLHDl9&#13;
+UCEA6IuEWEHFIiZXkadlP92haURhh+VURbtLQ0hx6PG67enUvjvjTm+dxHb2WnHnhaPk6nDdUnH/&#13;
+M/ERj5vR5wjN0b4P6liKoqBdZky2/GIt5gDD3LNr0WQYFjrQFKtT6jkhp5l7LWKKGcAWuSu+EEYS&#13;
+kKh123MtSY7RntRL05THfNtlHnCrxlylJzbLQbv3
+</ds:X509Certificate>
+<ds:X509IssuerSerial>
+<ds:X509IssuerName>cn=CA PERSONA JURIDICA,ou=DGT,o=MINISTERIO DE HACIENDA,c=CR</ds:X509IssuerName>
+<ds:X509SerialNumber>1666278661396</ds:X509SerialNumber>
+</ds:X509IssuerSerial>
+<ds:X509SubjectName>cn=INSTITUTO COSTARRICENSE DE ACUEDUCTOS Y ALCANTARILLADOS,ou=CPJ,o=PERSONA JURIDICA,c=CR,serialNumber=CPJ-4-000-042138</ds:X509SubjectName>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-359590e9-bbcd-4406-a634-256ddc8472b8"><xades:SignedProperties Id="xmldsig-359590e9-bbcd-4406-a634-256ddc8472b8-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-13T07:11:38.863-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ns2:DigestValue>hl06pBWjFElinNv8xPEInylSMh80rQw651zgezg2SC8=</ns2:DigestValue></xades:CertDigest><xades:IssuerSerial><ns2:X509IssuerName>cn=CA PERSONA JURIDICA,ou=DGT,o=MINISTERIO DE HACIENDA,c=CR</ns2:X509IssuerName><ns2:X509SerialNumber>1666278661396</ns2:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier></xades:SigPolicyId><xades:SigPolicyHash><ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ns2:DigestValue>QzhDo40uH97Xutu0t04cwM82OPdENTPbicmXZeH4/tc=</ns2:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-359590e9-bbcd-4406-a634-256ddc8472b8-ref0"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></NotaCreditoElectronica>

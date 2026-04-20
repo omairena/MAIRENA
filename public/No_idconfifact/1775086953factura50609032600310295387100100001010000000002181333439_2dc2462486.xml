@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.4/facturaElectronica">
+  <Clave>50609032600310295387100100001010000000002181333439</Clave>
+  <ProveedorSistemas>206410122</ProveedorSistemas>
+  <CodigoActividadEmisor>4520.0</CodigoActividadEmisor>
+  <CodigoActividadReceptor>4923.9</CodigoActividadReceptor>
+  <NumeroConsecutivo>00100001010000000002</NumeroConsecutivo>
+  <FechaEmision>2026-03-09T07:41:29-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>3-102-953871 SOCIEDAD DE RESPONSABILIDAD LIMITADA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3102953871</Numero>
+    </Identificacion>
+    <NombreComercial>3-102-953871 SOCIEDAD DE RESPONSABILIDAD LIMITADA</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>01</Distrito>
+      <Barrio>calle del amor</Barrio>
+      <OtrasSenas>FRENTE A CEMENTERIO VALLE DORADO.</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>62404940</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>multiserviciosherrera@fesanesteban.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>3-102-913769 SOCIEDAD DE RESPONSABILIDAD LIMITADA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3102913769</Numero>
+    </Identificacion>
+    <NombreComercial>3-102-913769 SOCIEDAD DE RESPONSABILIDAD LIMITADA</NombreComercial>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>10</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>Ciudad Quesada, San Carlos</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>24600000</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>transportesherrera@fesanesteban.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <CodigoCABYS>8714100009900</CodigoCABYS>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>001</Codigo>
+      </CodigoComercial>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <Detalle>SERVICIO DE REPARACION DE VEHICULOS</Detalle>
+      <PrecioUnitario>353982.30088</PrecioUnitario>
+      <MontoTotal>353982.30088</MontoTotal>
+      <SubTotal>353982.30088</SubTotal>
+      <BaseImponible>353982.30088</BaseImponible>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifaIVA>08</CodigoTarifaIVA>
+        <Tarifa>13.00</Tarifa>
+        <Monto>46017.69911</Monto>
+      </Impuesto>
+      <ImpuestoAsumidoEmisorFabrica>0.00000</ImpuestoAsumidoEmisorFabrica>
+      <ImpuestoNeto>46017.69911</ImpuestoNeto>
+      <MontoTotalLinea>399999.99999</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>353982.30088</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServNoSujeto>0.00000</TotalServNoSujeto>
+    <TotalMercanciasGravadas>0.00000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercNoSujeta>0.00000</TotalMercNoSujeta>
+    <TotalGravado>353982.30088</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalNoSujeto>0.00000</TotalNoSujeto>
+    <TotalVenta>353982.30088</TotalVenta>
+    <TotalDescuentos>0.00000</TotalDescuentos>
+    <TotalVentaNeta>353982.30088</TotalVentaNeta>
+    <TotalDesgloseImpuesto>
+      <Codigo>01</Codigo>
+      <CodigoTarifaIVA>08</CodigoTarifaIVA>
+      <TotalMontoImpuesto>46017.69911</TotalMontoImpuesto>
+    </TotalDesgloseImpuesto>
+    <TotalImpuesto>46017.69911</TotalImpuesto>
+    <TotalImpAsumEmisorFabrica>0.00000</TotalImpAsumEmisorFabrica>
+    <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+    <TotalOtrosCargos>0.00000</TotalOtrosCargos>
+    <MedioPago>
+      <TipoMedioPago>04</TipoMedioPago>
+      <TotalMedioPago>400000</TotalMedioPago>
+    </MedioPago>
+    <TotalComprobante>399999.99999</TotalComprobante>
+  </ResumenFactura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-e5b0e5cf-44cb-385d-7f4b-a09719e791d7"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod><ds:Reference Id="Reference-f3895aa3-4597-993d-b88c-6a056b64b2b6" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>/grWUrrvIOk3odAgyAJC5jrqIJ/jvV6+O2Y9FWpY0Ns=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-e5b0e5cf-44cb-385d-7f4b-a09719e791d7"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>Z62uoJE2x8vdliOQ+fBFIe61InWhXveHn6v0AuGxFT4=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-e5b0e5cf-44cb-385d-7f4b-a09719e791d7"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>LFdx0ZIkCPfbwI0Rk2Qk3H0QwjJQWMcw/giTUcHnnyw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-e5b0e5cf-44cb-385d-7f4b-a09719e791d7">OaxWhO9VrTeuLDa8Liq6NCAmTnboU8U/RGaWCwLRwMdj1cgc3zb1yfaqXIHfUnzt3wQ6ZpVigweF5JkQyzILM6XRiOPSf/YXRBh7iTrc2XYYj8q8x9a64i7BEdAH+5Hcb/JucwvKpNsgkGOLrAvFpwqR1AijVX4KAMlmptoUkjPlhH+KkSwPTrOnBH1aUkQ89941sQgb1GYPkgekt9+w5ePZiZiniKuiv/Vy5K9PlDqUQ8Dc6qTr51iHB+qg7zxmcapxAIbo8P99QYgdYUEpwweLJzJTao9YIvxqWZRvFXZ9szG8KQV/n+5M66a1V9g7jbPfGEBX5LIu5ZX9agx/Xg==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-e5b0e5cf-44cb-385d-7f4b-a09719e791d7"><ds:X509Data><ds:X509Certificate>MIIFODCCAyCgAwIBAgIGAZycFvBWMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjYwMjI2MjIzNDM0WhcNMzAwMjI1MjIzNDM0WjCBkjEZMBcGA1UEBRMQQ1BKLTMtMTAyLTk1Mzg3MTELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE/MD0GA1UEAww2My0xMDItOTUzODcxIFNPQ0lFREFEIERFIFJFU1BPTlNBQklMSURBRCBMSU1JVEFEQSBudWxsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApcCUMpZ7vjU/CZJILuVoR5TirOUefj+pjSpA00xpWCNV1px80XKZ4sFpQmIdLs21KMLl5pi6ahSYlygb4pGSapKqjdwnm/LTlWGqGLePfXEHzp2RVtte+VcpbWDR5mCso+zqdPj5vhmCWL/lTa6twrCPJThruUGQrTstT0bdl+H+awYBdvR16UTn1o3JYW3YXIMi/qyiQJyBDSYCG31ZC6wDFy/XjddH/P+SQFi9i9f02z6cgttZu6mRsidcbpOlyXy6J0f6f0blRqkxx+Kl8HB26bIMU4oNeB+z7RA26qD8WigDFYxvdyUHJvv46Gml1qP/S6Qmly8gS/Or/T8FuQIDAQABo4HKMIHHMB8GA1UdIwQYMBaAFDttV/XWfOmeEAIgQeO9GszPs06VMB0GA1UdDgQWBBSs6YNG6z2t1YFQ+RUicJpYbODlITALBgNVHQ8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwYwYIKwYBBQUHAQEEVzBVMFMGCCsGAQUFBzAChkdodHRwczovL3BraS5jb21wcm9iYW50ZXNlbGVjdHJvbmljb3MuZ28uY3IvcHJvZC9pbnRlcm1lZGlhdGUtcGotcGVtLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAI3cLYeMYx4QlMXUWDrGwKo0Jk0YO5ydExe45MZE/zvSFqG0lItn82Oj46x1r4xqjpT8aDbZNOAoN42FWHEgooji/CPPwy9Kp9v2AOl1tNx97c1BlnFvzuiiBomf+0mJORw+nMrt6aun/gUvhXgi/KK/uYjBlBdDt0ah3/9413GfzkWG3VM6EzaGyk0KlQIKWLzwV/7iEeKZop1LGVMXOy1sgwJ2dpf6n9LKNiNGmpTljDI66k0NQt2KYpb8dvAX5JF+pZ1Nqw6g7ko6e4OQTYOk4MYa73OsXKgNT62H0VxdUstQ7A9cgXTY82C000eGFY0z41i2PsNciA297A5j91q8XSb/GQXj5pKJn4sxK2OEZ2LYYPmVtQzyWa1nK+UPYQtgVbHGhk/Ae8C2FNEDPS7j+z6eWoBkjYan975HjqtS9+Gk2uMPHb0dWm4wYuYEmXTepMdj3fFEx5fmy8SKO3JCM/fKZP8NDItWOtXPRphyqBa/CUpkMZjetlXTs63HU55PnZNgOggkygYIDQazqGfbIyANPCszGTegs62fO3bH6soN97j7IBepea64Tg0Pfl1/6/6PuSUE1oBJVr8vcKVlqJsc5s3a3UxTCIYJk6TV/kWDPL+6NszFQGtFIaR0H8i5U+916ir1DnZsHxpoIvVzTVpmDjU0+gi2v+y1/wNo=</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>pcCUMpZ7vjU/CZJILuVoR5TirOUefj+pjSpA00xpWCNV1px80XKZ4sFpQmIdLs21KMLl5pi6ahSYlygb4pGSapKqjdwnm/LTlWGqGLePfXEHzp2RVtte+VcpbWDR5mCso+zqdPj5vhmCWL/lTa6twrCPJThruUGQrTstT0bdl+H+awYBdvR16UTn1o3JYW3YXIMi/qyiQJyBDSYCG31ZC6wDFy/XjddH/P+SQFi9i9f02z6cgttZu6mRsidcbpOlyXy6J0f6f0blRqkxx+Kl8HB26bIMU4oNeB+z7RA26qD8WigDFYxvdyUHJvv46Gml1qP/S6Qmly8gS/Or/T8FuQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-e82afb49-2d3a-7915-b906-0a23fe64e876"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-77d77248-f0d5-39ef-7be9-4de0edfa26ee" Target="#Signature-e5b0e5cf-44cb-385d-7f4b-a09719e791d7"><xades:SignedProperties Id="SignedProperties-Signature-e5b0e5cf-44cb-385d-7f4b-a09719e791d7"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-09T07:41:29Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>tKt67BzyRvD2MNOXkB1HjtoklUUogHwZT0blI8rWO7g=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA,OU=DGT,O=MINISTERIO DE HACIENDA,C=CR</ds:X509IssuerName><ds:X509SerialNumber>1772145274966</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4/Resolucion%20Comprobantes%20Electronicos%20%20DGT-R-48-2016.pdf</xades:Identifier><xades:Description></xades:Description></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>V8lVVNGDCPen6VELRD1Ja8HARFk=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-f3895aa3-4597-993d-b88c-6a056b64b2b6"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>
